@@ -1,0 +1,5 @@
+pair,real_corr,boot_95CI_low,boot_95CI_high,excludes_zero
+PFOS-PFNA,0.997,0.926,0.999,True
+PFOS-PFOA,0.959,0.832,0.996,True
+GenX-PFBS,0.948,0.856,0.989,True
+PFOSA-PFPeA,-0.174,-0.243,-0.1,True

@@ -1,0 +1,394 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_shared,GenX,BP,GO:0006955,immune response,e,2.9644877605917535e-14,38,240,300,7891,3.404714193039629e-11
+chemical_shared,GenX,BP,GO:0002376,immune system process,e,4.1035139455402155e-14,38,240,303,7891,4.2585738810020874e-11
+chemical_shared,GenX,BP,GO:0043207,response to external biotic stimulus,e,4.171437192971135e-14,44,240,401,7891,4.2585738810020874e-11
+chemical_shared,GenX,BP,GO:0044419,biological process involved in interspecies interaction between organisms,e,4.171437192971135e-14,44,240,401,7891,4.2585738810020874e-11
+chemical_shared,GenX,BP,GO:0051707,response to other organism,e,4.171437192971135e-14,44,240,401,7891,4.2585738810020874e-11
+chemical_shared,GenX,BP,GO:0009607,response to biotic stimulus,e,4.171437192971135e-14,44,240,401,7891,4.2585738810020874e-11
+chemical_shared,GenX,BP,GO:0006952,defense response,e,4.565118348963344e-14,44,240,402,7891,4.6092645483818904e-11
+chemical_shared,GenX,BP,GO:0140546,defense response to symbiont,e,1.202067786823634e-13,36,240,282,7891,1.0935246361718366e-10
+chemical_shared,GenX,BP,GO:0045087,innate immune response,e,1.202067786823634e-13,36,240,282,7891,1.0935246361718366e-10
+chemical_shared,GenX,BP,GO:0098542,defense response to other organism,e,1.859292482205853e-13,36,240,286,7891,1.596558815561437e-10
+chemical_shared,GenX,BP,GO:0009605,response to external stimulus,e,1.681513343768916e-12,44,240,445,7891,1.152966015115582e-09
+chemical_shared,GenX,BP,GO:0008152,metabolic process,e,9.925453969627627e-08,137,240,3172,7891,2.554483783555704e-05
+chemical_shared,GenX,BP,GO:0006629,lipid metabolic process,e,1.6014076527320815e-07,36,240,465,7891,3.8719548403702203e-05
+chemical_shared,GenX,BP,GO:0006805,xenobiotic metabolic process,e,1.8303488045475946e-06,9,240,39,7891,0.0003246572358336544
+chemical_shared,GenX,BP,GO:0009253,peptidoglycan catabolic process,e,2.8475047011537846e-06,5,240,9,7891,0.00048182086913813943
+chemical_shared,GenX,CC,GO:0022625,cytosolic large ribosomal subunit,e,6.473502796689807e-11,14,253,48,8435,3.197771166450857e-08
+chemical_shared,GenX,CC,GO:0000323,lytic vacuole,e,1.2785581241599546e-10,19,253,102,8435,5.84447365412023e-08
+chemical_shared,GenX,CC,GO:0005764,lysosome,e,5.086196182554028e-10,18,253,98,8435,2.0862486841654645e-07
+chemical_shared,GenX,CC,GO:0005773,vacuole,e,4.2230341397530695e-09,20,253,138,8435,1.4591612075657165e-06
+chemical_shared,GenX,CC,GO:0015934,large ribosomal subunit,e,1.622276809039305e-07,14,253,84,8435,3.881635239961753e-05
+chemical_shared,GenX,CC,GO:0045121,membrane raft,e,4.984255993158146e-07,10,253,44,8435,0.00010479483767765916
+chemical_shared,GenX,CC,GO:0098857,membrane microdomain,e,6.2410547180708e-07,10,253,45,8435,0.00012886024887558318
+chemical_shared,GenX,CC,GO:0005576,extracellular region,e,4.747177169112924e-06,33,253,473,8435,0.0007481067428982269
+chemical_shared,GenX,CC,GO:0044391,ribosomal subunit,e,1.9736810779584985e-05,15,253,141,8435,0.002434118354937273
+chemical_shared,GenX,CC,GO:0005840,ribosome,e,7.601668644507638e-05,13,253,123,8435,0.0070907747721559574
+chemical_shared,GenX,CC,GO:0005782,peroxisomal matrix,e,0.0008308925803526968,4,253,15,8435,0.048304552414919176
+chemical_shared,GenX,CC,GO:0031907,microbody lumen,e,0.0008308925803526968,4,253,15,8435,0.048304552414919176
+chemical_shared,GenX,MF,GO:0003824,catalytic activity,e,3.039040778339353e-18,183,260,3465,7874,1.0513505865384525e-14
+chemical_shared,GenX,MF,GO:0016491,oxidoreductase activity,e,1.0567388356492314e-14,53,260,500,7874,1.3870452031350197e-11
+chemical_shared,GenX,MF,GO:0015020,glucuronosyltransferase activity,e,2.648686190658331e-12,19,260,76,7874,1.7763597605670617e-09
+chemical_shared,GenX,MF,GO:0004497,monooxygenase activity,e,1.0168119046508988e-10,20,260,103,7874,4.887556600328147e-08
+chemical_shared,GenX,MF,GO:0005506,iron ion binding,e,8.037051506965178e-10,20,260,115,7874,3.155744839572481e-07
+chemical_shared,GenX,MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",e,1.8874015191694036e-09,21,260,133,7874,6.936578063251393e-07
+chemical_shared,GenX,MF,GO:0008194,UDP-glycosyltransferase activity,e,4.883669525916951e-09,20,260,127,7874,1.6618946520046276e-06
+chemical_shared,GenX,MF,GO:0016758,hexosyltransferase activity,e,7.895792461392865e-08,22,260,178,7874,2.0551428083648055e-05
+chemical_shared,GenX,MF,GO:0020037,heme binding,e,2.231512341639978e-07,19,260,144,7874,5.1775594431788174e-05
+chemical_shared,GenX,MF,GO:0046906,tetrapyrrole binding,e,3.101481740895588e-07,19,260,147,7874,6.967338443850529e-05
+chemical_shared,GenX,MF,GO:0061783,peptidoglycan muralytic activity,e,9.56980715750927e-07,6,260,12,7874,0.00018707954928339399
+chemical_shared,GenX,MF,GO:0003796,lysozyme activity,e,9.56980715750927e-07,6,260,12,7874,0.00018707954928339399
+chemical_shared,GenX,MF,GO:0016757,glycosyltransferase activity,e,1.3654998212017967e-06,23,260,226,7874,0.0002489327848651212
+chemical_shared,GenX,MF,GO:0004602,glutathione peroxidase activity,e,1.4161161023060741e-06,7,260,19,7874,0.0002561274556690592
+chemical_shared,GenX,MF,GO:0016712,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",e,2.8601966415243373e-06,9,260,38,7874,0.00048307880041039726
+chemical_shared,PFBA,BP,GO:0019752,carboxylic acid metabolic process,e,4.042940475314309e-12,22,92,309,7891,2.653324077656277e-09
+chemical_shared,PFBA,BP,GO:0043436,oxoacid metabolic process,e,4.3136183063713116e-12,22,92,310,7891,2.752328124926362e-09
+chemical_shared,PFBA,BP,GO:0044281,small molecule metabolic process,e,6.415180792574799e-11,28,92,595,7891,3.186090871469041e-08
+chemical_shared,PFBA,BP,GO:0032787,monocarboxylic acid metabolic process,e,2.2645002908038638e-10,16,92,182,7891,9.955133335840143e-08
+chemical_shared,PFBA,BP,GO:0044282,small molecule catabolic process,e,5.219482113757774e-08,13,92,166,7891,1.4104882841531304e-05
+chemical_shared,PFBA,BP,GO:0046395,carboxylic acid catabolic process,e,3.465762879393004e-07,11,92,133,7891,7.673115502617572e-05
+chemical_shared,PFBA,BP,GO:0006631,fatty acid metabolic process,e,1.0173116223127663e-06,11,92,148,7891,0.0001931210575580516
+chemical_shared,PFBA,BP,GO:0046434,organophosphate catabolic process,e,2.9932936082184535e-06,7,92,55,7891,0.0005037066240350027
+chemical_shared,PFBA,BP,GO:0009137,purine nucleoside diphosphate catabolic process,e,3.390598528199667e-06,5,92,21,7891,0.0005603025049837867
+chemical_shared,PFBA,BP,GO:0009181,purine ribonucleoside diphosphate catabolic process,e,3.390598528199667e-06,5,92,21,7891,0.0005603025049837867
+chemical_shared,PFBA,BP,GO:0009134,nucleoside diphosphate catabolic process,e,4.347597914031604e-06,5,92,22,7891,0.0006983519166804612
+chemical_shared,PFBA,BP,GO:0009191,ribonucleoside diphosphate catabolic process,e,4.347597914031604e-06,5,92,22,7891,0.0006983519166804612
+chemical_shared,PFBA,BP,GO:0006805,xenobiotic metabolic process,e,5.1009002090217255e-06,6,92,39,7891,0.0007903384674619159
+chemical_shared,PFBA,BP,GO:0009062,fatty acid catabolic process,e,7.566479470742673e-06,7,92,63,7891,0.0010896679212724716
+chemical_shared,PFBA,BP,GO:0009154,purine ribonucleotide catabolic process,e,1.0467190394153764e-05,5,92,26,7891,0.0014375567315618055
+chemical_shared,PFBA,CC,GO:0017059,serine palmitoyltransferase complex,e,0.00015057465625557435,2,104,2,8435,0.01235249947925194
+chemical_shared,PFBA,CC,GO:0002178,palmitoyltransferase complex,e,0.0004480814655204126,2,104,3,8435,0.02978996024024277
+chemical_shared,PFBA,CC,GO:0005782,peroxisomal matrix,e,0.0007438493697518012,3,104,15,8435,0.04432223092917996
+chemical_shared,PFBA,CC,GO:0031907,microbody lumen,e,0.0007438493697518012,3,104,15,8435,0.04432223092917996
+chemical_shared,PFBA,MF,GO:0016491,oxidoreductase activity,e,2.43568412004514e-15,35,117,500,7874,3.7930619821991095e-12
+chemical_shared,PFBA,MF,GO:0003824,catalytic activity,e,2.4988990132559313e-11,87,117,3465,7874,1.3666597698687797e-08
+chemical_shared,PFBA,MF,GO:0015020,glucuronosyltransferase activity,e,6.093999795859958e-11,13,117,76,7874,3.0430255502370265e-08
+chemical_shared,PFBA,MF,GO:0005506,iron ion binding,e,1.0589067082670998e-10,15,117,115,7874,5.0410543189420274e-08
+chemical_shared,PFBA,MF,GO:0004497,monooxygenase activity,e,2.642520741806919e-10,14,117,103,7874,1.1452585177227345e-07
+chemical_shared,PFBA,MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",e,8.590937616614362e-10,15,117,133,7874,3.358873822189479e-07
+chemical_shared,PFBA,MF,GO:0020037,heme binding,e,2.2752807763279597e-08,14,117,144,7874,6.532899929031654e-06
+chemical_shared,PFBA,MF,GO:0046906,tetrapyrrole binding,e,2.966339651950027e-08,14,117,147,7874,8.386070376035954e-06
+chemical_shared,PFBA,MF,GO:0008194,UDP-glycosyltransferase activity,e,4.0293498337229805e-08,13,117,127,7874,1.0985657647550963e-05
+chemical_shared,PFBA,MF,GO:0016758,hexosyltransferase activity,e,2.0734881219791414e-06,13,117,178,7874,0.00035810542978842767
+chemical_shared,PFBA,MF,GO:0051287,NAD binding,e,1.510637208322069e-05,6,117,37,7874,0.0019640348691585025
+chemical_shared,PFBA,MF,GO:0016712,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",e,1.772293517904746e-05,6,117,38,7874,0.002227610511971109
+chemical_shared,PFBA,MF,GO:0015293,symporter activity,e,2.783646593794929e-05,6,117,41,7874,0.0031039010805567727
+chemical_shared,PFBA,MF,GO:0016757,glycosyltransferase activity,e,2.7994663431090914e-05,13,117,226,7874,0.003115828833514127
+chemical_shared,PFBA,MF,GO:0052890,"oxidoreductase activity, acting on the CH-CH group of donors, with a flavin as acceptor",e,4.131827315834498e-05,4,117,14,7874,0.004327490764006699
+chemical_shared,PFBS,BP,GO:0006952,defense response,e,2.3075042794954264e-21,70,392,402,7891,2.355705480000442e-17
+chemical_shared,PFBS,BP,GO:0043207,response to external biotic stimulus,e,9.360082390765692e-21,69,392,401,7891,5.0588492356679516e-17
+chemical_shared,PFBS,BP,GO:0044419,biological process involved in interspecies interaction between organisms,e,9.360082390765692e-21,69,392,401,7891,5.0588492356679516e-17
+chemical_shared,PFBS,BP,GO:0051707,response to other organism,e,9.360082390765692e-21,69,392,401,7891,5.0588492356679516e-17
+chemical_shared,PFBS,BP,GO:0009607,response to biotic stimulus,e,9.360082390765692e-21,69,392,401,7891,5.0588492356679516e-17
+chemical_shared,PFBS,BP,GO:0006629,lipid metabolic process,e,6.177443930462623e-19,72,392,465,7891,2.6761924998360177e-15
+chemical_shared,PFBS,BP,GO:0043436,oxoacid metabolic process,e,1.3727920425034635e-18,57,392,310,7891,5.0452853146087286e-15
+chemical_shared,PFBS,BP,GO:0009605,response to external stimulus,e,3.508405674195405e-18,69,392,445,7891,1.1115597011899096e-14
+chemical_shared,PFBS,BP,GO:0019752,carboxylic acid metabolic process,e,5.7251199509122765e-18,56,392,309,7891,1.753413403632733e-14
+chemical_shared,PFBS,BP,GO:0140546,defense response to symbiont,e,9.289706208387618e-18,53,392,282,7891,2.6673068950832948e-14
+chemical_shared,PFBS,BP,GO:0045087,innate immune response,e,9.289706208387618e-18,53,392,282,7891,2.6673068950832948e-14
+chemical_shared,PFBS,BP,GO:0098542,defense response to other organism,e,1.7735826522654413e-17,53,392,286,7891,4.404237137571588e-14
+chemical_shared,PFBS,BP,GO:0032787,monocarboxylic acid metabolic process,e,8.170597304980054e-17,41,392,182,7891,1.631988000829494e-13
+chemical_shared,PFBS,BP,GO:0006955,immune response,e,1.5462825116818579e-16,53,392,300,7891,2.841448743466582e-13
+chemical_shared,PFBS,BP,GO:0002376,immune system process,e,2.4134876138983012e-16,53,392,303,7891,4.2644469608649213e-13
+chemical_shared,PFBS,CC,GO:0005576,extracellular region,e,6.841471805819684e-08,50,399,473,8435,1.790867320566133e-05
+chemical_shared,PFBS,CC,GO:0000323,lytic vacuole,e,4.992173809172095e-06,17,399,102,8435,0.0007766368314751438
+chemical_shared,PFBS,CC,GO:0005764,lysosome,e,1.2435924954287262e-05,16,399,98,8435,0.0016607743965115025
+chemical_shared,PFBS,CC,GO:0005773,vacuole,e,2.446168507830303e-05,19,399,138,8435,0.0028364804082540917
+chemical_shared,PFBS,CC,GO:0005782,peroxisomal matrix,e,0.0004676380030268807,5,399,15,8435,0.030734320256158656
+chemical_shared,PFBS,CC,GO:0031907,microbody lumen,e,0.0004676380030268807,5,399,15,8435,0.030734320256158656
+chemical_shared,PFBS,MF,GO:0003824,catalytic activity,e,5.3435832515202305e-22,281,421,3465,7874,6.137105364370985e-18
+chemical_shared,PFBS,MF,GO:0016491,oxidoreductase activity,e,4.116013503911366e-21,82,421,500,7874,3.1514943394948026e-17
+chemical_shared,PFBS,MF,GO:0004497,monooxygenase activity,e,1.478654785469898e-11,26,421,103,7874,8.438434887513928e-09
+chemical_shared,PFBS,MF,GO:0005506,iron ion binding,e,3.695631487883612e-11,27,421,115,7874,1.9514633396939444e-08
+chemical_shared,PFBS,MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",e,2.487935528194599e-10,28,421,133,7874,1.0833721153105203e-07
+chemical_shared,PFBS,MF,GO:0020037,heme binding,e,7.717728410064425e-09,27,421,144,7874,2.5056709763841673e-06
+chemical_shared,PFBS,MF,GO:0015020,glucuronosyltransferase activity,e,1.031671783692912e-08,19,421,76,7874,3.191582608946288e-06
+chemical_shared,PFBS,MF,GO:0046906,tetrapyrrole binding,e,1.2272625356521966e-08,27,421,147,7874,3.7214812467235586e-06
+chemical_shared,PFBS,MF,GO:0061783,peptidoglycan muralytic activity,e,7.455709279542006e-07,7,421,12,7874,0.00015122087607159372
+chemical_shared,PFBS,MF,GO:0003796,lysozyme activity,e,7.455709279542006e-07,7,421,12,7874,0.00015122087607159372
+chemical_shared,PFBS,MF,GO:0008194,UDP-glycosyltransferase activity,e,8.114751335296434e-07,22,421,127,7874,0.00016314734194464693
+chemical_shared,PFBS,MF,GO:0016747,"acyltransferase activity, transferring groups other than amino-acyl groups",e,1.8684190518967455e-06,24,421,154,7874,0.0003307713728097745
+chemical_shared,PFBS,MF,GO:0016903,"oxidoreductase activity, acting on the aldehyde or oxo group of donors",e,4.537325082204811e-06,9,421,26,7874,0.0007225120078907764
+chemical_shared,PFBS,MF,GO:0046914,transition metal ion binding,e,4.688195760902029e-06,61,421,632,7874,0.0007401227259650833
+chemical_shared,PFBS,MF,GO:0004364,glutathione transferase activity,e,5.5650668021156005e-06,13,421,56,7874,0.0008514771653176134
+chemical_shared,PFBSA,BP,GO:0098542,defense response to other organism,e,1.1443668097711309e-17,108,1343,286,7891,3.1861946206597426e-14
+chemical_shared,PFBSA,BP,GO:0140546,defense response to symbiont,e,1.2444909805247952e-17,107,1343,282,7891,3.266966608303377e-14
+chemical_shared,PFBSA,BP,GO:0045087,innate immune response,e,1.2444909805247952e-17,107,1343,282,7891,3.266966608303377e-14
+chemical_shared,PFBSA,BP,GO:0006952,defense response,e,1.588253860152909e-17,137,1343,402,7891,4.0535767964124804e-14
+chemical_shared,PFBSA,BP,GO:0006950,response to stress,e,1.888113436432971e-17,275,1343,1024,7891,4.565259540512142e-14
+chemical_shared,PFBSA,BP,GO:0044419,biological process involved in interspecies interaction between organisms,e,2.902010405131456e-17,136,1343,401,7891,6.348493238654242e-14
+chemical_shared,PFBSA,BP,GO:0051707,response to other organism,e,2.902010405131456e-17,136,1343,401,7891,6.348493238654242e-14
+chemical_shared,PFBSA,BP,GO:0043207,response to external biotic stimulus,e,2.902010405131456e-17,136,1343,401,7891,6.348493238654242e-14
+chemical_shared,PFBSA,BP,GO:0009607,response to biotic stimulus,e,2.902010405131456e-17,136,1343,401,7891,6.348493238654242e-14
+chemical_shared,PFBSA,BP,GO:0006955,immune response,e,6.782255646613216e-16,108,1343,300,7891,1.1539882385385598e-12
+chemical_shared,PFBSA,BP,GO:0002376,immune system process,e,1.8777976030803144e-15,108,1343,303,7891,2.97469040984516e-12
+chemical_shared,PFBSA,BP,GO:0009605,response to external stimulus,e,5.966302413985398e-15,141,1343,445,7891,8.43359793533813e-12
+chemical_shared,PFBSA,BP,GO:1903047,mitotic cell cycle process,e,1.0787462469475783e-13,86,1343,232,7891,1.0113796445871784e-10
+chemical_shared,PFBSA,BP,GO:0050896,response to stimulus,e,5.939596006554775e-12,303,1343,1267,7891,3.687365412717924e-09
+chemical_shared,PFBSA,BP,GO:0022402,cell cycle process,e,4.2834495144680906e-11,118,1343,390,7891,2.2489333793675897e-08
+chemical_shared,PFBSA,CC,GO:0005694,chromosome,e,9.607657043639532e-09,81,1455,255,8435,3.0344528046089365e-06
+chemical_shared,PFBSA,CC,GO:0000776,kinetochore,e,2.618305731085446e-08,29,1455,60,8435,7.471115856277354e-06
+chemical_shared,PFBSA,CC,GO:0032993,protein-DNA complex,e,3.05180428136903e-08,36,1455,84,8435,8.601220164790996e-06
+chemical_shared,PFBSA,CC,GO:0005576,extracellular region,e,3.979982695963714e-08,128,1455,473,8435,1.0883357443605538e-05
+chemical_shared,PFBSA,CC,GO:0000786,nucleosome,e,7.282254251369259e-07,31,1455,75,8435,0.00014868744902573502
+chemical_shared,PFBSA,CC,GO:0008540,"proteasome regulatory particle, base subcomplex",e,1.1200255630801833e-06,9,1455,10,8435,0.0002087382327298321
+chemical_shared,PFBSA,CC,GO:0005788,endoplasmic reticulum lumen,e,1.243594895525761e-06,18,1455,33,8435,0.00022761254781057157
+chemical_shared,PFBSA,CC,GO:0030663,COPI-coated vesicle membrane,e,5.8831293818020955e-06,8,1455,9,8435,0.0008912973454951797
+chemical_shared,PFBSA,CC,GO:0000775,"chromosome, centromeric region",e,1.736123361635332e-05,11,1455,17,8435,0.0021941542567682844
+chemical_shared,PFBSA,CC,GO:0005783,endoplasmic reticulum,e,2.014726152176374e-05,80,1455,296,8435,0.002461609559334644
+chemical_shared,PFBSA,CC,GO:0030662,coated vesicle membrane,e,2.369801387124959e-05,14,1455,26,8435,0.0027808090861946516
+chemical_shared,PFBSA,CC,GO:0000502,proteasome complex,e,2.493554465668975e-05,8,1455,10,8435,0.002874627155654522
+chemical_shared,PFBSA,CC,GO:0030660,Golgi-associated vesicle membrane,e,2.493554465668975e-05,8,1455,10,8435,0.002874627155654522
+chemical_shared,PFBSA,CC,GO:0008541,"proteasome regulatory particle, lid subcomplex",e,2.493554465668975e-05,8,1455,10,8435,0.002874627155654522
+chemical_shared,PFBSA,CC,GO:0042555,MCM complex,e,2.6119027307953362e-05,6,1455,6,8435,0.002974365718953375
+chemical_shared,PFBSA,MF,GO:0015020,glucuronosyltransferase activity,e,1.4422723950284514e-07,33,1393,76,7874,3.6107898543655075e-05
+chemical_shared,PFBSA,MF,GO:0003824,catalytic activity,e,2.5918074546313747e-07,700,1393,3465,7874,5.923762908744545e-05
+chemical_shared,PFBSA,MF,GO:0008194,UDP-glycosyltransferase activity,e,4.6826213558428163e-07,46,1393,127,7874,9.936241343529746e-05
+chemical_shared,PFBSA,MF,GO:0030527,structural constituent of chromatin,e,1.0779337838706822e-06,30,1393,71,7874,0.00020295195914352108
+chemical_shared,PFBSA,MF,GO:0016758,hexosyltransferase activity,e,5.888305275528669e-06,56,1393,178,7874,0.0008912973454951797
+chemical_shared,PFBSA,MF,GO:0046982,protein heterodimerization activity,e,2.0928063739787594e-05,33,1393,91,7874,0.002540119546118473
+chemical_shared,PFBSA,MF,GO:0017116,single-stranded DNA helicase activity,e,3.62469205886381e-05,7,1393,8,7874,0.0038885246947745686
+chemical_shared,PFBSA,MF,GO:0016757,glycosyltransferase activity,e,0.00012589920906392815,63,1393,226,7874,0.010690960562655932
+chemical_shared,PFBSA,MF,GO:0016491,oxidoreductase activity,e,0.0001644816656324333,121,1393,500,7874,0.013175741445778528
+chemical_shared,PFBSA,MF,GO:0036402,proteasome-activating activity,e,0.00018056496068950576,6,1393,7,7874,0.014216202731920986
+chemical_shared,PFBSA,MF,GO:0004497,monooxygenase activity,e,0.00036751512226617067,33,1393,103,7874,0.02518067817585068
+chemical_shared,PFBSA,MF,GO:0016864,"intramolecular oxidoreductase activity, transposing S-S bonds",e,0.0005207818320185913,8,1393,13,7874,0.03332133337456001
+chemical_shared,PFBSA,MF,GO:0003756,protein disulfide isomerase activity,e,0.0005207818320185913,8,1393,13,7874,0.03332133337456001
+chemical_shared,PFEESA,BP,GO:0043207,response to external biotic stimulus,e,4.134364135141457e-13,66,506,401,7891,3.2191981079389584e-10
+chemical_shared,PFEESA,BP,GO:0044419,biological process involved in interspecies interaction between organisms,e,4.134364135141457e-13,66,506,401,7891,3.2191981079389584e-10
+chemical_shared,PFEESA,BP,GO:0051707,response to other organism,e,4.134364135141457e-13,66,506,401,7891,3.2191981079389584e-10
+chemical_shared,PFEESA,BP,GO:0009607,response to biotic stimulus,e,4.134364135141457e-13,66,506,401,7891,3.2191981079389584e-10
+chemical_shared,PFEESA,BP,GO:0006952,defense response,e,4.662347244047273e-13,66,506,402,7891,3.5998022250677594e-10
+chemical_shared,PFEESA,BP,GO:0098542,defense response to other organism,e,3.315412130988004e-12,52,506,286,7891,2.191511270468905e-09
+chemical_shared,PFEESA,BP,GO:0006955,immune response,e,6.4788490911847e-12,53,506,300,7891,3.9685110299870015e-09
+chemical_shared,PFEESA,BP,GO:0140546,defense response to symbiont,e,6.715301377333736e-12,51,506,282,7891,4.0592229641409455e-09
+chemical_shared,PFEESA,BP,GO:0045087,innate immune response,e,6.715301377333736e-12,51,506,282,7891,4.0592229641409455e-09
+chemical_shared,PFEESA,BP,GO:0006629,lipid metabolic process,e,6.773813749714078e-12,70,506,465,7891,4.06783011322699e-09
+chemical_shared,PFEESA,BP,GO:0002376,immune system process,e,9.65888024565929e-12,53,506,303,7891,5.652598197268634e-09
+chemical_shared,PFEESA,BP,GO:0009605,response to external stimulus,e,8.854866722764898e-11,66,506,445,7891,4.2820271288823094e-08
+chemical_shared,PFEESA,BP,GO:0044281,small molecule metabolic process,e,4.905948487898367e-10,78,506,595,7891,2.0221135952180688e-07
+chemical_shared,PFEESA,BP,GO:0019752,carboxylic acid metabolic process,e,1.8577652172989857e-08,47,506,309,7891,5.470880389917655e-06
+chemical_shared,PFEESA,BP,GO:0043436,oxoacid metabolic process,e,2.0467131258285127e-08,47,506,310,7891,5.951012721554549e-06
+chemical_shared,PFEESA,CC,GO:0000323,lytic vacuole,e,9.124681965142324e-13,30,551,102,8435,6.707006231658215e-10
+chemical_shared,PFEESA,CC,GO:0005764,lysosome,e,1.858857239505229e-12,29,551,98,8435,1.2651244678943736e-09
+chemical_shared,PFEESA,CC,GO:0005773,vacuole,e,3.51139897276854e-11,33,551,138,8435,1.8648979053062052e-08
+chemical_shared,PFEESA,CC,GO:0042579,microbody,e,4.406446469288578e-08,18,551,62,8435,1.1942899752160312e-05
+chemical_shared,PFEESA,CC,GO:0005777,peroxisome,e,4.406446469288578e-08,18,551,62,8435,1.1942899752160312e-05
+chemical_shared,PFEESA,CC,GO:0005576,extracellular region,e,1.132419668673657e-06,59,551,473,8435,0.00021062088898327047
+chemical_shared,PFEESA,CC,GO:0031428,box C/D methylation guide snoRNP complex,e,1.8023362160472086e-05,4,551,4,8435,0.0022530428779648642
+chemical_shared,PFEESA,CC,GO:0170049,box C/D RNP complex,e,1.8023362160472086e-05,4,551,4,8435,0.0022530428779648642
+chemical_shared,PFEESA,CC,GO:0098857,membrane microdomain,e,2.100382159786113e-05,12,551,45,8435,0.0025425970071297505
+chemical_shared,PFEESA,CC,GO:0110165,cellular anatomical structure,e,5.4066247571455084e-05,548,551,8175,8435,0.005382022564317761
+chemical_shared,PFEESA,CC,GO:0045121,membrane raft,e,8.85293892997934e-05,11,551,44,8435,0.008007701329887075
+chemical_shared,PFEESA,CC,GO:0005732,sno(s)RNA-containing ribonucleoprotein complex,e,0.00014440745617147436,6,551,14,8435,0.011921075537318117
+chemical_shared,PFEESA,CC,GO:0032040,small-subunit processome,e,0.0007470394511853994,10,551,47,8435,0.04448346388523299
+chemical_shared,PFEESA,MF,GO:0003824,catalytic activity,e,2.1869994028560596e-24,366,567,3465,7874,4.018830102688295e-20
+chemical_shared,PFEESA,MF,GO:0015020,glucuronosyltransferase activity,e,1.5288310708500955e-16,31,567,76,7874,2.841448743466582e-13
+chemical_shared,PFEESA,MF,GO:0008194,UDP-glycosyltransferase activity,e,5.4454674063260847e-14,37,567,127,7874,5.379887583798286e-11
+chemical_shared,PFEESA,MF,GO:0004497,monooxygenase activity,e,6.398774169710753e-14,33,567,103,7874,6.235271576728112e-11
+chemical_shared,PFEESA,MF,GO:0016491,oxidoreductase activity,e,1.497503091156946e-13,83,567,500,7874,1.322986384764425e-10
+chemical_shared,PFEESA,MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",e,3.387017188207688e-11,34,567,133,7874,1.809297321235595e-08
+chemical_shared,PFEESA,MF,GO:0016758,hexosyltransferase activity,e,4.785991279839893e-11,40,567,178,7874,2.484389145715759e-08
+chemical_shared,PFEESA,MF,GO:0005506,iron ion binding,e,5.87522022207476e-11,31,567,115,7874,2.982404607758171e-08
+chemical_shared,PFEESA,MF,GO:0016757,glycosyltransferase activity,e,6.093598692729433e-11,46,567,226,7874,3.0430255502370265e-08
+chemical_shared,PFEESA,MF,GO:0020037,heme binding,e,1.4575587765439307e-09,33,567,144,7874,5.466142873014545e-07
+chemical_shared,PFEESA,MF,GO:0046906,tetrapyrrole binding,e,2.5580207960852475e-09,33,567,147,7874,9.216900029188727e-07
+chemical_shared,PFEESA,MF,GO:0004364,glutathione transferase activity,e,2.057548191160202e-07,17,567,56,7874,4.810369664218814e-05
+chemical_shared,PFEESA,MF,GO:0140359,ABC-type transporter activity,e,2.741897417941748e-07,15,567,45,7874,6.251253964280096e-05
+chemical_shared,PFEESA,MF,GO:0016787,hydrolase activity,e,6.308487147979797e-06,132,567,1277,7874,0.0009409477259032204
+chemical_shared,PFEESA,MF,GO:0016765,"transferase activity, transferring alkyl or aryl (other than methyl) groups",e,6.860150635459532e-06,19,567,85,7874,0.001011511127862619
+chemical_shared,PFNA,BP,GO:0006629,lipid metabolic process,e,4.76397810981013e-23,54,194,465,7891,6.253061553276497e-19
+chemical_shared,PFNA,BP,GO:0016042,lipid catabolic process,e,6.447004786560412e-14,22,194,118,7891,6.235271576728112e-11
+chemical_shared,PFNA,BP,GO:0006631,fatty acid metabolic process,e,9.583470574289539e-13,23,194,148,7891,6.988327590204149e-10
+chemical_shared,PFNA,BP,GO:0006790,sulfur compound metabolic process,e,1.0223605412183123e-11,22,194,150,7891,5.94149979394288e-09
+chemical_shared,PFNA,BP,GO:0009062,fatty acid catabolic process,e,1.829049989063592e-11,15,194,63,7891,1.031000693221858e-08
+chemical_shared,PFNA,BP,GO:0072329,monocarboxylic acid catabolic process,e,4.750413863553813e-11,15,194,67,7891,2.4799319646779792e-08
+chemical_shared,PFNA,BP,GO:0032787,monocarboxylic acid metabolic process,e,7.686068809959199e-11,23,194,182,7891,3.7364867844394246e-08
+chemical_shared,PFNA,BP,GO:0034440,lipid oxidation,e,4.907829034976375e-10,12,194,45,7891,2.0221135952180688e-07
+chemical_shared,PFNA,BP,GO:0019395,fatty acid oxidation,e,4.907829034976375e-10,12,194,45,7891,2.0221135952180688e-07
+chemical_shared,PFNA,BP,GO:0030258,lipid modification,e,1.298253317071503e-09,14,194,71,7891,4.908786616153485e-07
+chemical_shared,PFNA,BP,GO:0019752,carboxylic acid metabolic process,e,1.62193730388832e-09,28,194,309,7891,6.009016108115276e-07
+chemical_shared,PFNA,BP,GO:0043436,oxoacid metabolic process,e,1.7456811842121567e-09,28,194,310,7891,6.441493462064778e-07
+chemical_shared,PFNA,BP,GO:0006575,modified amino acid metabolic process,e,3.818641794341597e-09,16,194,104,7891,1.3442789581000226e-06
+chemical_shared,PFNA,BP,GO:0006749,glutathione metabolic process,e,9.272379689081079e-09,13,194,69,7891,2.947910885234497e-06
+chemical_shared,PFNA,BP,GO:0044281,small molecule metabolic process,e,9.961676851278087e-09,39,194,595,7891,3.1026402342217987e-06
+chemical_shared,PFNA,CC,GO:0042579,microbody,e,1.1447300088639552e-18,21,217,62,8435,4.382408050600842e-15
+chemical_shared,PFNA,CC,GO:0005777,peroxisome,e,1.1447300088639552e-18,21,217,62,8435,4.382408050600842e-15
+chemical_shared,PFNA,CC,GO:0005778,peroxisomal membrane,e,5.944954937612156e-10,10,217,27,8435,2.40626634214892e-07
+chemical_shared,PFNA,CC,GO:0031903,microbody membrane,e,5.944954937612156e-10,10,217,27,8435,2.40626634214892e-07
+chemical_shared,PFNA,CC,GO:0005782,peroxisomal matrix,e,1.1155553362583376e-06,6,217,15,8435,0.0002087382327298321
+chemical_shared,PFNA,CC,GO:0031907,microbody lumen,e,1.1155553362583376e-06,6,217,15,8435,0.0002087382327298321
+chemical_shared,PFNA,CC,GO:0005764,lysosome,e,3.984652683318639e-05,11,217,98,8435,0.0042081596384289256
+chemical_shared,PFNA,CC,GO:0000323,lytic vacuole,e,5.790059099066214e-05,11,217,102,8435,0.005701936013099719
+chemical_shared,PFNA,CC,GO:0017059,serine palmitoyltransferase complex,e,0.0006588625175514638,2,217,2,8435,0.0399579459489297
+chemical_shared,PFNA,CC,GO:0005773,vacuole,e,0.0008329993042117602,11,217,138,8435,0.048304552414919176
+chemical_shared,PFNA,MF,GO:0003824,catalytic activity,e,8.216782932488126e-20,168,229,3465,7874,4.194211199094495e-16
+chemical_shared,PFNA,MF,GO:0016491,oxidoreductase activity,e,3.382030268271992e-17,53,229,500,7874,7.226533512763504e-14
+chemical_shared,PFNA,MF,GO:0004497,monooxygenase activity,e,1.052986030629416e-14,23,229,103,7874,1.3870452031350197e-11
+chemical_shared,PFNA,MF,GO:0015020,glucuronosyltransferase activity,e,2.691504858022732e-13,19,229,76,7874,2.2278870842804378e-10
+chemical_shared,PFNA,MF,GO:0005506,iron ion binding,e,1.195630832730375e-12,22,229,115,7874,8.515857434981926e-10
+chemical_shared,PFNA,MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",e,3.301788504641188e-12,23,229,133,7874,2.191511270468905e-09
+chemical_shared,PFNA,MF,GO:0020037,heme binding,e,1.8227996599999992e-11,23,229,144,7874,1.031000693221858e-08
+chemical_shared,PFNA,MF,GO:0046906,tetrapyrrole binding,e,2.8224005678939348e-11,23,229,147,7874,1.5344506756100282e-08
+chemical_shared,PFNA,MF,GO:0008194,UDP-glycosyltransferase activity,e,7.341855522715647e-11,21,229,127,7874,3.5881366246123065e-08
+chemical_shared,PFNA,MF,GO:0016758,hexosyltransferase activity,e,1.4436965674722704e-09,23,229,178,7874,5.436345927022631e-07
+chemical_shared,PFNA,MF,GO:0004364,glutathione transferase activity,e,4.73087390585989e-09,13,229,56,7874,1.6158836225665678e-06
+chemical_shared,PFNA,MF,GO:0016757,glycosyltransferase activity,e,3.2510677823175495e-08,24,229,226,7874,9.051760843616256e-06
+chemical_shared,PFNA,MF,GO:0046914,transition metal ion binding,e,7.71094449145466e-07,41,229,632,7874,0.00015605321142617934
+chemical_shared,PFNA,MF,GO:0016765,"transferase activity, transferring alkyl or aryl (other than methyl) groups",e,8.751457946473518e-07,13,229,85,7874,0.0001729212808864488
+chemical_shared,PFNA,MF,GO:0016712,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",e,9.940721216072552e-07,9,229,38,7874,0.00018910009634218343
+chemical_shared,PFOA,BP,GO:0016042,lipid catabolic process,e,1.2220466468271429e-12,14,70,118,7891,8.571118008433427e-10
+chemical_shared,PFOA,BP,GO:0006629,lipid metabolic process,e,4.11497639173334e-12,23,70,465,7891,2.6677123102325894e-09
+chemical_shared,PFOA,BP,GO:0009062,fatty acid catabolic process,e,5.065097649680368e-12,11,70,63,7891,3.1875422743330975e-09
+chemical_shared,PFOA,BP,GO:0072329,monocarboxylic acid catabolic process,e,1.0281872738756182e-11,11,70,67,7891,5.94149979394288e-09
+chemical_shared,PFOA,BP,GO:0006631,fatty acid metabolic process,e,3.965662989951515e-10,13,70,148,7891,1.6637676507613937e-07
+chemical_shared,PFOA,BP,GO:0046395,carboxylic acid catabolic process,e,1.4764781496654717e-09,12,70,133,7891,5.514585869563558e-07
+chemical_shared,PFOA,BP,GO:0006635,fatty acid beta-oxidation,e,1.925882358622961e-09,8,70,41,7891,7.049803629891541e-07
+chemical_shared,PFOA,BP,GO:0034440,lipid oxidation,e,4.224389216505013e-09,8,70,45,7891,1.4591612075657165e-06
+chemical_shared,PFOA,BP,GO:0019395,fatty acid oxidation,e,4.224389216505013e-09,8,70,45,7891,1.4591612075657165e-06
+chemical_shared,PFOA,BP,GO:0032787,monocarboxylic acid metabolic process,e,5.130248648120237e-09,13,70,182,7891,1.72031841528937e-06
+chemical_shared,PFOA,BP,GO:0019752,carboxylic acid metabolic process,e,7.570914779562863e-09,16,70,309,7891,2.4755005336164977e-06
+chemical_shared,PFOA,BP,GO:0043436,oxoacid metabolic process,e,7.92995784207754e-09,16,70,310,7891,2.5655088962326913e-06
+chemical_shared,PFOA,BP,GO:0030258,lipid modification,e,9.643819727513419e-09,9,70,71,7891,3.0344528046089365e-06
+chemical_shared,PFOA,BP,GO:0044282,small molecule catabolic process,e,1.8654858138175682e-08,12,70,166,7891,5.476065066247865e-06
+chemical_shared,PFOA,BP,GO:0044281,small molecule metabolic process,e,1.158767279403882e-07,20,70,595,7891,2.9410921997687478e-05
+chemical_shared,PFOA,CC,GO:0005778,peroxisomal membrane,e,3.007894614379418e-10,8,93,27,8435,1.2794692461536154e-07
+chemical_shared,PFOA,CC,GO:0031903,microbody membrane,e,3.007894614379418e-10,8,93,27,8435,1.2794692461536154e-07
+chemical_shared,PFOA,CC,GO:0042579,microbody,e,1.0883376711895535e-09,10,93,62,8435,4.1665193845373406e-07
+chemical_shared,PFOA,CC,GO:0005777,peroxisome,e,1.0883376711895535e-09,10,93,62,8435,4.1665193845373406e-07
+chemical_shared,PFOA,CC,GO:0005782,peroxisomal matrix,e,4.024115482769683e-07,5,93,15,8435,8.740797412692164e-05
+chemical_shared,PFOA,CC,GO:0031907,microbody lumen,e,4.024115482769683e-07,5,93,15,8435,8.740797412692164e-05
+chemical_shared,PFOA,MF,GO:0003824,catalytic activity,e,3.601493057630697e-15,85,104,3465,7874,5.4246751169689906e-12
+chemical_shared,PFOA,MF,GO:0016491,oxidoreductase activity,e,1.634570792013025e-14,32,104,500,7874,2.057320059865161e-11
+chemical_shared,PFOA,MF,GO:0015020,glucuronosyltransferase activity,e,3.3726382775802234e-14,15,104,76,7874,3.779000060293548e-11
+chemical_shared,PFOA,MF,GO:0008194,UDP-glycosyltransferase activity,e,6.471036066474365e-12,16,104,127,7874,3.9685110299870015e-09
+chemical_shared,PFOA,MF,GO:0016758,hexosyltransferase activity,e,1.2147474012055128e-10,17,104,178,7874,5.6655325493788075e-08
+chemical_shared,PFOA,MF,GO:0004497,monooxygenase activity,e,6.94321222117576e-10,13,104,103,7874,2.7616551466737175e-07
+chemical_shared,PFOA,MF,GO:0016757,glycosyltransferase activity,e,5.002852400440873e-09,17,104,226,7874,1.6899341123253949e-06
+chemical_shared,PFOA,MF,GO:0005506,iron ion binding,e,2.9534154522394637e-08,12,104,115,7874,8.375302831844504e-06
+chemical_shared,PFOA,MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",e,1.5094304293717858e-07,12,104,133,7874,3.7243429884701853e-05
+chemical_shared,PFOA,MF,GO:0020037,heme binding,e,3.6157234101876056e-07,12,104,144,7874,7.928703267972248e-05
+chemical_shared,PFOA,MF,GO:0046906,tetrapyrrole binding,e,4.5259241083996796e-07,12,104,147,7874,9.738686348472192e-05
+chemical_shared,PFOA,MF,GO:0010181,FMN binding,e,1.9909009690709427e-06,5,104,17,7874,0.00034710432834580306
+chemical_shared,PFOA,MF,GO:0047617,fatty acyl-CoA hydrolase activity,e,5.988904934741722e-05,4,104,17,7874,0.005866317541621209
+chemical_shared,PFOA,MF,GO:0046914,transition metal ion binding,e,6.267052579860178e-05,21,104,632,7874,0.006093299376058764
+chemical_shared,PFOA,MF,GO:0016289,acyl-CoA hydrolase activity,e,7.622083490609403e-05,4,104,18,7874,0.0071026068064623925
+chemical_shared,PFOS,BP,GO:0006629,lipid metabolic process,e,1.837619063588759e-10,25,97,465,7891,8.156542974035515e-08
+chemical_shared,PFOS,BP,GO:0006790,sulfur compound metabolic process,e,3.152950021836299e-09,14,97,150,7891,1.1272103035265337e-06
+chemical_shared,PFOS,BP,GO:0016042,lipid catabolic process,e,1.739264016329173e-08,12,97,118,7891,5.154954123236272e-06
+chemical_shared,PFOS,BP,GO:0006631,fatty acid metabolic process,e,2.5231698941724303e-08,13,97,148,7891,7.2220825506717415e-06
+chemical_shared,PFOS,BP,GO:0006749,glutathione metabolic process,e,1.3576118761448268e-07,9,97,69,7891,3.426851076378755e-05
+chemical_shared,PFOS,BP,GO:0019752,carboxylic acid metabolic process,e,1.6974992243342443e-07,17,97,309,7891,4.051070876151439e-05
+chemical_shared,PFOS,BP,GO:0043436,oxoacid metabolic process,e,1.7783211750173658e-07,17,97,310,7891,4.2220193684908416e-05
+chemical_shared,PFOS,BP,GO:0032787,monocarboxylic acid metabolic process,e,2.925809261475151e-07,13,97,182,7891,6.637613702329305e-05
+chemical_shared,PFOS,BP,GO:0006575,modified amino acid metabolic process,e,4.952848438608887e-07,10,97,104,7891,0.00010437332902279462
+chemical_shared,PFOS,BP,GO:0009062,fatty acid catabolic process,e,8.652843168639229e-07,8,97,63,7891,0.00017134121343417508
+chemical_shared,PFOS,BP,GO:0072329,monocarboxylic acid catabolic process,e,1.3996719743808248e-06,8,97,67,7891,0.0002546571505071489
+chemical_shared,PFOS,BP,GO:0098869,cellular oxidant detoxification,e,1.9209690547484786e-06,7,97,49,7891,0.00033862601546860716
+chemical_shared,PFOS,BP,GO:0044281,small molecule metabolic process,e,2.161864723196098e-06,22,97,595,7891,0.0003712750107799205
+chemical_shared,PFOS,BP,GO:0046395,carboxylic acid catabolic process,e,4.7756152574392326e-06,10,97,133,7891,0.0007500573159889174
+chemical_shared,PFOS,BP,GO:1990748,cellular detoxification,e,6.144451981276376e-06,7,97,58,7891,0.0009224709935288782
+chemical_shared,PFOS,CC,GO:0042579,microbody,e,8.865699993157828e-09,10,115,62,8435,2.828404567261602e-06
+chemical_shared,PFOS,CC,GO:0005777,peroxisome,e,8.865699993157828e-09,10,115,62,8435,2.828404567261602e-06
+chemical_shared,PFOS,CC,GO:0012505,endomembrane system,e,6.469347098222489e-05,10,115,161,8435,0.006250300855780045
+chemical_shared,PFOS,CC,GO:0005778,peroxisomal membrane,e,0.00045164068113565873,4,115,27,8435,0.029944969266353122
+chemical_shared,PFOS,CC,GO:0031903,microbody membrane,e,0.00045164068113565873,4,115,27,8435,0.029944969266353122
+chemical_shared,PFOS,MF,GO:0003824,catalytic activity,e,1.3074969967647403e-16,100,125,3465,7874,2.50276716797384e-13
+chemical_shared,PFOS,MF,GO:0004497,monooxygenase activity,e,2.096675035035966e-14,18,125,103,7874,2.5685666962547278e-11
+chemical_shared,PFOS,MF,GO:0016491,oxidoreductase activity,e,2.2912333860997445e-14,35,125,500,7874,2.698955429677494e-11
+chemical_shared,PFOS,MF,GO:0005506,iron ion binding,e,1.550157739242684e-13,18,125,115,7874,1.3564618388725504e-10
+chemical_shared,PFOS,MF,GO:0015020,glucuronosyltransferase activity,e,5.489347856681467e-13,15,125,76,7874,4.168275050180936e-10
+chemical_shared,PFOS,MF,GO:0020037,heme binding,e,7.540381388979871e-13,19,125,144,7874,5.67877247556943e-10
+chemical_shared,PFOS,MF,GO:0046906,tetrapyrrole binding,e,1.101671585628187e-12,19,125,147,7874,7.970203565946285e-10
+chemical_shared,PFOS,MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",e,2.047464298065198e-12,18,125,133,7874,1.3832427919575766e-09
+chemical_shared,PFOS,MF,GO:0008194,UDP-glycosyltransferase activity,e,1.1450577604128586e-10,16,125,127,7874,5.3952772834222276e-08
+chemical_shared,PFOS,MF,GO:0016758,hexosyltransferase activity,e,2.949113729367586e-10,18,125,178,7874,1.2661895768892232e-07
+chemical_shared,PFOS,MF,GO:0016757,glycosyltransferase activity,e,1.3982988301314e-08,18,125,226,7874,4.212317918441739e-06
+chemical_shared,PFOS,MF,GO:0004364,glutathione transferase activity,e,1.9375116975097436e-07,9,125,56,7874,4.564578840184493e-05
+chemical_shared,PFOS,MF,GO:0016765,"transferase activity, transferring alkyl or aryl (other than methyl) groups",e,7.152269565084762e-06,9,125,85,7874,0.001044754415961825
+chemical_shared,PFOS,MF,GO:0004602,glutathione peroxidase activity,e,9.053861135744021e-06,5,125,19,7874,0.001270028642980398
+chemical_shared,PFOS,MF,GO:0016209,antioxidant activity,e,1.0603427113074014e-05,7,125,49,7874,0.0014519268005204775
+chemical_shared,PFOSA,BP,GO:0006412,translation,e,4.37359564443642e-19,130,3451,168,7891,2.0092298390540916e-15
+chemical_shared,PFOSA,BP,GO:0008152,metabolic process,e,5.065470584496066e-17,1569,3451,3172,7891,1.0342565273411079e-13
+chemical_shared,PFOSA,BP,GO:0044238,primary metabolic process,e,5.753988927545025e-11,1343,3451,2755,7891,2.9370916814602046e-08
+chemical_shared,PFOSA,BP,GO:0002181,cytoplasmic translation,e,1.1758871792986131e-10,34,3451,36,7891,5.512271124181458e-08
+chemical_shared,PFOSA,BP,GO:0009059,macromolecule biosynthetic process,e,1.5724877399592503e-09,276,3451,484,7891,5.849399738763397e-07
+chemical_shared,PFOSA,BP,GO:0009058,biosynthetic process,e,2.30507092387022e-09,514,3451,976,7891,8.338185688393535e-07
+chemical_shared,PFOSA,BP,GO:0006631,fatty acid metabolic process,e,4.347337876016018e-09,100,3451,148,7891,1.496005258608059e-06
+chemical_shared,PFOSA,BP,GO:0006413,translational initiation,e,1.0946779270076481e-08,37,3451,43,7891,3.3526335977820906e-06
+chemical_shared,PFOSA,BP,GO:0032787,monocarboxylic acid metabolic process,e,1.2967722457150279e-07,115,3451,182,7891,3.2822984555453656e-05
+chemical_shared,PFOSA,BP,GO:0016042,lipid catabolic process,e,1.6055885874848214e-07,80,3451,118,7891,3.8719548403702203e-05
+chemical_shared,PFOSA,BP,GO:0034440,lipid oxidation,e,1.6169993562538208e-07,37,3451,45,7891,3.879109682835537e-05
+chemical_shared,PFOSA,BP,GO:0019395,fatty acid oxidation,e,1.6169993562538208e-07,37,3451,45,7891,3.879109682835537e-05
+chemical_shared,PFOSA,BP,GO:0009062,fatty acid catabolic process,e,2.5213859832548133e-07,48,3451,63,7891,5.791623603536306e-05
+chemical_shared,PFOSA,BP,GO:0006635,fatty acid beta-oxidation,e,3.001816163848676e-07,34,3451,41,7891,6.775146888372455e-05
+chemical_shared,PFOSA,BP,GO:0072329,monocarboxylic acid catabolic process,e,3.4295616220663977e-07,50,3451,67,7891,7.611307290711609e-05
+chemical_shared,PFOSA,CC,GO:1990904,ribonucleoprotein complex,e,1.041329333604965e-28,296,3709,422,8435,3.189244639054139e-24
+chemical_shared,PFOSA,CC,GO:0044391,ribosomal subunit,e,4.017079528465198e-26,122,3709,141,8435,9.22723167688456e-22
+chemical_shared,PFOSA,CC,GO:0005840,ribosome,e,3.208061903813699e-18,101,3709,123,8435,1.052702599008581e-14
+chemical_shared,PFOSA,CC,GO:0015934,large ribosomal subunit,e,1.938960988178094e-14,71,3709,84,8435,2.407455886402747e-11
+chemical_shared,PFOSA,CC,GO:0015935,small ribosomal subunit,e,8.469972947980205e-13,51,3709,57,8435,6.327000930572531e-10
+chemical_shared,PFOSA,CC,GO:0043228,membraneless organelle,e,4.151968441045497e-12,561,3709,1038,8435,2.6677123102325894e-09
+chemical_shared,PFOSA,CC,GO:0043232,intracellular membraneless organelle,e,4.151968441045497e-12,561,3709,1038,8435,2.6677123102325894e-09
+chemical_shared,PFOSA,CC,GO:0022625,cytosolic large ribosomal subunit,e,4.378426330490865e-12,44,3709,48,8435,2.7744124913482807e-09
+chemical_shared,PFOSA,CC,GO:0022627,cytosolic small ribosomal subunit,e,7.301307054850938e-10,29,3709,30,8435,2.8915693629297597e-07
+chemical_shared,PFOSA,CC,GO:0032991,protein-containing complex,e,7.924500710920145e-10,1105,3709,2231,8435,3.124906117250399e-07
+chemical_shared,PFOSA,CC,GO:0000776,kinetochore,e,2.082199245540016e-08,48,3709,60,8435,6.03509358612671e-06
+chemical_shared,PFOSA,CC,GO:0005730,nucleolus,e,8.000997816844359e-07,111,3709,178,8435,0.00016121308759027624
+chemical_shared,PFOSA,CC,GO:0032040,small-subunit processome,e,1.9147496021960553e-06,37,3709,47,8435,0.0003383215258649492
+chemical_shared,PFOSA,CC,GO:0070993,cytosolic translation preinitiation complex,e,4.371945421813064e-06,15,3709,15,8435,0.0007002827705901847
+chemical_shared,PFOSA,CC,GO:0030684,preribosome,e,5.291697897079439e-06,52,3709,74,8435,0.0008185205434068331
+chemical_shared,PFOSA,MF,GO:0003735,structural constituent of ribosome,e,3.622482814576354e-21,120,3421,148,7874,3.025761100029776e-17
+chemical_shared,PFOSA,MF,GO:0003723,RNA binding,e,5.4542046895502304e-11,320,3421,564,7874,2.8153501509880626e-08
+chemical_shared,PFOSA,MF,GO:0005198,structural molecule activity,e,5.5982983133026995e-09,242,3421,423,7874,1.8636653950226524e-06
+chemical_shared,PFOSA,MF,GO:0003743,translation initiation factor activity,e,1.793115873425402e-08,36,3421,42,7874,5.297475448563535e-06
+chemical_shared,PFOSA,MF,GO:0180051,translation factor activity,e,3.517007737833959e-07,48,3421,64,7874,7.73068590794699e-05
+chemical_shared,PFOSA,MF,GO:0016887,ATP hydrolysis activity,e,2.765177332451961e-05,125,3421,217,7874,0.0030945736090826573
+chemical_shared,PFOSA,MF,GO:0016491,oxidoreductase activity,e,7.2759824475417e-05,260,3421,500,7874,0.006856587356719296
+chemical_shared,PFOSA,MF,GO:0015252,proton channel activity,e,0.00032731373739992885,18,3421,22,7874,0.022748072824300216
+chemical_shared,PFOSA,MF,GO:0008194,UDP-glycosyltransferase activity,e,0.00040386884418169193,75,3421,127,7874,0.027264856284653825
+chemical_shared,PFOSA,MF,GO:0019843,rRNA binding,e,0.0005182000394818376,22,3421,29,7874,0.03327199135401205
+chemical_shared,PFPeA,BP,GO:0006412,translation,e,6.6038236379902644e-21,131,3376,168,7891,4.6673793527580424e-17
+chemical_shared,PFPeA,BP,GO:0008152,metabolic process,e,3.089515219475209e-18,1545,3376,3172,7891,1.0513505865384525e-14
+chemical_shared,PFPeA,BP,GO:0009058,biosynthetic process,e,1.2061286142071938e-12,521,3376,976,7891,8.524545928719766e-10
+chemical_shared,PFPeA,BP,GO:0044238,primary metabolic process,e,8.579812096467919e-12,1322,3376,2755,7891,5.085891196280467e-09
+chemical_shared,PFPeA,BP,GO:0009059,macromolecule biosynthetic process,e,2.4376744523552396e-11,278,3376,484,7891,1.3411588543856253e-08
+chemical_shared,PFPeA,BP,GO:0002181,cytoplasmic translation,e,5.730125367184817e-11,34,3376,36,7891,2.9370916814602046e-08
+chemical_shared,PFPeA,BP,GO:0006413,translational initiation,e,6.187738169535432e-09,37,3376,43,7891,2.052452646270453e-06
+chemical_shared,PFPeA,BP,GO:0016042,lipid catabolic process,e,1.5723671850220395e-08,81,3376,118,7891,4.675375306143204e-06
+chemical_shared,PFPeA,BP,GO:0006631,fatty acid metabolic process,e,1.999257350049301e-08,97,3376,148,7891,5.831484613413644e-06
+chemical_shared,PFPeA,BP,GO:0009062,fatty acid catabolic process,e,1.058560561619121e-07,48,3376,63,7891,2.716774983283934e-05
+chemical_shared,PFPeA,BP,GO:0072329,monocarboxylic acid catabolic process,e,1.4869909966266475e-07,50,3376,67,7891,3.682607352292625e-05
+chemical_shared,PFPeA,BP,GO:0032787,monocarboxylic acid metabolic process,e,2.9495401211011267e-07,112,3376,182,7891,6.674969121349052e-05
+chemical_shared,PFPeA,BP,GO:0043170,macromolecule metabolic process,e,4.098098147714002e-07,906,3376,1894,7891,8.859606066163825e-05
+chemical_shared,PFPeA,BP,GO:0044085,cellular component biogenesis,e,1.547946649028973e-06,43,3376,58,7891,0.0002783274718449746
+chemical_shared,PFPeA,BP,GO:0034440,lipid oxidation,e,2.366782022024432e-06,35,3376,45,7891,0.0004049533187776626
+chemical_shared,PFPeA,CC,GO:1990904,ribonucleoprotein complex,e,1.0386807899957922e-32,299,3615,422,8435,9.543399098481339e-28
+chemical_shared,PFPeA,CC,GO:0044391,ribosomal subunit,e,3.022195808917557e-29,124,3615,141,8435,1.3883967546167259e-24
+chemical_shared,PFPeA,CC,GO:0005840,ribosome,e,3.2650320073671326e-19,101,3615,123,8435,1.578900741246801e-15
+chemical_shared,PFPeA,CC,GO:0015934,large ribosomal subunit,e,4.955445208737447e-17,73,3615,84,8435,1.0342565273411079e-13
+chemical_shared,PFPeA,CC,GO:0022625,cytosolic large ribosomal subunit,e,8.118990776373149e-14,45,3615,48,8435,7.770550755553801e-11
+chemical_shared,PFPeA,CC,GO:0015935,small ribosomal subunit,e,2.1165583686906392e-13,51,3615,57,8435,1.8006424344008883e-10
+chemical_shared,PFPeA,CC,GO:0022627,cytosolic small ribosomal subunit,e,3.5230124499433157e-10,29,3615,30,8435,1.4916791884829116e-07
+chemical_shared,PFPeA,CC,GO:0000776,kinetochore,e,7.448979348508807e-09,48,3615,60,8435,2.444329366217819e-06
+chemical_shared,PFPeA,CC,GO:0043228,membraneless organelle,e,9.684265821781233e-09,531,3615,1038,8435,3.0344528046089365e-06
+chemical_shared,PFPeA,CC,GO:0043232,intracellular membraneless organelle,e,9.684265821781233e-09,531,3615,1038,8435,3.0344528046089365e-06
+chemical_shared,PFPeA,CC,GO:0032991,protein-containing complex,e,1.102469602497717e-08,1071,3615,2231,8435,3.365279304900008e-06
+chemical_shared,PFPeA,CC,GO:0070993,cytosolic translation preinitiation complex,e,2.9725297804146425e-06,15,3615,15,8435,0.0005011303416963253
+chemical_shared,PFPeA,CC,GO:0005730,nucleolus,e,3.5851153150187723e-06,107,3615,178,8435,0.000589267254282513
+chemical_shared,PFPeA,CC,GO:0033290,eukaryotic 48S preinitiation complex,e,6.951311658114888e-06,14,3615,14,8435,0.0010202659986383322
+chemical_shared,PFPeA,CC,GO:0016282,eukaryotic 43S preinitiation complex,e,1.6253177896902713e-05,13,3615,13,8435,0.002071209410773122
+chemical_shared,PFPeA,MF,GO:0003735,structural constituent of ribosome,e,7.4684696341442e-24,122,3342,148,7874,1.1436716499752816e-19
+chemical_shared,PFPeA,MF,GO:0003723,RNA binding,e,3.678488524565677e-14,326,3342,564,7874,4.023565781393981e-11
+chemical_shared,PFPeA,MF,GO:0003743,translation initiation factor activity,e,1.0419828052364604e-08,36,3342,42,7874,3.2126637632592612e-06
+chemical_shared,PFPeA,MF,GO:0180051,translation factor activity,e,1.478594538135044e-07,48,3342,64,7874,3.680916303161852e-05
+chemical_shared,PFPeA,MF,GO:0071855,neuropeptide receptor binding,e,3.378997516148747e-05,12,3342,12,7874,0.0036697670423610743
+chemical_shared,PFPeA,MF,GO:0016887,ATP hydrolysis activity,e,0.00012079800185260236,120,3342,217,7874,0.010324577125783354
+chemical_shared,PFPeA,MF,GO:0003824,catalytic activity,e,0.00023781655654125298,1551,3342,3465,7874,0.017466494976027435
+chemical_shared,PFPeA,MF,GO:0031406,carboxylic acid binding,e,0.0003028584466447354,19,3342,24,7874,0.021225502728999455
+chemical_shared,PFPeA,MF,GO:0043177,organic acid binding,e,0.0003028584466447354,19,3342,24,7874,0.021225502728999455
+chemical_shared,PFPeA,MF,GO:0005198,structural molecule activity,e,0.00039146476009858174,215,3342,423,7874,0.026603389170013085
+chemical_shared,PFPeA,MF,GO:0019843,rRNA binding,e,0.0004476202504370546,22,3342,29,7874,0.029789238545289958
+chemical_shared,PFPeA,MF,GO:0016874,ligase activity,e,0.0007492939378539142,73,3342,127,7874,0.04455995275729297
+chemical_shared,PFPeA,MF,GO:0005504,fatty acid binding,e,0.0008039524157422151,13,3342,15,7874,0.04707912553116299
+chemical_shared,PFPeA,MF,GO:0033293,monocarboxylic acid binding,e,0.0008039524157422151,13,3342,15,7874,0.04707912553116299

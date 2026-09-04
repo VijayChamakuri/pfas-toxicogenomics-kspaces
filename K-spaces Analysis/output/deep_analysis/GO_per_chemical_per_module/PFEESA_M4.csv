@@ -1,0 +1,7 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFEESA|M4,BP,GO:0009056,catabolic process,e,7.736740399037004e-05,46,197,107,742,0.02807221226019161
+chemical_by_module,PFEESA|M4,BP,GO:0009057,macromolecule catabolic process,e,0.00011517279498415723,26,197,51,742,0.03763241734144091
+chemical_by_module,PFEESA|M4,CC,GO:0005764,lysosome,e,2.6968289370302486e-05,16,201,24,769,0.012698219220593417
+chemical_by_module,PFEESA|M4,CC,GO:0000323,lytic vacuole,e,2.6968289370302486e-05,16,201,24,769,0.012698219220593417
+chemical_by_module,PFEESA|M4,MF,GO:0003824,catalytic activity,e,4.123516775338302e-07,148,218,416,781,0.0005283756507776547
+chemical_by_module,PFEESA|M4,MF,GO:0016787,hydrolase activity,e,6.80008018424047e-05,59,218,140,781,0.025485239109791932

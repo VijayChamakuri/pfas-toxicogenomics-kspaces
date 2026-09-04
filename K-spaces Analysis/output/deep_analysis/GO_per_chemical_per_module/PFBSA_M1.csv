@@ -1,0 +1,24 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFBSA|M1,BP,GO:0022402,cell cycle process,e,2.0939616770400896e-16,81,428,128,1445,3.976177296049714e-12
+chemical_by_module,PFBSA|M1,BP,GO:1903047,mitotic cell cycle process,e,1.4860605466328496e-12,59,428,92,1445,1.0158650454360294e-08
+chemical_by_module,PFBSA|M1,BP,GO:1903046,meiotic cell cycle process,e,1.1925101088923237e-10,33,428,43,1445,5.508075272961871e-07
+chemical_by_module,PFBSA|M1,BP,GO:0051726,regulation of cell cycle,e,1.6641707140960657e-09,49,428,80,1445,4.4438298573172425e-06
+chemical_by_module,PFBSA|M1,BP,GO:0090068,positive regulation of cell cycle process,e,3.295309678478581e-09,18,428,19,1445,7.71459080468919e-06
+chemical_by_module,PFBSA|M1,BP,GO:0010564,regulation of cell cycle process,e,4.0331946379753255e-08,42,428,69,1445,7.411493875648872e-05
+chemical_by_module,PFBSA|M1,BP,GO:0045787,positive regulation of cell cycle,e,7.524245882201934e-08,21,428,26,1445,0.00012912947384929464
+chemical_by_module,PFBSA|M1,BP,GO:0051983,regulation of chromosome segregation,e,2.1252882715483348e-07,20,428,25,1445,0.0003131117588959818
+chemical_by_module,PFBSA|M1,BP,GO:0051276,chromosome organization,e,2.2360967749603601e-07,31,428,47,1445,0.00032662111345636803
+chemical_by_module,PFBSA|M1,BP,GO:0032502,developmental process,e,3.411762559765737e-07,114,428,265,1445,0.0004603637194656694
+chemical_by_module,PFBSA|M1,BP,GO:0035556,intracellular signal transduction,e,4.707260184753996e-07,48,428,88,1445,0.0005915191605252009
+chemical_by_module,PFBSA|M1,BP,GO:0033554,cellular response to stress,e,6.521308654645003e-07,61,428,121,1445,0.0007739480053959558
+chemical_by_module,PFBSA|M1,BP,GO:0006260,DNA replication,e,7.166947834437928e-07,21,428,28,1445,0.0007982956427868488
+chemical_by_module,PFBSA|M1,BP,GO:0051783,regulation of nuclear division,e,7.193578019132628e-07,15,428,17,1445,0.0007982956427868488
+chemical_by_module,PFBSA|M1,BP,GO:0018996,"molting cycle, collagen and cuticulin-based cuticle",e,7.193578019132628e-07,15,428,17,1445,0.0007982956427868488
+chemical_by_module,PFBSA|M1,CC,GO:0005576,extracellular region,e,3.692032581745544e-07,30,475,45,1581,0.0004896785751807233
+chemical_by_module,PFBSA|M1,CC,GO:0000776,kinetochore,e,2.507406161053084e-06,21,475,29,1581,0.002070112103950778
+chemical_by_module,PFBSA|M1,CC,GO:0005788,endoplasmic reticulum lumen,e,1.3431304815523675e-05,15,475,19,1581,0.0074525862391824045
+chemical_by_module,PFBSA|M1,CC,GO:0005783,endoplasmic reticulum,e,0.00016580837881382805,47,475,99,1581,0.04928084544505113
+chemical_by_module,PFBSA|M1,MF,GO:0005515,protein binding,e,2.9122220410251096e-05,151,421,385,1371,0.01345149829992319
+chemical_by_module,PFBSA|M1,MF,GO:0003756,protein disulfide isomerase activity,e,7.547197435556616e-05,8,421,8,1371,0.027619025578997647
+chemical_by_module,PFBSA|M1,MF,GO:0016864,"intramolecular oxidoreductase activity, transposing S-S bonds",e,7.547197435556616e-05,8,421,8,1371,0.027619025578997647
+chemical_by_module,PFBSA|M1,MF,GO:0042302,structural constituent of cuticle,e,0.00016642711812637405,9,421,10,1371,0.04937886816090139

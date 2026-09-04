@@ -1,0 +1,10 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFBS|M4,BP,GO:1901136,carbohydrate derivative catabolic process,e,1.153249759625452e-06,17,169,25,742,0.0011437899209593215
+chemical_by_module,PFBS|M4,BP,GO:0043207,response to external biotic stimulus,e,1.9373065808309376e-05,47,169,123,742,0.009972402330042963
+chemical_by_module,PFBS|M4,BP,GO:0044419,biological process involved in interspecies interaction between organisms,e,1.9373065808309376e-05,47,169,123,742,0.009972402330042963
+chemical_by_module,PFBS|M4,BP,GO:0051707,response to other organism,e,1.9373065808309376e-05,47,169,123,742,0.009972402330042963
+chemical_by_module,PFBS|M4,BP,GO:0009607,response to biotic stimulus,e,1.9373065808309376e-05,47,169,123,742,0.009972402330042963
+chemical_by_module,PFBS|M4,BP,GO:0009605,response to external stimulus,e,3.171313046404773e-05,47,169,124,742,0.01415076314144985
+chemical_by_module,PFBS|M4,BP,GO:0006952,defense response,e,3.171313046404773e-05,47,169,124,742,0.01415076314144985
+chemical_by_module,PFBS|M4,BP,GO:0050830,defense response to Gram-positive bacterium,e,3.7341172487346916e-05,11,169,15,742,0.015993907360689473
+chemical_by_module,PFBS|M4,MF,GO:0003824,catalytic activity,e,7.324391319576961e-09,120,164,416,781,1.5453471013881272e-05

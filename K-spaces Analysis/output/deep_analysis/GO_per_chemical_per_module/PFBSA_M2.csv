@@ -1,0 +1,12 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFBSA|M2,BP,GO:0006281,DNA repair,e,6.882946880392387e-07,19,218,43,1596,0.0007947896884541747
+chemical_by_module,PFBSA|M2,BP,GO:0006310,DNA recombination,e,5.824050656626369e-06,12,218,22,1596,0.004112910880854503
+chemical_by_module,PFBSA|M2,BP,GO:0000725,recombinational repair,e,7.0592824669319015e-06,10,218,16,1596,0.004768475550656898
+chemical_by_module,PFBSA|M2,BP,GO:0000724,double-strand break repair via homologous recombination,e,7.0592824669319015e-06,10,218,16,1596,0.004768475550656898
+chemical_by_module,PFBSA|M2,BP,GO:1903047,mitotic cell cycle process,e,8.696269522399388e-06,21,218,58,1596,0.005307799161101904
+chemical_by_module,PFBSA|M2,BP,GO:0006302,double-strand break repair,e,1.3212788384969412e-05,11,218,20,1596,0.007355219290563152
+chemical_by_module,PFBSA|M2,BP,GO:0006974,DNA damage response,e,1.836022627785587e-05,20,218,56,1596,0.009654597878951662
+chemical_by_module,PFBSA|M2,BP,GO:0032787,monocarboxylic acid metabolic process,e,3.4982280887549905e-05,17,218,45,1596,0.015332313411531344
+chemical_by_module,PFBSA|M2,BP,GO:0022402,cell cycle process,e,3.4989100173185475e-05,29,218,101,1596,0.015332313411531344
+chemical_by_module,PFBSA|M2,BP,GO:0006259,DNA metabolic process,e,3.78100261407772e-05,21,218,63,1596,0.016154239143581706
+chemical_by_module,PFBSA|M2,CC,GO:0031261,DNA replication preinitiation complex,e,5.6561214412862264e-05,5,241,5,1692,0.02221769349461736

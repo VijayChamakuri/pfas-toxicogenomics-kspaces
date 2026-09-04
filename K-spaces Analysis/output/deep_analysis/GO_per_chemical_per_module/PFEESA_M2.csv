@@ -1,0 +1,4 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFEESA|M2,BP,GO:0006629,lipid metabolic process,e,1.0866876494831535e-05,20,102,112,1596,0.006360062760582926
+chemical_by_module,PFEESA|M2,MF,GO:0003824,catalytic activity,e,5.61818283122128e-08,76,107,711,1555,0.00010106756080767215
+chemical_by_module,PFEESA|M2,MF,GO:0015020,glucuronosyltransferase activity,e,2.6494288703326725e-05,5,107,7,1555,0.012577354014193985

@@ -1,0 +1,33 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_exclusive,PFBSA,BP,GO:0006955,immune response,e,3.555177843615602e-10,18,77,300,7891,1.5106395054753147e-06
+chemical_exclusive,PFBSA,BP,GO:0002376,immune system process,e,4.1819543239490276e-10,18,77,303,7891,1.5795241481555477e-06
+chemical_exclusive,PFBSA,BP,GO:0140546,defense response to symbiont,e,1.1104959101207998e-09,17,77,282,7891,3.4317352247942132e-06
+chemical_exclusive,PFBSA,BP,GO:0045087,innate immune response,e,1.1104959101207998e-09,17,77,282,7891,3.4317352247942132e-06
+chemical_exclusive,PFBSA,BP,GO:0098542,defense response to other organism,e,1.3793659307416407e-09,17,77,286,7891,3.907398840308382e-06
+chemical_exclusive,PFBSA,BP,GO:0043207,response to external biotic stimulus,e,2.1086617951711133e-07,17,77,401,7891,0.00041270127190889033
+chemical_exclusive,PFBSA,BP,GO:0044419,biological process involved in interspecies interaction between organisms,e,2.1086617951711133e-07,17,77,401,7891,0.00041270127190889033
+chemical_exclusive,PFBSA,BP,GO:0051707,response to other organism,e,2.1086617951711133e-07,17,77,401,7891,0.00041270127190889033
+chemical_exclusive,PFBSA,BP,GO:0009607,response to biotic stimulus,e,2.1086617951711133e-07,17,77,401,7891,0.00041270127190889033
+chemical_exclusive,PFBSA,BP,GO:0006952,defense response,e,2.18533900931369e-07,17,77,402,7891,0.00041270127190889033
+chemical_exclusive,PFBSA,BP,GO:0009605,response to external stimulus,e,9.208689557653805e-07,17,77,445,7891,0.001565154920666629
+chemical_exclusive,PFBSA,CC,GO:0000786,nucleosome,e,3.329687326775237e-26,22,95,75,8435,1.1318606129907062e-21
+chemical_exclusive,PFBSA,CC,GO:0032993,protein-DNA complex,e,5.603304221651491e-25,22,95,84,8435,6.349104013553304e-21
+chemical_exclusive,PFBSA,CC,GO:0005694,chromosome,e,3.355666074292639e-16,24,95,255,8435,1.9011526143904944e-12
+chemical_exclusive,PFBSA,CC,GO:0000785,chromatin,e,3.594832384911822e-08,12,95,137,8435,9.399933635408275e-05
+chemical_exclusive,PFBSA,CC,GO:0043228,membraneless organelle,e,9.479435291692887e-06,28,95,1038,8435,0.010069826370953635
+chemical_exclusive,PFBSA,CC,GO:0043232,intracellular membraneless organelle,e,9.479435291692887e-06,28,95,1038,8435,0.010069826370953635
+chemical_exclusive,PFBSA,MF,GO:0030527,structural constituent of chromatin,e,7.793876035985403e-26,22,98,71,7874,1.324686140456259e-21
+chemical_exclusive,PFBSA,MF,GO:0046982,protein heterodimerization activity,e,3.6524030466568296e-23,22,98,91,7874,3.10390341912514e-19
+chemical_exclusive,PFBSA,MF,GO:0046983,protein dimerization activity,e,3.448385603139071e-19,23,98,153,7874,2.344419436150129e-15
+chemical_exclusive,PFBSA,MF,GO:0005198,structural molecule activity,e,3.180300706565893e-11,25,98,423,7874,1.5443994559756344e-07
+chemical_exclusive,PFBSA,MF,GO:0003677,DNA binding,e,4.138164622449091e-06,27,98,866,7874,0.005626745200436478
+chemical_exclusive,PFOSA,BP,GO:0043412,macromolecule modification,e,3.3896122159704377e-06,129,2053,348,7891,0.004800962002395128
+chemical_exclusive,PFOSA,BP,GO:0040025,vulval development,e,3.193524503443566e-05,32,2053,63,7891,0.026313112830876572
+chemical_exclusive,PFOSA,BP,GO:0036211,protein modification process,e,3.2511126964281354e-05,96,2053,255,7891,0.026313112830876572
+chemical_exclusive,PFOSA,MF,GO:0019213,deacetylase activity,e,6.468901372169083e-06,13,2062,16,7874,0.008046547193374809
+chemical_exclusive,PFOSA,MF,GO:0004407,histone deacetylase activity,e,1.759888490907759e-05,11,2062,13,7874,0.016617747075396514
+chemical_exclusive,PFOSA,MF,GO:0033558,protein lysine deacetylase activity,e,1.759888490907759e-05,11,2062,13,7874,0.016617747075396514
+chemical_exclusive,PFPeA,MF,GO:0004129,cytochrome-c oxidase activity,e,3.201786210987701e-05,3,251,3,7874,0.026313112830876572
+chemical_exclusive,PFPeA,MF,GO:0016675,"oxidoreductase activity, acting on a heme group of donors",e,3.201786210987701e-05,3,251,3,7874,0.026313112830876572
+chemical_exclusive,PFPeA,MF,GO:0009055,electron transfer activity,e,5.2298636390732896e-05,7,251,32,7874,0.03864755536587355
+chemical_exclusive,PFPeA,MF,GO:0015453,oxidoreduction-driven active transmembrane transporter activity,e,6.319530995724851e-05,6,251,23,7874,0.04570634407184572

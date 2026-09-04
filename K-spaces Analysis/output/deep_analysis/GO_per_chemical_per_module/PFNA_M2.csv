@@ -1,0 +1,14 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFNA|M2,BP,GO:0046512,sphingosine biosynthetic process,e,2.2365862476840665e-05,3,22,5,1596,0.011015283952246666
+chemical_by_module,PFNA|M2,BP,GO:0006670,sphingosine metabolic process,e,2.2365862476840665e-05,3,22,5,1596,0.011015283952246666
+chemical_by_module,PFNA|M2,BP,GO:0046520,sphingoid biosynthetic process,e,2.2365862476840665e-05,3,22,5,1596,0.011015283952246666
+chemical_by_module,PFNA|M2,BP,GO:0046519,sphingoid metabolic process,e,2.2365862476840665e-05,3,22,5,1596,0.011015283952246666
+chemical_by_module,PFNA|M2,BP,GO:0006629,lipid metabolic process,e,6.40922276233409e-05,8,22,112,1596,0.02440768424394179
+chemical_by_module,PFNA|M2,BP,GO:0034311,diol metabolic process,e,7.688663941929053e-05,3,22,7,1596,0.028016737292361052
+chemical_by_module,PFNA|M2,BP,GO:0034312,diol biosynthetic process,e,7.688663941929053e-05,3,22,7,1596,0.028016737292361052
+chemical_by_module,PFNA|M2,BP,GO:0046173,polyol biosynthetic process,e,0.00012191863198011458,3,22,8,1596,0.0388727094902418
+chemical_by_module,PFNA|M2,CC,GO:0017059,serine palmitoyltransferase complex,e,0.00011953143676786995,2,19,2,1692,0.038254312756914245
+chemical_by_module,PFNA|M2,CC,GO:0002178,palmitoyltransferase complex,e,0.00011953143676786995,2,19,2,1692,0.038254312756914245
+chemical_by_module,PFNA|M2,MF,GO:0016454,C-palmitoyltransferase activity,e,2.126424795545655e-06,3,21,3,1555,0.0017990290650195888
+chemical_by_module,PFNA|M2,MF,GO:0004758,serine C-palmitoyltransferase activity,e,2.126424795545655e-06,3,21,3,1555,0.0017990290650195888
+chemical_by_module,PFNA|M2,MF,GO:0016409,palmitoyltransferase activity,e,7.186920740202557e-05,3,21,7,1555,0.02681741413929862

@@ -1,0 +1,10 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFOA|M3,MF,GO:0016491,oxidoreductase activity,e,2.901714748907711e-07,16,44,136,1537,0.00040983483377981725
+chemical_by_module,PFOA|M3,MF,GO:0008194,UDP-glycosyltransferase activity,e,1.2013185426171525e-05,7,44,30,1537,0.006866359117549456
+chemical_by_module,PFOA|M3,MF,GO:0015020,glucuronosyltransferase activity,e,3.556788173838721e-05,6,44,24,1537,0.015496637712328743
+chemical_by_module,PFOA|M3,MF,GO:0016758,hexosyltransferase activity,e,3.563612789393265e-05,7,44,35,1537,0.015496637712328743
+chemical_by_module,PFOA|M3,MF,GO:0004497,monooxygenase activity,e,5.131470143235302e-05,8,44,50,1537,0.020890419479913474
+chemical_by_module,PFOA|M3,MF,GO:0005506,iron ion binding,e,7.944159385476812e-05,8,44,53,1537,0.02852203560543281
+chemical_by_module,PFOA|M3,MF,GO:0003824,catalytic activity,e,8.58969978476407e-05,33,44,703,1537,0.030392776470318735
+chemical_by_module,PFOA|M3,MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",e,0.00013593381294087217,8,44,57,1537,0.042715674055301536
+chemical_by_module,PFOA|M3,MF,GO:0016757,glycosyltransferase activity,e,0.0001437508491725511,7,44,43,1537,0.044505210820180816

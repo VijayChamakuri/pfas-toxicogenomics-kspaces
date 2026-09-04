@@ -1,0 +1,39 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+.mypy_cache/
+**/.mypy_cache/
+.ruff_cache/
+**/.ruff_cache/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+**/terraform.tfvars
+integrated_system/artifacts/
+integrated_system/llm_system/training_output/checkpoint-*/
+integrated_system/llm_system/training_output/adapter/
+K-spaces Analysis/data_external/wb.gaf
+K-spaces Analysis/output/figures/**/*.html
+K-spaces Analysis/output/deep_analysis/*_all_tests.csv
+K-spaces Analysis/output/deep_analysis/gene_by_chemical_detection_matrix.csv
+K-spaces Analysis/output/deep_analysis/gene_contributions_all_chemicals_modules.csv
+K-spaces Analysis/output/matrix_*.csv
+K-spaces Analysis/output/merged_wide.csv
+K-spaces Analysis/output/figures/primary_k5_heatmap.png
+K-spaces Analysis/output/figures/sankey_chemical_module_go.png
+K-spaces Analysis/output/kspaces_runs/primary_k5_GO_enrichment.csv
+K-spaces Analysis/output/kspaces_runs/single_fit_vs_consensus_top_terms.csv
+K-spaces Analysis/output/kspaces_runs/go_enrichment/primary_k5_GO_enrichment.csv
+K-spaces Analysis/output/kspaces_runs/go_enrichment/single_fit_vs_consensus_top_terms.csv

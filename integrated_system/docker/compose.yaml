@@ -1,0 +1,46 @@
+services:
+  api:
+    build:
+      context: ../..
+      dockerfile: integrated_system/docker/Dockerfile
+      target: api
+    image: pfas-workflow-api:local
+    ports:
+      - "8000:8000"
+    environment:
+      PFAS_PROJECT_ROOT: /data
+    volumes:
+      - type: bind
+        source: ../../
+        target: /data
+        read_only: true
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+  notebook:
+    profiles: ["learning"]
+    build:
+      context: ../..
+      dockerfile: integrated_system/docker/Dockerfile
+      target: notebook
+    image: pfas-workflow-notebook:local
+    ports:
+      - "8888:8888"
+    volumes:
+      - type: bind
+        source: ../../
+        target: /workspace
+        read_only: true
+      - notebook-output:/workspace/K-spaces Analysis/output
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+volumes:
+  notebook-output:

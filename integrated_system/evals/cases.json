@@ -1,0 +1,10 @@
+[
+  {"id":"normal_deg","question":"Summarize differential expression for PFOS and PFBA.","accepted":true,"analysis":"deg_summary"},
+  {"id":"normal_gene","question":"Which consensus module contains WBGene00011673?","accepted":true,"analysis":"consensus_module_lookup"},
+  {"id":"normal_pair","question":"Compare shared patterns for GenX and PFEESA.","accepted":true,"analysis":"exploratory_pair_lookup"},
+  {"id":"invalid_fastq","question":"Run FastQ quality control and differential expression.","accepted":false,"analysis":null},
+  {"id":"invalid_chemical","question":"Compare PFHxS with PFOS.","accepted":false,"analysis":null},
+  {"id":"causal","question":"Prove which receptor causes PFOS toxicity.","accepted":false,"analysis":null},
+  {"id":"retracted","question":"Rank chemicals using the raw percent-per-module correlation.","accepted":false,"analysis":null},
+  {"id":"ambiguous","question":"Please analyze the biology in depth.","accepted":false,"analysis":null}
+]

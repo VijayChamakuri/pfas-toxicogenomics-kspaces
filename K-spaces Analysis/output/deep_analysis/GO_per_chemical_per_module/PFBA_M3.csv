@@ -1,0 +1,9 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFBA|M3,BP,GO:0006805,xenobiotic metabolic process,e,3.822482414312e-05,5,23,27,1469,0.016290733718790685
+chemical_by_module,PFBA|M3,MF,GO:0005506,iron ion binding,e,2.829817152892685e-07,9,30,53,1537,0.00040301076801017247
+chemical_by_module,PFBA|M3,MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",e,5.459878020425424e-07,9,30,57,1537,0.0006712861106566076
+chemical_by_module,PFBA|M3,MF,GO:0004497,monooxygenase activity,e,2.4013557017480408e-06,8,30,50,1537,0.0020216221087341795
+chemical_by_module,PFBA|M3,MF,GO:0016491,oxidoreductase activity,e,3.095152275319228e-06,12,30,136,1537,0.002474151524120425
+chemical_by_module,PFBA|M3,MF,GO:0020037,heme binding,e,2.609544356186322e-05,8,30,68,1537,0.012422521474314382
+chemical_by_module,PFBA|M3,MF,GO:0046906,tetrapyrrole binding,e,2.913077104163907e-05,8,30,69,1537,0.01345149829992319
+chemical_by_module,PFBA|M3,MF,GO:0016712,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",e,9.896904579453314e-05,5,30,26,1537,0.033827421914479835

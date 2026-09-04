@@ -1,0 +1,22 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFBS|M2,BP,GO:0006629,lipid metabolic process,e,4.620047584302244e-10,23,78,112,1596,1.5481598276660181e-06
+chemical_by_module,PFBS|M2,BP,GO:0043436,oxoacid metabolic process,e,2.3362667281646268e-09,20,78,91,1596,5.703794965380094e-06
+chemical_by_module,PFBS|M2,BP,GO:0019752,carboxylic acid metabolic process,e,2.3362667281646268e-09,20,78,91,1596,5.703794965380094e-06
+chemical_by_module,PFBS|M2,BP,GO:0006631,fatty acid metabolic process,e,6.746952418062273e-09,13,78,38,1596,1.4608100982247995e-05
+chemical_by_module,PFBS|M2,BP,GO:0032787,monocarboxylic acid metabolic process,e,6.822078705507307e-09,14,78,45,1596,1.4608100982247995e-05
+chemical_by_module,PFBS|M2,BP,GO:0044281,small molecule metabolic process,e,3.323168908390076e-08,26,78,173,1596,6.381193744662422e-05
+chemical_by_module,PFBS|M2,BP,GO:0044283,small molecule biosynthetic process,e,1.7010767573093154e-06,12,78,49,1596,0.0015463421103585357
+chemical_by_module,PFBS|M2,BP,GO:0008610,lipid biosynthetic process,e,5.185026254169121e-06,12,78,54,1596,0.0037231756378623892
+chemical_by_module,PFBS|M2,BP,GO:0046394,carboxylic acid biosynthetic process,e,6.226067355929755e-06,9,78,30,1596,0.004325319857971704
+chemical_by_module,PFBS|M2,BP,GO:0006665,sphingolipid metabolic process,e,1.2526964892219486e-05,8,78,25,1596,0.007042255832616506
+chemical_by_module,PFBS|M2,BP,GO:0043207,response to external biotic stimulus,e,5.180408025714816e-05,10,78,47,1596,0.020890419479913474
+chemical_by_module,PFBS|M2,BP,GO:0044419,biological process involved in interspecies interaction between organisms,e,5.180408025714816e-05,10,78,47,1596,0.020890419479913474
+chemical_by_module,PFBS|M2,BP,GO:0051707,response to other organism,e,5.180408025714816e-05,10,78,47,1596,0.020890419479913474
+chemical_by_module,PFBS|M2,BP,GO:0006952,defense response,e,5.180408025714816e-05,10,78,47,1596,0.020890419479913474
+chemical_by_module,PFBS|M2,BP,GO:0009607,response to biotic stimulus,e,5.180408025714816e-05,10,78,47,1596,0.020890419479913474
+chemical_by_module,PFBS|M2,MF,GO:0016747,"acyltransferase activity, transferring groups other than amino-acyl groups",e,1.141573655218022e-08,14,83,43,1555,2.3505276638928283e-05
+chemical_by_module,PFBS|M2,MF,GO:0016746,acyltransferase activity,e,1.134126284425617e-07,17,83,75,1555,0.00017946393322412364
+chemical_by_module,PFBS|M2,MF,GO:0015166,polyol transmembrane transporter activity,e,0.0001469007794282183,3,83,3,1555,0.04507216571544539
+chemical_by_module,PFBS|M2,MF,GO:0016454,C-palmitoyltransferase activity,e,0.0001469007794282183,3,83,3,1555,0.04507216571544539
+chemical_by_module,PFBS|M2,MF,GO:0004758,serine C-palmitoyltransferase activity,e,0.0001469007794282183,3,83,3,1555,0.04507216571544539
+chemical_by_module,PFBS|M2,MF,GO:0003824,catalytic activity,e,0.00015531817332995346,55,83,711,1555,0.04706333422680092

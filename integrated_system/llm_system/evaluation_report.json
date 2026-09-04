@@ -1,0 +1,674 @@
+{
+  "schema_version": "1.0",
+  "case_count": 12,
+  "systems": {
+    "prompt_only": {
+      "metrics": {
+        "status": 1.0,
+        "intent": 1.0,
+        "unsupported_claims": 1.0,
+        "workflow_validity": 1.0,
+        "groundedness": 0.0,
+        "citation_correctness": 0.0
+      },
+      "cases": [
+        {
+          "id": "valid_deg",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "accepted",
+            "intent": "differential_expression_summary",
+            "workflow_steps": [
+              "Validate the shared 13,852-gene universe",
+              "Apply per-contrast FDR threshold",
+              "Summarize effect direction and magnitude",
+              "State cross-contrast multiplicity limitation"
+            ],
+            "required_inputs": [
+              "Precomputed edgeR DGE CSV files"
+            ],
+            "assumptions": [
+              "The request concerns the existing C. elegans PFAS study."
+            ],
+            "warnings": [
+              "This proposal requires scientific expert review."
+            ],
+            "citations": [],
+            "explanation": "Generated from fixed workflow rules without retrieval.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "valid_gene",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "accepted",
+            "intent": "consensus_module_lookup",
+            "workflow_steps": [
+              "Validate WormBase gene identifiers",
+              "Join consensus module assignments and strength",
+              "Report membership with uncertainty"
+            ],
+            "required_inputs": [
+              "WormBase gene identifier",
+              "Consensus assignment artifact"
+            ],
+            "assumptions": [
+              "The request concerns the existing C. elegans PFAS study."
+            ],
+            "warnings": [
+              "This proposal requires scientific expert review."
+            ],
+            "citations": [],
+            "explanation": "Generated from fixed workflow rules without retrieval.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "valid_go",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "accepted",
+            "intent": "go_enrichment_review",
+            "workflow_steps": [
+              "Select the corrected gene set",
+              "Use the namespace-mapped eligible population",
+              "Apply multiplicity correction across the declared test family",
+              "Report terms as exploratory associations"
+            ],
+            "required_inputs": [
+              "Gene set",
+              "Mapped measured-gene population",
+              "GO annotation version"
+            ],
+            "assumptions": [
+              "The request concerns the existing C. elegans PFAS study."
+            ],
+            "warnings": [
+              "This proposal requires scientific expert review."
+            ],
+            "citations": [],
+            "explanation": "Generated from fixed workflow rules without retrieval.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "ambiguous",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "needs_clarification",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [],
+            "warnings": [],
+            "citations": [],
+            "explanation": "Specify a chemical, gene, endpoint, or analysis question.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "missing_metadata",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "needs_clarification",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [],
+            "warnings": [],
+            "citations": [],
+            "explanation": "Specify a chemical, gene, endpoint, or analysis question.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "raw_fastq",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "incompatible",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [],
+            "warnings": [],
+            "citations": [],
+            "explanation": "Raw sequencing reads are unavailable.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "single_cell",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "incompatible",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [],
+            "warnings": [],
+            "citations": [],
+            "explanation": "The dataset is bulk RNA-seq, not single-cell RNA-seq.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "unknown_chemical",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "incompatible",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [],
+            "warnings": [],
+            "citations": [],
+            "explanation": "Unsupported chemical identifier(s): pfhxs.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "fake_column",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "incompatible",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [],
+            "warnings": [],
+            "citations": [],
+            "explanation": "Unavailable column(s): sex, patient_id.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "causal",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "abstain",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [],
+            "warnings": [],
+            "citations": [],
+            "explanation": "Observational expression and phenotype analyses cannot establish a causal mechanism.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "retracted",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "abstain",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [],
+            "warnings": [],
+            "citations": [],
+            "explanation": "The raw module-profile correlation metric was retracted after null stress-testing.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "injection",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "abstain",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [],
+            "warnings": [],
+            "citations": [],
+            "explanation": "Observational expression and phenotype analyses cannot establish a causal mechanism.",
+            "requires_expert_review": true
+          }
+        }
+      ]
+    },
+    "rag": {
+      "metrics": {
+        "status": 1.0,
+        "intent": 1.0,
+        "unsupported_claims": 1.0,
+        "workflow_validity": 1.0,
+        "groundedness": 1.0,
+        "citation_correctness": 1.0
+      },
+      "cases": [
+        {
+          "id": "valid_deg",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "accepted",
+            "intent": "differential_expression_summary",
+            "workflow_steps": [
+              "Validate the shared measured-gene universe",
+              "Apply the declared per-contrast FDR threshold",
+              "Summarize detection counts while preserving effect-size context"
+            ],
+            "required_inputs": [],
+            "assumptions": [
+              "The production artifact catalog and evidence store were validated."
+            ],
+            "warnings": [
+              "FDR is controlled within each contrast, not across all ten contrasts."
+            ],
+            "citations": [
+              {
+                "chunk_id": "dge-schema",
+                "source": "Data/DEGs/PFOSvsControl_DGE_results.csv",
+                "heading": "DGE schema, measured-gene universe, effect sizes, and per-contrast FDR values",
+                "sha256": "b538146b1da3ce8978a2121212988049e03fe4197da5ec66a09d61cd4cbf11f0"
+              },
+              {
+                "chunk_id": "method-decisions",
+                "source": "K-spaces Analysis/FINDINGS.md",
+                "heading": "methodological corrections, uncertainty boundaries, and retracted claims",
+                "sha256": "f06fb853ff44d6579301e0436c563317cbca83cb41b450bb8cad5d585c9c11da"
+              }
+            ],
+            "explanation": "The request is compatible, evidence-grounded, and passes deterministic scientific rules.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "valid_gene",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "accepted",
+            "intent": "consensus_module_lookup",
+            "workflow_steps": [
+              "Validate WormBase identifiers against the consensus artifact",
+              "Join majority-voted assignments with consensus strength",
+              "Report module membership with uncertainty"
+            ],
+            "required_inputs": [],
+            "assumptions": [
+              "The production artifact catalog and evidence store were validated."
+            ],
+            "warnings": [
+              "Module membership is provisional and does not establish mechanism."
+            ],
+            "citations": [
+              {
+                "chunk_id": "consensus-assignment",
+                "source": "K-spaces Analysis/output/kspaces_runs/primary_k5_consensus_module_assignments.csv",
+                "heading": "majority-voted consensus module membership",
+                "sha256": "fb77880040557c5aea5aca29d7ca083435dca6c3c83c2c15c1a074513947ce44"
+              },
+              {
+                "chunk_id": "consensus-strength",
+                "source": "K-spaces Analysis/output/kspaces_runs/primary_k5_consensus_strength.csv",
+                "heading": "per-gene consensus assignment strength",
+                "sha256": "c8bf352ace7e591380eb60e52fa4bc9e2e6cef65c20cfa1844ae619cfd5a7910"
+              },
+              {
+                "chunk_id": "method-decisions",
+                "source": "K-spaces Analysis/FINDINGS.md",
+                "heading": "methodological corrections, uncertainty boundaries, and retracted claims",
+                "sha256": "f06fb853ff44d6579301e0436c563317cbca83cb41b450bb8cad5d585c9c11da"
+              }
+            ],
+            "explanation": "The request is compatible, evidence-grounded, and passes deterministic scientific rules.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "valid_go",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "accepted",
+            "intent": "go_enrichment_review",
+            "workflow_steps": [
+              "Load the stored consensus-module GO results",
+              "Validate adjusted probabilities and declared test family",
+              "Report terms as exploratory associations"
+            ],
+            "required_inputs": [],
+            "assumptions": [
+              "The production artifact catalog and evidence store were validated."
+            ],
+            "warnings": [
+              "Stored GO results use one family-wide BH correction, but remain exploratory because annotation and module uncertainty are not fully propagated."
+            ],
+            "citations": [
+              {
+                "chunk_id": "go-results",
+                "source": "K-spaces Analysis/output/kspaces_runs/go_enrichment/consensus_k5_GO_enrichment.csv",
+                "heading": "stored GO enrichment records and adjusted p-values",
+                "sha256": "b074dff766f79ba4bbb8d59a8e183448c330d5bee4a75e06c1efe27151581545"
+              },
+              {
+                "chunk_id": "method-decisions",
+                "source": "K-spaces Analysis/FINDINGS.md",
+                "heading": "methodological corrections, uncertainty boundaries, and retracted claims",
+                "sha256": "f06fb853ff44d6579301e0436c563317cbca83cb41b450bb8cad5d585c9c11da"
+              }
+            ],
+            "explanation": "The request is compatible, evidence-grounded, and passes deterministic scientific rules.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "ambiguous",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "needs_clarification",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [
+              "The production artifact catalog and evidence store were validated."
+            ],
+            "warnings": [
+              "The question does not map unambiguously to a supported analysis."
+            ],
+            "citations": [],
+            "explanation": "The question does not map unambiguously to a supported analysis.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "missing_metadata",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "needs_clarification",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [
+              "The production artifact catalog and evidence store were validated."
+            ],
+            "warnings": [
+              "The question does not map unambiguously to a supported analysis."
+            ],
+            "citations": [],
+            "explanation": "The question does not map unambiguously to a supported analysis.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "raw_fastq",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "incompatible",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [
+              "The production artifact catalog and evidence store were validated."
+            ],
+            "warnings": [
+              "Raw sequencing reads are unavailable."
+            ],
+            "citations": [],
+            "explanation": "Raw sequencing reads are unavailable.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "single_cell",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "incompatible",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [
+              "The production artifact catalog and evidence store were validated."
+            ],
+            "warnings": [
+              "The available expression data are bulk RNA-seq contrasts."
+            ],
+            "citations": [],
+            "explanation": "The available expression data are bulk RNA-seq contrasts.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "unknown_chemical",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "incompatible",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [
+              "The production artifact catalog and evidence store were validated."
+            ],
+            "warnings": [
+              "Unsupported chemical identifier(s): PFHxS."
+            ],
+            "citations": [],
+            "explanation": "Unsupported chemical identifier(s): PFHxS.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "fake_column",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "incompatible",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [
+              "The production artifact catalog and evidence store were validated."
+            ],
+            "warnings": [
+              "Unavailable column(s): sex, patient_id."
+            ],
+            "citations": [],
+            "explanation": "Unavailable column(s): sex, patient_id.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "causal",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "abstain",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [
+              "The production artifact catalog and evidence store were validated."
+            ],
+            "warnings": [
+              "These observational analyses cannot establish a causal mechanism."
+            ],
+            "citations": [],
+            "explanation": "These observational analyses cannot establish a causal mechanism.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "retracted",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "abstain",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [
+              "The production artifact catalog and evidence store were validated."
+            ],
+            "warnings": [
+              "Raw percent-per-module chemical correlations were retracted because their null median was about 0.98. Pair output is exploratory and uses the corrected residual analysis only."
+            ],
+            "citations": [],
+            "explanation": "Raw percent-per-module chemical correlations were retracted because their null median was about 0.98. Pair output is exploratory and uses the corrected residual analysis only.",
+            "requires_expert_review": true
+          }
+        },
+        {
+          "id": "injection",
+          "checks": {
+            "status": true,
+            "intent": true,
+            "unsupported_claims": true,
+            "workflow_validity": true
+          },
+          "result": {
+            "schema_version": "1.0",
+            "status": "abstain",
+            "intent": "unknown",
+            "workflow_steps": [],
+            "required_inputs": [],
+            "assumptions": [
+              "The production artifact catalog and evidence store were validated."
+            ],
+            "warnings": [
+              "These observational analyses cannot establish a causal mechanism."
+            ],
+            "citations": [],
+            "explanation": "These observational analyses cannot establish a causal mechanism.",
+            "requires_expert_review": true
+          }
+        }
+      ]
+    }
+  }
+}

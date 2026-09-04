@@ -1,0 +1,19 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFNA|M3,BP,GO:0006629,lipid metabolic process,e,2.477991450416276e-06,19,79,112,1469,0.0020698280258713594
+chemical_by_module,PFNA|M3,BP,GO:0006805,xenobiotic metabolic process,e,5.085510444352302e-06,9,79,27,1469,0.0036671251030774856
+chemical_by_module,PFNA|M3,BP,GO:0008152,metabolic process,e,8.633587000280154e-06,44,79,465,1469,0.005288427902368739
+chemical_by_module,PFNA|M3,BP,GO:0006575,modified amino acid metabolic process,e,2.4397396937032465e-05,9,79,32,1469,0.011981295227419286
+chemical_by_module,PFNA|M3,BP,GO:0009062,fatty acid catabolic process,e,8.091348674315124e-05,5,79,10,1469,0.02886854691214573
+chemical_by_module,PFNA|M3,BP,GO:0072329,monocarboxylic acid catabolic process,e,8.091348674315124e-05,5,79,10,1469,0.02886854691214573
+chemical_by_module,PFNA|M3,BP,GO:0016042,lipid catabolic process,e,0.00010952298316108884,8,79,30,1469,0.03662890078130513
+chemical_by_module,PFNA|M3,CC,GO:0042579,microbody,e,1.898822901107335e-05,8,94,22,1577,0.009893504115132392
+chemical_by_module,PFNA|M3,CC,GO:0005777,peroxisome,e,1.898822901107335e-05,8,94,22,1577,0.009893504115132392
+chemical_by_module,PFNA|M3,MF,GO:0016491,oxidoreductase activity,e,6.306873528378077e-10,29,98,136,1537,1.9959969983820093e-06
+chemical_by_module,PFNA|M3,MF,GO:0004497,monooxygenase activity,e,1.8299946988267586e-08,16,98,50,1537,3.723146000414217e-05
+chemical_by_module,PFNA|M3,MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",e,2.0709983048653264e-08,17,98,57,1537,4.115483015153249e-05
+chemical_by_module,PFNA|M3,MF,GO:0005506,iron ion binding,e,3.39907185003572e-07,15,98,53,1537,0.0004603637194656694
+chemical_by_module,PFNA|M3,MF,GO:0003824,catalytic activity,e,5.231466001613193e-07,69,98,703,1537,0.0006478639914562994
+chemical_by_module,PFNA|M3,MF,GO:0020037,heme binding,e,2.1037292087052654e-06,16,98,68,1537,0.0017990290650195888
+chemical_by_module,PFNA|M3,MF,GO:0046906,tetrapyrrole binding,e,2.596929343525773e-06,16,98,69,1537,0.0021133934660914813
+chemical_by_module,PFNA|M3,MF,GO:0016712,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",e,1.527700373431793e-05,9,98,26,1537,0.008319508841431105
+chemical_by_module,PFNA|M3,MF,GO:0046914,transition metal ion binding,e,0.00015997097503979427,27,98,206,1537,0.047878948622286865

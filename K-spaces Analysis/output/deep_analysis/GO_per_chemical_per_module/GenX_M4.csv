@@ -1,0 +1,3 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,GenX|M4,MF,GO:0003824,catalytic activity,e,3.4794512107528523e-06,83,113,416,781,0.0026785348309299626
+chemical_by_module,GenX|M4,MF,GO:0015020,glucuronosyltransferase activity,e,7.883609483001816e-05,12,113,26,781,0.028377892909521106

@@ -1,0 +1,318 @@
+{
+  "schema_version": "1.0",
+  "policy": "Local reviewed documents only. Hash changes require corpus revalidation.",
+  "chunks": [
+    {
+      "chunk_id": "findings:1:0",
+      "source_id": "findings",
+      "relative_path": "K-spaces Analysis/FINDINGS.md",
+      "heading": "PFAS k-spaces analysis: corrected findings",
+      "text": "# PFAS k-spaces analysis: corrected findings\n\nThis summary is generated from the corrected workflow represented by `build_notebook.py` and the executed `PFAS_master_analysis.ipynb`. The executed master notebook is authoritative when this summary and a stored artifact disagree.",
+      "source_sha256": "f06fb853ff44d6579301e0436c563317cbca83cb41b450bb8cad5d585c9c11da"
+    },
+    {
+      "chunk_id": "findings:2:0",
+      "source_id": "findings",
+      "relative_path": "K-spaces Analysis/FINDINGS.md",
+      "heading": "Data and primary representation",
+      "text": "## Data and primary representation\n\nThe ten edgeR contrast tables share an identical 13,852-gene measured universe after identifier normalization. The primary analysis restricts to the 10,255 genes detected at FDR below 0.05 in at least one contrast, retains continuous log2 fold changes, and row-standardizes each gene across the ten chemical conditions. Signed within-chemical percentile ranks and top-N selections are sensitivity analyses, not the primary representation.\n\nThe contrast tables are not raw count matrices. They support cross-condition pattern analysis but cannot reconstruct replicate-level variance, dose response, time response, or causal effects.",
+      "source_sha256": "f06fb853ff44d6579301e0436c563317cbca83cb41b450bb8cad5d585c9c11da"
+    },
+    {
+      "chunk_id": "findings:3:0",
+      "source_id": "findings",
+      "relative_path": "K-spaces Analysis/FINDINGS.md",
+      "heading": "Module discovery and uncertainty",
+      "text": "## Module discovery and uncertainty\n\nThe recommended k=5 assignment is the majority vote from 30 independently seeded k-spaces fits after label alignment. Mean per-gene consensus strength is 0.951; 91.4% of genes have at least 80% agreement. These values measure optimizer agreement under the declared model, not external biological reproducibility.\n\nDropping one chemical changes the partition to different degrees. PFOSA is most influential in the current jackknife, with ARI 0.547 against the full ten-condition consensus. The remaining leave-one-condition ARIs range from 0.766 to 0.886. This sensitivity must accompany any module interpretation.",
+      "source_sha256": "f06fb853ff44d6579301e0436c563317cbca83cb41b450bb8cad5d585c9c11da"
+    },
+    {
+      "chunk_id": "findings:4:0",
+      "source_id": "findings",
+      "relative_path": "K-spaces Analysis/FINDINGS.md",
+      "heading": "Retracted raw similarity claim",
+      "text": "## Retracted raw similarity claim\n\nThe original correlation of five-element percent-of-DEGs-per-module profiles is not a valid chemical-similarity statistic. Its label-shuffle null is intrinsically high because uneven module sizes dominate the profile. Raw pair rankings and their legacy figures are retained only for audit and must not be cited as findings.\n\nThe corrected exploratory metric subtracts the module-size expectation before comparing residual profiles. Pairwise empirical p-values are adjusted across all 45 chemical pairs separately at k=5 and k=10. No pair meets BH q below 0.05 at either k in this run, so `output/kspaces_runs/residual_metric_cross_k_robust_pairs.csv` is an empty, header-only result. The earlier eleven-pair screen used unadjusted pair-specific thresholds and is withdrawn. The analysis does not identify a statistically supported pairwise chemical-similarity claim.",
+      "source_sha256": "f06fb853ff44d6579301e0436c563317cbca83cb41b450bb8cad5d585c9c11da"
+    },
+    {
+      "chunk_id": "findings:5:0",
+      "source_id": "findings",
+      "relative_path": "K-spaces Analysis/FINDINGS.md",
+      "heading": "Functional interpretation",
+      "text": "## Functional interpretation\n\nConsensus-module GO enrichment uses, for each namespace, the intersection of the 10,255-gene clustered DEG union and genes mapped in the pinned WormBase annotation. Raw p-values across all module, namespace, and term tests are corrected together with one Benjamini-Hochberg family. The consensus result contains 216 displayed significant module-term records after this correction. Chemical-exclusive and chemical-shared studies instead use the measured mapped universe, while chemical-by-module studies use the mapped genes within their corresponding consensus module; each of those three declared families receives its own family-wide correction.\n\nExamples of leading Biological Process terms are autophagy for module 0, nucleic-acid and RNA metabolism for module 1, translation for module 2, xenobiotic metabolism and cilium organization for module 3, and innate immune or defense response for module 4. These are enrichment associations. Annotation incompleteness and module-assignment uncertainty are not fully propagated into their p-values.\n\nThe historical claim that a corrected top module was labeled \u201cglutathione transferase activity\u201d does not reproduce under the continuous-effect primary matrix and family-wide GO procedure. The master notebook records that absence instead of forcing the old module number onto the new result.",
+      "source_sha256": "f06fb853ff44d6579301e0436c563317cbca83cb41b450bb8cad5d585c9c11da"
+    },
+    {
+      "chunk_id": "findings:6:0",
+      "source_id": "findings",
+      "relative_path": "K-spaces Analysis/FINDINGS.md",
+      "heading": "Modeling and analysis planning",
+      "text": "## Modeling and analysis planning\n\nPyTorch and TensorFlow implement the same compact synthetic workflow-classification contract. The executed notebook regenerated both backends with 2,092 parameters each. On the 16-record held-out smoke set, PyTorch achieved accuracy 0.875 and macro F1 0.861; TensorFlow achieved 1.0 for both. This narrow, synthetic check detects implementation-specific problems and does not support a PFAS biological claim or framework-superiority claim.\n\nNatural-language requests pass through typed interpretation, dataset compatibility checks, verified evidence retrieval, allowlisted planning, parameter and scientific validation, unsupported-claim detection, and a human-review boundary. The notebook demonstrates a review-ready plan and an abstention but does not fabricate approval or execute a live scientific request. The adapted language-model artifact is disclosed as loss-only support and is not the execution authority.",
+      "source_sha256": "f06fb853ff44d6579301e0436c563317cbca83cb41b450bb8cad5d585c9c11da"
+    },
+    {
+      "chunk_id": "findings:7:0",
+      "source_id": "findings",
+      "relative_path": "K-spaces Analysis/FINDINGS.md",
+      "heading": "Reproduction",
+      "text": "## Reproduction\n\nNever edit either generated notebook directly. Regenerate and execute the master notebook from this directory:\n\n```bash\n.venv/bin/python build_notebook.py\n.venv/bin/python build_master_notebook.py\n.venv/bin/jupyter nbconvert --to notebook --execute --inplace \\\n  --ExecutePreprocessor.timeout=3600 \\\n  --ExecutePreprocessor.kernel_name=kspaces_venv \\\n  PFAS_master_analysis.ipynb\n```\n\nThe scientific environment is pinned in `requirements.txt`. `GLOBAL_SEED=0` controls the NumPy global state used by k-spaces. Exact replay evidence and inferential stability are reported separately.",
+      "source_sha256": "f06fb853ff44d6579301e0436c563317cbca83cb41b450bb8cad5d585c9c11da"
+    },
+    {
+      "chunk_id": "findings:8:0",
+      "source_id": "findings",
+      "relative_path": "K-spaces Analysis/FINDINGS.md",
+      "heading": "Analyses requiring scientific decisions or additional inputs",
+      "text": "## Analyses requiring scientific decisions or additional inputs\n\n- Advisor or PI review of k=5, the consensus recommendation, and the null pairwise result.\n- Raw counts and complete sample metadata for replicate-aware reanalysis.\n- External data for biological replication and causal or regulatory claims.\n- A future pairwise testing plan that propagates clustering uncertainty and is powered for ten conditions.\n- Pathway resources beyond the pinned WormBase GO annotation, with their own provenance and testing family.",
+      "source_sha256": "f06fb853ff44d6579301e0436c563317cbca83cb41b450bb8cad5d585c9c11da"
+    },
+    {
+      "chunk_id": "scientific_audit:1:0",
+      "source_id": "scientific_audit",
+      "relative_path": "integrated_system/docs/SCIENTIFIC_AUDIT.md",
+      "heading": "Scientific audit",
+      "text": "# Scientific audit",
+      "source_sha256": "2915c17e146460d5c3f5337d5fe07eb78de67a1f0ef01f24cf121d0f5ba1addc"
+    },
+    {
+      "chunk_id": "scientific_audit:2:0",
+      "source_id": "scientific_audit",
+      "relative_path": "integrated_system/docs/SCIENTIFIC_AUDIT.md",
+      "heading": "Confirmed high-priority issues",
+      "text": "## Confirmed high-priority issues\n\n1. RNA-seq results are internally consistent but not independently regenerable from raw counts. GenX also uses a different vehicle/control, so its contrast is confounded with vehicle when chemicals are compared.\n2. Residual pair tests now control BH FDR across all 45 pairs separately at k=5 and k=10. No pair meets q below 0.05 at either k, so the earlier eleven-pair unadjusted screen is withdrawn. Conditional nulls still hold the consensus clustering fixed and do not propagate model uncertainty.\n3. Consensus-module GO enrichment uses a namespace-specific eligible population formed by intersecting the clustered DEG union with mapped genes. Chemical-exclusive and chemical-shared studies use the measured mapped universe, while chemical-by-module studies use the mapped genes within each module. Each declared family has one Benjamini-Hochberg correction. Annotation and module uncertainty remain outside those calculations.\n4. The 30-permutation likelihood test yields a plus-one Monte Carlo p-value of 0.0323. It supports cross-chemical dependence under that shuffle null, not a unique or biologically valid module structure.",
+      "source_sha256": "2915c17e146460d5c3f5337d5fe07eb78de67a1f0ef01f24cf121d0f5ba1addc"
+    },
+    {
+      "chunk_id": "scientific_audit:3:0",
+      "source_id": "scientific_audit",
+      "relative_path": "integrated_system/docs/SCIENTIFIC_AUDIT.md",
+      "heading": "Corrections made",
+      "text": "## Corrections made\n\n`FINDINGS.md` and the notebook builder withdraw the unadjusted eleven-pair screen, report the multiplicity-controlled null result, and disclose missing clustering-uncertainty propagation. The executed master notebook records the corrected continuous-effect primary matrix and declared family-wide GO procedures.",
+      "source_sha256": "2915c17e146460d5c3f5337d5fe07eb78de67a1f0ef01f24cf121d0f5ba1addc"
+    },
+    {
+      "chunk_id": "scientific_audit:4:0",
+      "source_id": "scientific_audit",
+      "relative_path": "integrated_system/docs/SCIENTIFIC_AUDIT.md",
+      "heading": "Publication and sharing gate",
+      "text": "## Publication and sharing gate\n\nOnly the curated files in this public repository are approved for redistribution. Do not copy material from the broader private research workspace without a new ownership, privacy, and data-use review.",
+      "source_sha256": "2915c17e146460d5c3f5337d5fe07eb78de67a1f0ef01f24cf121d0f5ba1addc"
+    },
+    {
+      "chunk_id": "reproducibility:1:0",
+      "source_id": "reproducibility",
+      "relative_path": "integrated_system/docs/BASELINE_AND_REPRODUCIBILITY.md",
+      "heading": "Reproducibility record",
+      "text": "# Reproducibility record",
+      "source_sha256": "20a5a5a12b1f2f69095f60e39e7a6382fb269c1adf717caa87060c038b8377ef"
+    },
+    {
+      "chunk_id": "reproducibility:2:0",
+      "source_id": "reproducibility",
+      "relative_path": "integrated_system/docs/BASELINE_AND_REPRODUCIBILITY.md",
+      "heading": "Reproducibility contract",
+      "text": "## Reproducibility contract\n\nEvery reported result should be traceable to immutable inputs, a source revision, an environment, declared parameters, random seeds, and a machine-readable output. Generated notebooks are built from source scripts and executed end to end. Python modules hold reusable logic and tests exercise the same interfaces used by the notebook and service.",
+      "source_sha256": "20a5a5a12b1f2f69095f60e39e7a6382fb269c1adf717caa87060c038b8377ef"
+    },
+    {
+      "chunk_id": "reproducibility:3:0",
+      "source_id": "reproducibility",
+      "relative_path": "integrated_system/docs/BASELINE_AND_REPRODUCIBILITY.md",
+      "heading": "Verified input state",
+      "text": "## Verified input state\n\nAll ten canonical differential-expression files contain 13,852 rows, no missing values, and no duplicate WormBase identifiers after identifier normalization. Their filtered gene universe is identical across contrasts. GenX labels its identifier column `WB_id`; the other nine label it `Unnamed: 0`. The loader normalizes this schema difference without modifying the source files.\n\nThe original raw data and result artifacts remain outside this package and are treated as read-only inputs. The legacy ZIP inventory is preserved as a coverage manifest so each archived output has an explicit retain, replace, or diagnostic-only disposition.",
+      "source_sha256": "20a5a5a12b1f2f69095f60e39e7a6382fb269c1adf717caa87060c038b8377ef"
+    },
+    {
+      "chunk_id": "reproducibility:4:0",
+      "source_id": "reproducibility",
+      "relative_path": "integrated_system/docs/BASELINE_AND_REPRODUCIBILITY.md",
+      "heading": "Environment separation",
+      "text": "## Environment separation\n\nThe scientific k-spaces analysis uses `K-spaces Analysis/.venv` and the `kspaces_venv` Jupyter kernel. The analysis-planning package uses `integrated_system/.venv`. This separation prevents framework dependencies from silently changing the validated scientific environment.\n\nRecord exact packages before a release:\n\n```bash\n\"../K-spaces Analysis/.venv/bin/python\" -m pip freeze \\\n  > scientific-environment.txt\n.venv/bin/python -m pip freeze > system-environment.txt\n```\n\nEnvironment files are evidence snapshots and should be reviewed before publication because they may include local editable paths.",
+      "source_sha256": "20a5a5a12b1f2f69095f60e39e7a6382fb269c1adf717caa87060c038b8377ef"
+    },
+    {
+      "chunk_id": "reproducibility:5:0",
+      "source_id": "reproducibility",
+      "relative_path": "integrated_system/docs/BASELINE_AND_REPRODUCIBILITY.md",
+      "heading": "Deterministic controls",
+      "text": "## Deterministic controls\n\n- The k-spaces workflow sets a global NumPy seed because the package draws from NumPy's global random state.\n- Consensus assignment uses 30 independent fits and reports per-gene assignment strength.\n- Framework comparison uses shared group-disjoint splits, preprocessing, capacity, seeds, stopping rules, and prediction schemas.\n- Workflow evaluation uses versioned, hand-authored cases and deterministic scoring where possible.\n- Artifact execution records SHA-256 hashes instead of relying only on filenames.\n\nDeterminism does not remove statistical uncertainty. Optimizer variation, observation resampling, clustering uncertainty, and multiple-testing scope are reported separately.",
+      "source_sha256": "20a5a5a12b1f2f69095f60e39e7a6382fb269c1adf717caa87060c038b8377ef"
+    },
+    {
+      "chunk_id": "reproducibility:6:0",
+      "source_id": "reproducibility",
+      "relative_path": "integrated_system/docs/BASELINE_AND_REPRODUCIBILITY.md",
+      "heading": "Verification commands",
+      "text": "## Verification commands\n\n```bash\ncd pfas-toxicogenomics-kspaces/integrated_system\n.venv/bin/ruff check .\n.venv/bin/python -m pytest -q\nPYTHONPATH=src .venv/bin/python scripts/run_evals.py\n\ncd \"../K-spaces Analysis\"\n.venv/bin/python -m pytest -q tests/test_master_science.py\n.venv/bin/python build_master_notebook.py\n.venv/bin/jupyter nbconvert --to notebook --execute --inplace \\\n  --ExecutePreprocessor.kernel_name=kspaces_venv PFAS_master_analysis.ipynb\n```\n\nFull notebook execution is intentionally separate from fast fixture-based CI. A release record should include test counts, execution duration, notebook error count, artifact hashes, environment fingerprints, and any skipped checks.",
+      "source_sha256": "20a5a5a12b1f2f69095f60e39e7a6382fb269c1adf717caa87060c038b8377ef"
+    },
+    {
+      "chunk_id": "reproducibility:7:0",
+      "source_id": "reproducibility",
+      "relative_path": "integrated_system/docs/BASELINE_AND_REPRODUCIBILITY.md",
+      "heading": "Reproducibility matrix",
+      "text": "## Reproducibility matrix\n\n| Component | Inputs | Deterministic controls | Verification | Current boundary |\n|---|---|---|---|---|\n| DGE table validation | Ten canonical contrast CSV files | Schema, row-count, identifier, and hash checks | `pytest -q tests/test_master_science.py` in the scientific environment | Begins from precomputed edgeR results |\n| Module analysis | Validated continuous logFC matrix | Fixed global seed, 30-fit consensus, confidence scores | Clean execution of `PFAS_master_analysis.ipynb` | Modules and pair results remain exploratory where stated |\n| Workflow planning | Typed request plus artifact catalog | Allowlisted operations, deterministic rules, versioned evidence | `pytest -q tests/test_workflow.py tests/test_llm_rag.py` | Human review remains mandatory |\n| Backend verification | Versioned synthetic request dataset | Shared splits, preprocessing, capacity, seed, and metrics | `python -m ml_frameworks --smoke --framework both` | Software portability evidence only |\n| Model adaptation | Synthetic grouped workflow records | Duplicate checks, group-disjoint splits, fixed seed | Training metrics plus schema-level held-out evaluation | Not approved as an execution gate |\n| Containers | Source tree and pinned direct requirements | Multi-stage build and nonroot runtime | API health check and notebook image smoke | Requires a running Docker daemon |\n| AWS design | Terraform variables and approved infrastructure identifiers | Versioned plan, provider lock, least-privilege review | `terraform fmt`, `init -backend=false`, and `validate` | No deployment or cloud result is claimed |",
+      "source_sha256": "20a5a5a12b1f2f69095f60e39e7a6382fb269c1adf717caa87060c038b8377ef"
+    },
+    {
+      "chunk_id": "reproducibility:8:0",
+      "source_id": "reproducibility",
+      "relative_path": "integrated_system/docs/BASELINE_AND_REPRODUCIBILITY.md",
+      "heading": "Irreducible limits",
+      "text": "## Irreducible limits\n\nThe RNA-seq differential-expression analysis cannot be independently reproduced from this folder because raw counts, complete sample metadata, QC artifacts, and the original R environment are absent. The exploratory R script contains local paths and is not a clean pipeline. Therefore reproducibility begins at the precomputed edgeR contrast tables and must be described that way.\n\nNo AWS run is part of the local scientific evidence. Cloud execution becomes reproducible only after an approved deployment records the container digest, Terraform plan, region, data object versions, IAM boundary, and execution logs.",
+      "source_sha256": "20a5a5a12b1f2f69095f60e39e7a6382fb269c1adf717caa87060c038b8377ef"
+    },
+    {
+      "chunk_id": "dataset_schema:1:0",
+      "source_id": "dataset_schema",
+      "relative_path": "integrated_system/docs/DATASET_SCHEMA.md",
+      "heading": "Dataset schema and compatibility record",
+      "text": "# Dataset schema and compatibility record",
+      "source_sha256": "35844869c54e109f8e247417f4a976f08670aec34d309abe3bd3585039ea7372"
+    },
+    {
+      "chunk_id": "dataset_schema:2:0",
+      "source_id": "dataset_schema",
+      "relative_path": "integrated_system/docs/DATASET_SCHEMA.md",
+      "heading": "Experimental unit represented by the files",
+      "text": "## Experimental unit represented by the files\n\nThe reusable inputs are ten edgeR contrast tables, one PFAS exposure versus its matched control. Each file contains one row per measured WormBase gene identifier. The tables are contrast-level differential-expression results, not sample-level count matrices. They therefore support cross-contrast descriptive and exploratory analyses, but they do not support refitting the original sample-level model or estimating new biological replicate variance.",
+      "source_sha256": "35844869c54e109f8e247417f4a976f08670aec34d309abe3bd3585039ea7372"
+    },
+    {
+      "chunk_id": "dataset_schema:3:0",
+      "source_id": "dataset_schema",
+      "relative_path": "integrated_system/docs/DATASET_SCHEMA.md",
+      "heading": "Canonical columns",
+      "text": "## Canonical columns\n\n| Field | Meaning | Validation |\n| --- | --- | --- |\n| `WB_id` | WormBase gene identifier | Non-null, unique within each contrast, identical universe across contrasts |\n| `logFC` | Estimated log2 fold change for exposure versus control | Finite continuous effect used for response-pattern analysis |\n| `logCPM` | Average log counts per million reported by edgeR | Finite numeric diagnostic |\n| `F` | edgeR test statistic | Finite numeric diagnostic |\n| `PValue` | Nominal differential-expression p-value | Required in `[0, 1]` |\n| `FDR` | Within-contrast adjusted p-value | Required in `[0, 1]` |\n\nNine source files store the identifier in an unnamed first column and one stores `WB_id`. The validated loader normalizes only that label. It does not alter values.",
+      "source_sha256": "35844869c54e109f8e247417f4a976f08670aec34d309abe3bd3585039ea7372"
+    },
+    {
+      "chunk_id": "dataset_schema:4:0",
+      "source_id": "dataset_schema",
+      "relative_path": "integrated_system/docs/DATASET_SCHEMA.md",
+      "heading": "Supported compatibility decisions",
+      "text": "## Supported compatibility decisions\n\n- DEG counts and threshold-sensitivity summaries are supported for all ten contrasts.\n- Module discovery uses the continuous logFC response matrix after an explicitly recorded gene-selection rule.\n- GO enrichment requires a gene universe eligible for the selected analysis and mappable within the tested ontology namespace.\n- A request for raw counts, sample covariates, replicate-level uncertainty, dose response, time series, causality, or an unmeasured chemical must abstain because those inputs are absent.\n- A named gene, pathway, column, file, or tool must resolve against an authoritative local catalog before execution.",
+      "source_sha256": "35844869c54e109f8e247417f4a976f08670aec34d309abe3bd3585039ea7372"
+    },
+    {
+      "chunk_id": "dataset_schema:5:0",
+      "source_id": "dataset_schema",
+      "relative_path": "integrated_system/docs/DATASET_SCHEMA.md",
+      "heading": "Decision record",
+      "text": "## Decision record\n\nThe DGE tables are the source of truth for this repository. Exploratory R scratch files and historical notebook outputs are audit inputs only. Scientific results must be regenerated by the maintained builders and validated loaders.",
+      "source_sha256": "35844869c54e109f8e247417f4a976f08670aec34d309abe3bd3585039ea7372"
+    },
+    {
+      "chunk_id": "interpretation_rules:1:0",
+      "source_id": "interpretation_rules",
+      "relative_path": "integrated_system/docs/INTERPRETATION_RULES.md",
+      "heading": "Interpretation rules and known failure conditions",
+      "text": "# Interpretation rules and known failure conditions",
+      "source_sha256": "fae97aa43800fdb8c60cba4f648163468fe3893bba5a197685e0c52819060b42"
+    },
+    {
+      "chunk_id": "interpretation_rules:2:0",
+      "source_id": "interpretation_rules",
+      "relative_path": "integrated_system/docs/INTERPRETATION_RULES.md",
+      "heading": "Rules for scientific statements",
+      "text": "## Rules for scientific statements\n\n1. A threshold-defined DEG is evidence of detection under one contrast, not proof that the gene is unaffected elsewhere.\n2. A continuous logFC pattern is an estimated association across the ten conditions. It is not a causal mechanism.\n3. The ten chemicals are conditions, not independent biological replicates for broad chemical-class inference.\n4. Consensus assignment strength measures agreement across repeated optimizer fits. It does not measure biological effect size or external reproducibility.\n5. Raw correlation between five-element module-percentage profiles is retracted because its null distribution is intrinsically high. It must not be reported as chemical-similarity evidence.\n6. Null-adjusted similarity and structure-activity results remain exploratory until multiplicity, label uncertainty, and external validation are addressed.\n7. GO enrichment statements must name the tested universe, mapping loss, ontology source, namespace, and family-wide multiple-testing method.\n8. A neural backend parity benchmark uses synthetic workflow requests only. It cannot support a PFAS biological conclusion.\n9. Adaptation loss alone does not demonstrate valid workflow generation. Typed validation and deterministic scientific rules remain authoritative.\n10. A plan requiring scientific judgment must stop at a review-ready state. Only a separately supplied approval bound to the exact plan digest can authorize execution.",
+      "source_sha256": "fae97aa43800fdb8c60cba4f648163468fe3893bba5a197685e0c52819060b42"
+    },
+    {
+      "chunk_id": "interpretation_rules:3:0",
+      "source_id": "interpretation_rules",
+      "relative_path": "integrated_system/docs/INTERPRETATION_RULES.md",
+      "heading": "Mandatory abstention conditions",
+      "text": "## Mandatory abstention conditions\n\nThe system abstains when required metadata is missing, the requested field or artifact does not exist, sample-level inference is requested from contrast summaries, the sample size cannot support the requested conclusion, the tool or operation is outside the allowlist, evidence hashes cannot be revalidated, or the request asks the system to promote an exploratory result to a confirmed mechanism.",
+      "source_sha256": "fae97aa43800fdb8c60cba4f648163468fe3893bba5a197685e0c52819060b42"
+    },
+    {
+      "chunk_id": "interpretation_rules:4:0",
+      "source_id": "interpretation_rules",
+      "relative_path": "integrated_system/docs/INTERPRETATION_RULES.md",
+      "heading": "Human review record",
+      "text": "## Human review record\n\nTests may use an object labeled as a validation fixture to verify approval-binding code. A fixture is not a scientific approval. A public result must record the reviewer identity, decision, plan digest, evidence hashes, code version, inputs, and execution identifier.",
+      "source_sha256": "fae97aa43800fdb8c60cba4f648163468fe3893bba5a197685e0c52819060b42"
+    },
+    {
+      "chunk_id": "scientific_sources:1:0",
+      "source_id": "scientific_sources",
+      "relative_path": "integrated_system/docs/SCIENTIFIC_SOURCES.md",
+      "heading": "Reviewed scientific and tool sources",
+      "text": "# Reviewed scientific and tool sources\n\nThis catalog identifies the local sources allowed to support workflow planning. It records what each source can support and what it cannot establish. Copyrighted papers remain in their original files and are not copied into the retrieval corpus verbatim.\n\n| Source | Local record | SHA-256 or version | Permitted support | Boundary |\n| --- | --- | --- | --- | --- |\n| Markarian et al. k-spaces paper | `Background Reading/Markarian2025.pdf` | `2a813b8236271103d0bd61bceaa196d5ab194494c77288ceadbe636139b0ac78` | Definition and intended use of k-spaces; rationale for affine-subspace clustering | Does not validate this dataset, selected k, or biological interpretation |\n| kspaces Python implementation | `K-spaces Analysis/requirements.txt` | `kspaces==0.1.5` | Executable implementation version used by the notebook | Package output still requires stability and null checks |\n| Gene Ontology basic ontology | `K-spaces Analysis/data_external/go-basic.obo` | `c72fc198a86983d55e43aac585d1ffdbeb6e3601475b3f18b6045acdc0a0734c` | GO identifiers, namespaces, names, and ontology relationships | Ontology terms are annotations, not causal findings |\n| WormBase GO annotation file | `K-spaces Analysis/data_external/wb.gaf.gz` | `bda92f6642cc68a16e485ba32eb5890320855895185b9cbcd448f52cf698fed2` | Mapping eligible WormBase identifiers to GO annotations | Unmapped genes and annotation date must be reported |\n| GOATOOLS implementation | `K-spaces Analysis/requirements.txt` | Version pinned in the environment file | Enrichment computation and ontology parsing | Multiple-testing family and population remain project decisions |\n| Corrected project findings | `K-spaces Analysis/FINDINGS.md` | Hash recorded when the corpus is built | Project decisions, corrected",
+      "source_sha256": "33a567d2352943314485a4ae4af5d681e4d9d1b1f64a67214d92b7940716cc13"
+    },
+    {
+      "chunk_id": "scientific_sources:1:1",
+      "source_id": "scientific_sources",
+      "relative_path": "integrated_system/docs/SCIENTIFIC_SOURCES.md",
+      "heading": "Reviewed scientific and tool sources",
+      "text": "claims, and retractions | Summary defers to the executed notebook when they disagree |",
+      "source_sha256": "33a567d2352943314485a4ae4af5d681e4d9d1b1f64a67214d92b7940716cc13"
+    },
+    {
+      "chunk_id": "scientific_sources:2:0",
+      "source_id": "scientific_sources",
+      "relative_path": "integrated_system/docs/SCIENTIFIC_SOURCES.md",
+      "heading": "Retrieval policy",
+      "text": "## Retrieval policy\n\nPlanning retrieval uses short, project-authored review records plus their source hashes. It does not ingest entire copyrighted PDFs or treat retrieved text as new biological evidence. A hash change invalidates the existing corpus manifest until a reviewer accepts the new source version.",
+      "source_sha256": "33a567d2352943314485a4ae4af5d681e4d9d1b1f64a67214d92b7940716cc13"
+    },
+    {
+      "chunk_id": "methodology:1:0",
+      "source_id": "methodology",
+      "relative_path": "integrated_system/docs/METHODOLOGY.md",
+      "heading": "Methods and system architecture",
+      "text": "# Methods and system architecture",
+      "source_sha256": "0cfddd2c81cc77aec4f03fbd3d33d6146f49e9287d5862d815b14844cac8b45a"
+    },
+    {
+      "chunk_id": "methodology:2:0",
+      "source_id": "methodology",
+      "relative_path": "integrated_system/docs/METHODOLOGY.md",
+      "heading": "Scientific analysis boundary",
+      "text": "## Scientific analysis boundary\n\nThe project starts with precomputed edgeR contrasts. It validates their common gene universe, reconstructs the original k-spaces workflow for audit, and applies corrected preprocessing, consensus fitting, stability checks, null comparisons, and qualified interpretation. The canonical scientific implementation and executable narrative live in the adjacent `K-spaces Analysis` directory.\n\nThe recommended module assignment is the 30-fit majority-voted consensus with per-gene `consensus_strength`. A single expectation-maximization fit is retained only as a reconstruction artifact because local optima produce meaningful run-to-run variation. The original correlation of each chemical's percent-per-module vector is retracted because a null stress test showed that high correlations arise largely from the five-part composition.",
+      "source_sha256": "0cfddd2c81cc77aec4f03fbd3d33d6146f49e9287d5862d815b14844cac8b45a"
+    },
+    {
+      "chunk_id": "methodology:3:0",
+      "source_id": "methodology",
+      "relative_path": "integrated_system/docs/METHODOLOGY.md",
+      "heading": "Analysis-planning contract",
+      "text": "## Analysis-planning contract\n\nA research request passes through five explicit boundaries:\n\n1. Pydantic request models normalize the question and requested scope.\n2. Compatibility checks confirm that chemicals, files, fields, and requested conclusions exist and are supportable.\n3. Retrieval selects versioned evidence describing the dataset, corrected methods, assumptions, known failures, and interpretation rules.\n4. The planner emits an allowlisted structured plan with evidence identifiers, parameters, limitations, and a human-review flag.\n5. The executor revalidates the plan and input hashes before calling a bounded artifact operation.\n\nThe service abstains when metadata is missing, a requested operation is incompatible, sample size is insufficient, an identifier is unknown, a causal claim is requested, or the plan cannot be validated safely.",
+      "source_sha256": "0cfddd2c81cc77aec4f03fbd3d33d6146f49e9287d5862d815b14844cac8b45a"
+    },
+    {
+      "chunk_id": "methodology:4:0",
+      "source_id": "methodology",
+      "relative_path": "integrated_system/docs/METHODOLOGY.md",
+      "heading": "Evidence grounding",
+      "text": "## Evidence grounding\n\nThe retrieval corpus is file-backed because the verified collection is small and versioned. Exact and deterministic retrieval makes evidence selection inspectable and reproducible. Important planning decisions identify the retrieved evidence. A vector database is not required at the current corpus size and would not replace corpus curation, citation validation, or scientific review.",
+      "source_sha256": "0cfddd2c81cc77aec4f03fbd3d33d6146f49e9287d5862d815b14844cac8b45a"
+    },
+    {
+      "chunk_id": "methodology:5:0",
+      "source_id": "methodology",
+      "relative_path": "integrated_system/docs/METHODOLOGY.md",
+      "heading": "Model adaptation",
+      "text": "## Model adaptation\n\nThe adaptation path targets structured workflow generation, not biological prediction. Training examples encode supported operations, compatibility failures, required parameters, and abstention behavior. Data generation records provenance, removes duplicates, separates groups across train, validation, and held-out partitions, and reports training configuration and errors. The adapted model remains behind the same typed validation and execution boundary as every other planner.",
+      "source_sha256": "0cfddd2c81cc77aec4f03fbd3d33d6146f49e9287d5862d815b14844cac8b45a"
+    },
+    {
+      "chunk_id": "methodology:6:0",
+      "source_id": "methodology",
+      "relative_path": "integrated_system/docs/METHODOLOGY.md",
+      "heading": "Cross-backend verification",
+      "text": "## Cross-backend verification\n\nPyTorch and TensorFlow implement the same compact classification contract over a synthetic workflow-request dataset. Shared definitions cover features, targets, group-disjoint partitions, preprocessing, capacity, seed, early stopping, metrics, checkpoints, and prediction output. Agreement and error differences help detect framework-specific implementation defects. This synthetic benchmark is an engineering control and is never used as PFAS biological evidence.",
+      "source_sha256": "0cfddd2c81cc77aec4f03fbd3d33d6146f49e9287d5862d815b14844cac8b45a"
+    },
+    {
+      "chunk_id": "methodology:7:0",
+      "source_id": "methodology",
+      "relative_path": "integrated_system/docs/METHODOLOGY.md",
+      "heading": "Human review",
+      "text": "## Human review\n\nAutomated validation cannot resolve biological plausibility, interpretation scope, or publication readiness. Plans that cross those boundaries remain pending until a domain reviewer confirms the input provenance, statistical assumptions, correction family, uncertainty language, and requested claim.",
+      "source_sha256": "0cfddd2c81cc77aec4f03fbd3d33d6146f49e9287d5862d815b14844cac8b45a"
+    }
+  ]
+}

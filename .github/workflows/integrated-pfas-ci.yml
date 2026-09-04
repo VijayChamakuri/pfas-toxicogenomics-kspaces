@@ -1,0 +1,134 @@
+name: integrated-pfas-ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      run_expensive_ml:
+        description: Run the large notebook and ML image smoke test
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: integrated-pfas-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  fast-python:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: integrated_system/pyproject.toml
+      - run: python -m pip install --upgrade pip==25.2
+      - run: python -m pip install -e './integrated_system[dev]'
+      - run: python -m ruff check integrated_system/src integrated_system/llm_system integrated_system/ml_frameworks integrated_system/tests integrated_system/scripts
+      - run: cd integrated_system && python -m mypy src/pfas_workflow llm_system
+      - run: python -m pytest -q integrated_system/tests
+      - run: python -m pip install -r 'K-spaces Analysis/requirements.txt'
+      - run: python -m pytest -q 'K-spaces Analysis/tests'
+      - run: PYTHONPATH=integrated_system/src python integrated_system/scripts/run_evals.py
+      - run: python integrated_system/scripts/build_fixture_notebook.py
+      - run: jupyter nbconvert --to notebook --execute --inplace integrated_system/tests/fixtures/workflow_smoke.ipynb
+
+  backend-modeling-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        backend: [pytorch, tensorflow]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: integrated_system/pyproject.toml
+      - run: python -m pip install --upgrade pip==25.2
+      - run: python -m pip install -e './integrated_system[ml]'
+      - run: PYTHONPATH=integrated_system python -m ml_frameworks --smoke --framework ${{ matrix.backend }} --output artifacts/${{ matrix.backend }}-smoke
+
+  terraform-static:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.9.8
+          terraform_wrapper: false
+      - run: terraform fmt -check -recursive integrated_system/infra/terraform
+      - run: terraform -chdir=integrated_system/infra/terraform init -backend=false
+      - run: terraform -chdir=integrated_system/infra/terraform validate
+
+  api-container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: integrated_system/docker/Dockerfile
+          target: api
+          load: true
+          tags: pfas-workflow-api:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      - name: Start and verify API
+        run: |
+          docker run --detach --name pfas-api --read-only --tmpfs /tmp \
+            --cap-drop ALL --security-opt no-new-privileges \
+            --volume "$PWD:/data:ro" \
+            --publish 8000:8000 pfas-workflow-api:ci
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://localhost:8000/health >/dev/null; then exit 0; fi
+            sleep 2
+          done
+          docker logs pfas-api
+          exit 1
+
+  expensive-ml-smoke:
+    if: github.event_name == 'workflow_dispatch' && inputs.run_expensive_ml
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: integrated_system/docker/Dockerfile
+          target: notebook
+          load: true
+          tags: pfas-workflow-notebook:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      - run: docker run --rm pfas-workflow-notebook:ci python -c "import torch, tensorflow as tf; print(torch.__version__, tf.__version__)"
+      - run: docker run --rm --workdir /workspace/integrated_system pfas-workflow-notebook:ci python -m ml_frameworks --smoke --framework both --output /tmp/parity
+      - run: docker run --rm --workdir /workspace/integrated_system pfas-workflow-notebook:ci python -m llm_system.evaluate
+      - name: Execute full scientific notebook
+        run: docker run --rm pfas-workflow-notebook:ci sh -c 'python scripts/prepare_annotations.py && jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=5400 PFAS_master_analysis.ipynb'
+
+  deployment-approval-gate:
+    if: github.event_name == 'workflow_dispatch' && false
+    needs: [fast-python, terraform-static, api-container]
+    runs-on: ubuntu-latest
+    environment: aws-production
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - run: echo "Deployment is disabled until AWS account, OIDC role, cost approval, and explicit authority are provided."

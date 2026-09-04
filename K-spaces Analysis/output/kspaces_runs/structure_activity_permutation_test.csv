@@ -1,0 +1,4 @@
+attribute,same_mean_corr,diff_mean_corr,observed_gap,n_same_pairs,n_total_pairs,permutation_p_value,null_mean,null_sd
+chain_length,0.284,0.283,0.002,21,45,0.9951,0.0,0.174
+functional_group,0.418,0.223,0.195,14,45,0.3589,-0.002,0.227
+ether,0.178,0.474,-0.296,29,45,0.42,0.001,0.363

@@ -1,0 +1,14 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFEESA|M3,BP,GO:0006629,lipid metabolic process,e,2.925028711173862e-05,25,141,112,1469,0.01345149829992319
+chemical_by_module,PFEESA|M3,BP,GO:0008152,metabolic process,e,3.710080629947736e-05,67,141,465,1469,0.015930881145161762
+chemical_by_module,PFEESA|M3,MF,GO:0016491,oxidoreductase activity,e,2.6866026636113838e-09,39,172,136,1537,6.466728290260872e-06
+chemical_by_module,PFEESA|M3,MF,GO:0004497,monooxygenase activity,e,7.78754774952808e-08,20,172,50,1537,0.00013177070523233658
+chemical_by_module,PFEESA|M3,MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",e,1.943915614661419e-07,21,172,57,1537,0.00028888107359132336
+chemical_by_module,PFEESA|M3,MF,GO:0003824,catalytic activity,e,3.9374992855912506e-07,110,172,703,1537,0.0005127839200151291
+chemical_by_module,PFEESA|M3,MF,GO:0020037,heme binding,e,5.604434226632553e-06,21,172,68,1537,0.003990800853738653
+chemical_by_module,PFEESA|M3,MF,GO:0008194,UDP-glycosyltransferase activity,e,6.04245305678665e-06,13,172,30,1537,0.004249585123258361
+chemical_by_module,PFEESA|M3,MF,GO:0005506,iron ion binding,e,6.169396716031846e-06,18,172,53,1537,0.0043034437933597
+chemical_by_module,PFEESA|M3,MF,GO:0046906,tetrapyrrole binding,e,7.277693480524313e-06,21,172,69,1537,0.004877453090698528
+chemical_by_module,PFEESA|M3,MF,GO:0016758,hexosyltransferase activity,e,8.119821175597986e-06,14,172,35,1537,0.005046070251230983
+chemical_by_module,PFEESA|M3,MF,GO:0016757,glycosyltransferase activity,e,2.6971799583820917e-05,15,172,43,1537,0.012698219220593417
+chemical_by_module,PFEESA|M3,MF,GO:0015020,glucuronosyltransferase activity,e,0.00011559157765053838,10,172,24,1537,0.03763241734144091

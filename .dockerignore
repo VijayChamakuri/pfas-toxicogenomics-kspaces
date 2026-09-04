@@ -1,0 +1,13 @@
+.git
+.github
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/.terraform
+**/*.tfstate*
+integrated_system/artifacts
+integrated_system/llm_system/training_output/checkpoint-*
+integrated_system/llm_system/training_output/adapter
+

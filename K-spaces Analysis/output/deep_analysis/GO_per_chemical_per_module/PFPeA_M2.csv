@@ -1,0 +1,35 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFPeA|M2,BP,GO:0006412,translation,e,1.8664858650742163e-21,86,740,94,1596,7.974514196382962e-17
+chemical_by_module,PFPeA|M2,BP,GO:0009058,biosynthetic process,e,1.648554628138768e-16,207,740,307,1596,3.521704217428591e-12
+chemical_by_module,PFPeA|M2,BP,GO:0009059,macromolecule biosynthetic process,e,3.4783703109060372e-15,128,740,172,1596,5.404090979668462e-11
+chemical_by_module,PFPeA|M2,BP,GO:0008152,metabolic process,e,1.9916306801618738e-13,448,740,808,1596,1.8909316200499116e-09
+chemical_by_module,PFPeA|M2,BP,GO:0002181,cytoplasmic translation,e,5.714634256835145e-10,31,740,32,1596,1.8781255381901334e-06
+chemical_by_module,PFPeA|M2,BP,GO:0044238,primary metabolic process,e,9.916377286358643e-10,396,740,723,1596,2.8244982697690096e-06
+chemical_by_module,PFPeA|M2,BP,GO:0043170,macromolecule metabolic process,e,8.06851040092045e-08,281,740,499,1596,0.00013387382126280623
+chemical_by_module,PFPeA|M2,BP,GO:0009206,purine ribonucleoside triphosphate biosynthetic process,e,8.767097951226982e-07,18,740,18,1596,0.0009306138340166087
+chemical_by_module,PFPeA|M2,BP,GO:0009145,purine nucleoside triphosphate biosynthetic process,e,8.767097951226982e-07,18,740,18,1596,0.0009306138340166087
+chemical_by_module,PFPeA|M2,BP,GO:0006754,ATP biosynthetic process,e,1.9146953893481887e-06,17,740,17,1596,0.0016866985945578148
+chemical_by_module,PFPeA|M2,BP,GO:0019538,protein metabolic process,e,3.5664860629715715e-06,160,740,270,1596,0.0027332237743308454
+chemical_by_module,PFPeA|M2,BP,GO:0015986,proton motive force-driven ATP synthesis,e,4.1784788883565445e-06,16,740,16,1596,0.0031458055662609914
+chemical_by_module,PFPeA|M2,BP,GO:0044085,cellular component biogenesis,e,8.034272943896303e-06,19,740,20,1596,0.005011128510361074
+chemical_by_module,PFPeA|M2,BP,GO:0009201,ribonucleoside triphosphate biosynthetic process,e,1.6024314953059128e-05,18,740,19,1596,0.008638925555718775
+chemical_by_module,PFPeA|M2,BP,GO:0022613,ribonucleoprotein complex biogenesis,e,1.6024314953059128e-05,18,740,19,1596,0.008638925555718775
+chemical_by_module,PFPeA|M2,CC,GO:0044391,ribosomal subunit,e,1.0681590616881893e-26,83,779,85,1692,1.8254731548344986e-21
+chemical_by_module,PFPeA|M2,CC,GO:0005840,ribosome,e,1.799965795790553e-21,78,779,83,1692,7.974514196382962e-17
+chemical_by_module,PFPeA|M2,CC,GO:1990904,ribonucleoprotein complex,e,3.0790168023419394e-19,120,779,149,1692,1.0524017850068702e-14
+chemical_by_module,PFPeA|M2,CC,GO:0015934,large ribosomal subunit,e,5.977370207216261e-18,50,779,50,1692,1.7025443184050862e-13
+chemical_by_module,PFPeA|M2,CC,GO:0022625,cytosolic large ribosomal subunit,e,1.5268274933821817e-16,46,779,46,1692,3.521704217428591e-12
+chemical_by_module,PFPeA|M2,CC,GO:1902495,transmembrane transporter complex,e,2.41034114216293e-10,43,779,48,1692,9.579648624523317e-07
+chemical_by_module,PFPeA|M2,CC,GO:1990351,transporter complex,e,2.41034114216293e-10,43,779,48,1692,9.579648624523317e-07
+chemical_by_module,PFPeA|M2,CC,GO:0015935,small ribosomal subunit,e,1.3036915830587026e-09,33,779,35,1692,3.5935417395669233e-06
+chemical_by_module,PFPeA|M2,CC,GO:0022627,cytosolic small ribosomal subunit,e,2.162967393818508e-09,29,779,30,1692,5.600741888427109e-06
+chemical_by_module,PFPeA|M2,CC,GO:0098803,respiratory chain complex,e,4.801079908288638e-09,41,779,47,1692,1.1087834530359728e-05
+chemical_by_module,PFPeA|M2,CC,GO:0043228,membraneless organelle,e,5.61925909619205e-09,176,779,285,1692,1.263586526684375e-05
+chemical_by_module,PFPeA|M2,CC,GO:0043232,intracellular membraneless organelle,e,5.61925909619205e-09,176,779,285,1692,1.263586526684375e-05
+chemical_by_module,PFPeA|M2,CC,GO:0030964,NADH dehydrogenase complex,e,7.761243342031813e-07,18,779,18,1692,0.0008502491832755736
+chemical_by_module,PFPeA|M2,CC,GO:0045271,respiratory chain complex I,e,7.761243342031813e-07,18,779,18,1692,0.0008502491832755736
+chemical_by_module,PFPeA|M2,CC,GO:0032991,protein-containing complex,e,7.169447087849139e-06,321,779,601,1692,0.0048238241648280705
+chemical_by_module,PFPeA|M2,MF,GO:0003735,structural constituent of ribosome,e,1.356572848987875e-25,85,708,89,1555,1.1591847165958942e-20
+chemical_by_module,PFPeA|M2,MF,GO:0005198,structural molecule activity,e,3.161785501898354e-11,98,708,135,1555,1.637412062087657e-07
+chemical_by_module,PFPeA|M2,MF,GO:0015078,proton transmembrane transporter activity,e,2.180429753074889e-05,32,708,41,1555,0.010863943567660217
+chemical_by_module,PFPeA|M2,MF,GO:0046933,"proton-transporting ATP synthase activity, rotational mechanism",e,7.540618802648203e-05,12,708,12,1555,0.027619025578997647

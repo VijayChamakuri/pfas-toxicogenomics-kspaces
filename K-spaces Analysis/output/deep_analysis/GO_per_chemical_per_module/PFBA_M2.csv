@@ -1,0 +1,18 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFBA|M2,BP,GO:0009062,fatty acid catabolic process,e,1.6499116128145491e-07,6,26,18,1596,0.0002495294201047731
+chemical_by_module,PFBA|M2,BP,GO:0072329,monocarboxylic acid catabolic process,e,3.3706944295553694e-07,6,26,20,1596,0.0004603637194656694
+chemical_by_module,PFBA|M2,BP,GO:0006631,fatty acid metabolic process,e,1.157851458030548e-06,7,26,38,1596,0.0011437899209593215
+chemical_by_module,PFBA|M2,BP,GO:0006635,fatty acid beta-oxidation,e,1.3900477147398224e-06,5,26,14,1596,0.001312473836471386
+chemical_by_module,PFBA|M2,BP,GO:0046395,carboxylic acid catabolic process,e,1.6744253038390086e-06,7,26,40,1596,0.0015384817741977564
+chemical_by_module,PFBA|M2,BP,GO:0016042,lipid catabolic process,e,1.8754316981538134e-06,6,26,26,1596,0.00166067047555849
+chemical_by_module,PFBA|M2,BP,GO:0034440,lipid oxidation,e,2.062092514553617e-06,5,26,15,1596,0.0017888809575873023
+chemical_by_module,PFBA|M2,BP,GO:0019395,fatty acid oxidation,e,2.062092514553617e-06,5,26,15,1596,0.0017888809575873023
+chemical_by_module,PFBA|M2,BP,GO:0032787,monocarboxylic acid metabolic process,e,3.864093200393419e-06,7,26,45,1596,0.002948078856491227
+chemical_by_module,PFBA|M2,BP,GO:0006629,lipid metabolic process,e,3.990128815128926e-06,10,26,112,1596,0.0030172965680385767
+chemical_by_module,PFBA|M2,BP,GO:0044282,small molecule catabolic process,e,6.0719035309473235e-06,7,26,48,1596,0.004252796071866257
+chemical_by_module,PFBA|M2,BP,GO:0030258,lipid modification,e,1.007203681274124e-05,5,26,20,1596,0.005997564527040645
+chemical_by_module,PFBA|M2,BP,GO:0043436,oxoacid metabolic process,e,5.499931213508547e-05,8,26,91,1596,0.02190985418315611
+chemical_by_module,PFBA|M2,BP,GO:0019752,carboxylic acid metabolic process,e,5.499931213508547e-05,8,26,91,1596,0.02190985418315611
+chemical_by_module,PFBA|M2,BP,GO:0015850,organic hydroxy compound transport,e,7.44201610100295e-05,3,26,6,1596,0.02752885518712777
+chemical_by_module,PFBA|M2,MF,GO:0016747,"acyltransferase activity, transferring groups other than amino-acyl groups",e,4.403808883123756e-06,7,27,43,1555,0.003300905852267398
+chemical_by_module,PFBA|M2,MF,GO:0015166,polyol transmembrane transporter activity,e,4.6765357345646926e-06,3,27,3,1555,0.0034591243881118075

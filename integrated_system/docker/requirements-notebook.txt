@@ -1,0 +1,6 @@
+# Direct dependencies are pinned exactly. Generate a transitive hash lock with
+# pip-compile before publishing a multi-architecture production image.
+jupyterlab==4.4.6
+nbconvert==7.16.6
+torch==2.7.0
+tensorflow==2.20.0

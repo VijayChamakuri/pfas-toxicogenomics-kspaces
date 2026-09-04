@@ -1,0 +1,8 @@
+aws_region = "us-east-1"
+environment = "dev"
+vpc_id = "vpc-REPLACE"
+private_subnet_ids = ["subnet-REPLACE-A", "subnet-REPLACE-B"]
+alb_security_group_id = "sg-REPLACE"
+target_group_arn = "arn:aws:elasticloadbalancing:us-east-1:123456789012:targetgroup/REPLACE/REPLACE"
+image_tag = "git-commit-sha"
+desired_count = 0

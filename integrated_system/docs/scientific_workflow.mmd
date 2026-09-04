@@ -1,0 +1,19 @@
+flowchart TD
+  Question[PFAS research question] --> Provenance[Validate contrast tables and provenance]
+  Provenance --> Audit[Reconstruct initial analytical approach]
+  Audit --> Corrections[Apply methodological corrections]
+  Corrections --> Stability[Estimate optimizer, resampling, and consensus stability]
+  Stability --> Interpretation[Generate qualified statistical and functional results]
+
+  Researcher[Researcher request] --> Compatibility[Interpret request and check dataset compatibility]
+  Evidence[(Versioned methods, schemas, references, and decision records)] --> Planning[Create cited typed workflow plan]
+  Compatibility --> Planning
+  Planning --> Rules[Validate parameters, scientific rules, and unsupported claims]
+  Rules -->|unsupported or incomplete| Abstain[Abstain or request clarification]
+  Rules -->|review required| Review[Human scientific review]
+  Review -->|approved plan digest| Execute[Run allowlisted operation]
+
+  Provenance --> Execute
+  Interpretation --> Execute
+  Execute --> Report[Traceable tables, figures, hashes, findings, and review status]
+  Report --> Quality[Automated tests and scientific quality control]

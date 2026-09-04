@@ -1,0 +1,25 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFNA|M4,BP,GO:0006629,lipid metabolic process,e,1.8311567572380429e-09,27,91,70,742,4.814505517772681e-06
+chemical_by_module,PFNA|M4,BP,GO:0006631,fatty acid metabolic process,e,1.318959755494462e-07,15,91,29,742,0.00020679715894885144
+chemical_by_module,PFNA|M4,BP,GO:0016042,lipid catabolic process,e,6.38359881340799e-07,14,91,28,742,0.0007682751081778958
+chemical_by_module,PFNA|M4,BP,GO:0009062,fatty acid catabolic process,e,4.53370102070806e-06,10,91,17,742,0.003368717264078203
+chemical_by_module,PFNA|M4,BP,GO:0072329,monocarboxylic acid catabolic process,e,9.172859997734435e-06,10,91,18,742,0.0055393378118474106
+chemical_by_module,PFNA|M4,BP,GO:0032787,monocarboxylic acid metabolic process,e,1.0250805402965505e-05,15,91,38,742,0.006082820807504868
+chemical_by_module,PFNA|M4,BP,GO:0019752,carboxylic acid metabolic process,e,2.5702672839208457e-05,19,91,60,742,0.012373411508585595
+chemical_by_module,PFNA|M4,BP,GO:0034440,lipid oxidation,e,2.93589129595337e-05,8,91,13,742,0.01345149829992319
+chemical_by_module,PFNA|M4,BP,GO:0019395,fatty acid oxidation,e,2.93589129595337e-05,8,91,13,742,0.01345149829992319
+chemical_by_module,PFNA|M4,BP,GO:0043436,oxoacid metabolic process,e,3.365261369728143e-05,19,91,61,742,0.014822675330545616
+chemical_by_module,PFNA|M4,BP,GO:0044281,small molecule metabolic process,e,3.5500634285673533e-05,25,91,94,742,0.015496637712328743
+chemical_by_module,PFNA|M4,BP,GO:0030258,lipid modification,e,6.162709294997157e-05,8,91,14,742,0.023720739995624303
+chemical_by_module,PFNA|M4,BP,GO:0008152,metabolic process,e,6.177068444295644e-05,57,91,316,742,0.023722580226105197
+chemical_by_module,PFNA|M4,BP,GO:0044238,primary metabolic process,e,0.00010075625973255782,50,91,267,742,0.034369548966136525
+chemical_by_module,PFNA|M4,BP,GO:0043574,peroxisomal transport,e,0.00013622105664830888,5,91,6,742,0.042715674055301536
+chemical_by_module,PFNA|M4,CC,GO:0005777,peroxisome,e,2.256834504557113e-09,13,100,17,769,5.671922941092736e-06
+chemical_by_module,PFNA|M4,CC,GO:0042579,microbody,e,2.256834504557113e-09,13,100,17,769,5.671922941092736e-06
+chemical_by_module,PFNA|M4,CC,GO:0005778,peroxisomal membrane,e,4.459888134039468e-05,7,100,10,769,0.018681137799490467
+chemical_by_module,PFNA|M4,CC,GO:0031903,microbody membrane,e,4.459888134039468e-05,7,100,10,769,0.018681137799490467
+chemical_by_module,PFNA|M4,MF,GO:0003824,catalytic activity,e,6.21092071054074e-10,86,107,416,781,1.9959969983820093e-06
+chemical_by_module,PFNA|M4,MF,GO:0015020,glucuronosyltransferase activity,e,4.4309008440727886e-05,12,107,26,781,0.018651145895349643
+chemical_by_module,PFNA|M4,MF,GO:0016758,hexosyltransferase activity,e,6.42878964179431e-05,15,107,39,781,0.02440768424394179
+chemical_by_module,PFNA|M4,MF,GO:0008194,UDP-glycosyltransferase activity,e,0.0001076960244121627,13,107,32,781,0.036373800150225684
+chemical_by_module,PFNA|M4,MF,GO:0016757,glycosyltransferase activity,e,0.00014946823151065387,16,107,46,781,0.04577384660171598

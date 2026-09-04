@@ -1,0 +1,16 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFEESA|M1,BP,GO:0044085,cellular component biogenesis,e,1.3756712655811328e-11,11,45,24,1445,7.583898181179033e-08
+chemical_by_module,PFEESA|M1,BP,GO:0022613,ribonucleoprotein complex biogenesis,e,1.485852401631045e-10,10,45,22,1445,6.348267239658599e-07
+chemical_by_module,PFEESA|M1,BP,GO:0042254,ribosome biogenesis,e,9.474863790952651e-07,6,45,13,1445,0.0009873443579329372
+chemical_by_module,PFEESA|M1,BP,GO:0016072,rRNA metabolic process,e,9.866029766732745e-07,12,45,74,1445,0.0010096374976675804
+chemical_by_module,PFEESA|M1,BP,GO:0006364,rRNA processing,e,1.0094281004407471e-06,11,45,61,1445,0.0010268467436739478
+chemical_by_module,PFEESA|M1,BP,GO:0000154,rRNA modification,e,1.5753685401212697e-05,5,45,12,1445,0.008546949464704282
+chemical_by_module,PFEESA|M1,CC,GO:0030684,preribosome,e,1.1033085414236769e-11,13,51,36,1581,6.285144214025498e-08
+chemical_by_module,PFEESA|M1,CC,GO:0005730,nucleolus,e,2.9558847583582235e-11,18,51,88,1581,1.578617966620819e-07
+chemical_by_module,PFEESA|M1,CC,GO:0032040,small-subunit processome,e,6.196597332757077e-09,10,51,29,1581,1.3753146591829243e-05
+chemical_by_module,PFEESA|M1,CC,GO:0005732,sno(s)RNA-containing ribonucleoprotein complex,e,3.4210962247959333e-07,6,51,11,1581,0.0004603637194656694
+chemical_by_module,PFEESA|M1,CC,GO:0170049,box C/D RNP complex,e,9.636058148470383e-07,4,51,4,1581,0.0009920437960936385
+chemical_by_module,PFEESA|M1,CC,GO:0031428,box C/D methylation guide snoRNP complex,e,9.636058148470383e-07,4,51,4,1581,0.0009920437960936385
+chemical_by_module,PFEESA|M1,CC,GO:1990904,ribonucleoprotein complex,e,4.677861241134339e-05,17,51,192,1581,0.019356944509651752
+chemical_by_module,PFEESA|M1,CC,GO:0043232,intracellular membraneless organelle,e,0.00010907825617863225,22,51,314,1581,0.0365516958875923
+chemical_by_module,PFEESA|M1,CC,GO:0043228,membraneless organelle,e,0.00010907825617863225,22,51,314,1581,0.0365516958875923

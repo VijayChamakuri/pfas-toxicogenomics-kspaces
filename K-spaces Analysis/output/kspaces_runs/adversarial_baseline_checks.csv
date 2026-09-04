@@ -1,0 +1,7 @@
+check,value
+real_vs_null_logL_delta,32551.73206793185
+real_vs_null_BIC_delta,65103.4641358637
+real_data_kspaces_stability_ARI,0.8020809737052104
+permuted_null_kspaces_stability_ARI,0.6765586046734513
+kmeans_stability_ARI,0.895984137465764
+kmeans_vs_kspaces_agreement_ARI,0.36159901383108173

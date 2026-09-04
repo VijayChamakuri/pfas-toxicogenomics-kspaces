@@ -1,0 +1,10 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFBS|M3,BP,GO:0006629,lipid metabolic process,e,4.923425320771412e-06,24,122,112,1469,0.0035652901012479385
+chemical_by_module,PFBS|M3,BP,GO:0008152,metabolic process,e,6.366047236496204e-05,59,122,465,1469,0.024393522571075445
+chemical_by_module,PFBS|M3,MF,GO:0016491,oxidoreductase activity,e,6.8382382493744236e-09,35,148,136,1537,1.4608100982247995e-05
+chemical_by_module,PFBS|M3,MF,GO:0004497,monooxygenase activity,e,2.26430982729057e-07,18,148,50,1537,0.0003279392247238399
+chemical_by_module,PFBS|M3,MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",e,4.1429345522329406e-07,19,148,57,1537,0.0005283756507776547
+chemical_by_module,PFBS|M3,MF,GO:0005506,iron ion binding,e,3.304555652112267e-06,17,148,53,1537,0.002567023892683338
+chemical_by_module,PFBS|M3,MF,GO:0003824,catalytic activity,e,5.5207485640420305e-06,94,148,703,1537,0.003947658614419327
+chemical_by_module,PFBS|M3,MF,GO:0020037,heme binding,e,8.508250145006368e-06,19,148,68,1537,0.005230400868818141
+chemical_by_module,PFBS|M3,MF,GO:0046906,tetrapyrrole binding,e,1.0777238489946669e-05,19,148,69,1537,0.0063292758786714625

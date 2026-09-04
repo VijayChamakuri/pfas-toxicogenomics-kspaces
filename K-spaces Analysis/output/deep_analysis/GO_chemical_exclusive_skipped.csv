@@ -1,0 +1,20 @@
+family,study_id,namespace,input_genes,mapped_eligible_genes,reason
+chemical_exclusive,PFOS,MF,0,0,fewer than 10 mapped eligible genes
+chemical_exclusive,PFNA,MF,5,3,fewer than 10 mapped eligible genes
+chemical_exclusive,PFOA,MF,0,0,fewer than 10 mapped eligible genes
+chemical_exclusive,GenX,MF,9,4,fewer than 10 mapped eligible genes
+chemical_exclusive,PFEESA,MF,22,8,fewer than 10 mapped eligible genes
+chemical_exclusive,PFBS,MF,19,8,fewer than 10 mapped eligible genes
+chemical_exclusive,PFBA,MF,2,1,fewer than 10 mapped eligible genes
+chemical_exclusive,PFOS,BP,0,0,fewer than 10 mapped eligible genes
+chemical_exclusive,PFNA,BP,5,4,fewer than 10 mapped eligible genes
+chemical_exclusive,PFOA,BP,0,0,fewer than 10 mapped eligible genes
+chemical_exclusive,GenX,BP,9,5,fewer than 10 mapped eligible genes
+chemical_exclusive,PFEESA,BP,22,8,fewer than 10 mapped eligible genes
+chemical_exclusive,PFBA,BP,2,1,fewer than 10 mapped eligible genes
+chemical_exclusive,PFOS,CC,0,0,fewer than 10 mapped eligible genes
+chemical_exclusive,PFNA,CC,5,4,fewer than 10 mapped eligible genes
+chemical_exclusive,PFOA,CC,0,0,fewer than 10 mapped eligible genes
+chemical_exclusive,GenX,CC,9,3,fewer than 10 mapped eligible genes
+chemical_exclusive,PFEESA,CC,22,7,fewer than 10 mapped eligible genes
+chemical_exclusive,PFBA,CC,2,1,fewer than 10 mapped eligible genes

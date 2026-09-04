@@ -1,0 +1,28 @@
+flowchart LR
+  Researcher[Researcher] -->|question or approved job| Entry[Notebook, CLI, or HTTPS API]
+  Entry --> Validate[Compatibility and schema validation]
+  Evidence[(Versioned evidence corpus)] --> Retrieve[Evidence retrieval]
+  Validate --> Retrieve
+  Retrieve --> Plan[Typed workflow plan and citations]
+  Plan --> Rules[Scientific rules and unsupported-claim checks]
+  Rules -->|unsupported| Abstain[Abstention with reason]
+  Rules -->|review required| Review[Human review checkpoint]
+  Review -->|approved| Execute[Allowlisted execution]
+  Rules -->|safe deterministic lookup| Execute
+  Inputs[(Versioned PFAS artifacts)] --> Execute
+  Execute --> Results[(Results, hashes, metrics, and provenance)]
+
+  subgraph AWS[Approval-gated AWS target]
+    ALB[Existing HTTPS Application Load Balancer] --> ECS[Amazon ECS Fargate API]
+    ECR[(Amazon ECR immutable images)] --> ECS
+    S3[(Amazon S3 versioned artifacts)] --> ECS
+    ECS --> CW[Amazon CloudWatch]
+    SM[Secrets Manager] -. optional scoped secret .-> ECS
+    Train[Optional bounded SageMaker job] <--> S3
+  end
+
+  GHA[CI and approved release with OIDC] --> ECR
+  GHA --> ECS
+  Entry -. cloud request .-> ALB
+  S3 -. approved input snapshot .-> Inputs
+  Results -. approved artifact publication .-> S3

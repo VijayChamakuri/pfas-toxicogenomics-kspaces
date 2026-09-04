@@ -1,0 +1,3 @@
+variant,n_shared_genes,ARI_consensus_vs_consensus
+percentile_rank_sensitivity,10255,0.119
+topN1000,4058,0.647

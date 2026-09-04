@@ -1,0 +1,21 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFBA|M4,BP,GO:0046434,organophosphate catabolic process,e,2.632952976727435e-07,7,41,11,742,0.0003781252359409596
+chemical_by_module,PFBA|M4,BP,GO:0009137,purine nucleoside diphosphate catabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0009261,ribonucleotide catabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0009134,nucleoside diphosphate catabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0009135,purine nucleoside diphosphate metabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0009179,purine ribonucleoside diphosphate metabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0009191,ribonucleoside diphosphate catabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0009185,ribonucleoside diphosphate metabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0046034,ATP metabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0009154,purine ribonucleotide catabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0009132,nucleoside diphosphate metabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0009205,purine ribonucleoside triphosphate metabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0006195,purine nucleotide catabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0009144,purine nucleoside triphosphate metabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,BP,GO:0009181,purine ribonucleoside diphosphate catabolic process,e,7.831831796840812e-06,5,41,7,742,0.004902755392850908
+chemical_by_module,PFBA|M4,MF,GO:0003824,catalytic activity,e,2.03949128278754e-08,50,57,416,781,4.100553185142445e-05
+chemical_by_module,PFBA|M4,MF,GO:0015020,glucuronosyltransferase activity,e,3.960671358053414e-07,11,57,26,781,0.0005127839200151291
+chemical_by_module,PFBA|M4,MF,GO:0016491,oxidoreductase activity,e,1.2523917391092533e-06,20,57,92,781,0.001223042833268756
+chemical_by_module,PFBA|M4,MF,GO:0008194,UDP-glycosyltransferase activity,e,4.69585461612964e-06,11,57,32,781,0.0034591243881118075
+chemical_by_module,PFBA|M4,MF,GO:0016758,hexosyltransferase activity,e,4.082814722028599e-05,11,57,39,781,0.01735693913382999

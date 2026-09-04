@@ -1,0 +1,11 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,GenX|M2,BP,GO:0006412,translation,e,8.326190659939115e-07,14,53,94,1596,0.0008949293443980722
+chemical_by_module,GenX|M2,CC,GO:0022625,cytosolic large ribosomal subunit,e,2.8501500865745833e-10,13,53,46,1692,1.0353713463419024e-06
+chemical_by_module,GenX|M2,CC,GO:0015934,large ribosomal subunit,e,9.075419899458439e-10,13,53,50,1692,2.6453911811742527e-06
+chemical_by_module,GenX|M2,CC,GO:0044391,ribosomal subunit,e,1.0955498690191265e-07,14,53,85,1692,0.00017663054440141484
+chemical_by_module,GenX|M2,CC,GO:0005840,ribosome,e,4.529381303402973e-06,12,53,83,1692,0.003368717264078203
+chemical_by_module,GenX|M2,CC,GO:1990904,ribonucleoprotein complex,e,0.00010763818088573371,14,53,149,1692,0.036373800150225684
+chemical_by_module,GenX|M2,CC,GO:0045121,membrane raft,e,0.00011593569383340714,5,53,17,1692,0.03763241734144091
+chemical_by_module,GenX|M2,CC,GO:0098857,membrane microdomain,e,0.00011593569383340714,5,53,17,1692,0.03763241734144091
+chemical_by_module,GenX|M2,MF,GO:0003735,structural constituent of ribosome,e,5.650261909092815e-07,14,53,89,1555,0.0006897315071443237
+chemical_by_module,GenX|M2,MF,GO:0005198,structural molecule activity,e,8.904555534298277e-05,14,53,135,1555,0.03124804181223904

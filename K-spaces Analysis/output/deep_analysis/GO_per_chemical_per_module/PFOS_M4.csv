@@ -1,0 +1,9 @@
+family,study_id,namespace,GO_id,term,enrichment,p_raw,study_count,study_n,pop_count,pop_n,p_fdr_bh_family
+chemical_by_module,PFOS|M4,CC,GO:0005777,peroxisome,e,6.437822442074059e-05,7,54,17,769,0.02440768424394179
+chemical_by_module,PFOS|M4,CC,GO:0042579,microbody,e,6.437822442074059e-05,7,54,17,769,0.02440768424394179
+chemical_by_module,PFOS|M4,MF,GO:0003824,catalytic activity,e,3.696249609319733e-07,49,58,416,781,0.0004896785751807233
+chemical_by_module,PFOS|M4,MF,GO:0015020,glucuronosyltransferase activity,e,4.795901698800819e-07,11,58,26,781,0.0005982589813309206
+chemical_by_module,PFOS|M4,MF,GO:0008194,UDP-glycosyltransferase activity,e,5.643087662532849e-06,11,58,32,781,0.004001651611780918
+chemical_by_module,PFOS|M4,MF,GO:0016758,hexosyltransferase activity,e,7.489701231315149e-06,12,58,39,781,0.004902755392850908
+chemical_by_module,PFOS|M4,MF,GO:0016757,glycosyltransferase activity,e,4.9572188313126505e-05,12,58,46,781,0.020463375387741563
+chemical_by_module,PFOS|M4,MF,GO:0020037,heme binding,e,0.0001164815537318143,8,58,23,781,0.03763241734144091

@@ -1,0 +1,187 @@
+PFOSA,PFBSA,PFOS,PFNA,PFOA,GenX,PFEESA,PFBS,PFPeA,PFBA,gene_count,degree,intersection
+True,False,False,False,False,False,False,False,False,False,1989,1,PFOSA
+True,False,False,False,False,False,False,False,True,False,1354,2,PFOSA & PFPeA
+True,True,False,False,False,False,False,False,True,False,467,3,PFOSA & PFBSA & PFPeA
+False,False,False,False,False,False,False,False,True,False,337,1,PFPeA
+False,True,False,False,False,False,False,False,False,False,150,1,PFBSA
+True,True,False,False,False,False,False,False,False,False,144,2,PFOSA & PFBSA
+True,True,False,False,False,False,True,False,True,False,109,4,PFOSA & PFBSA & PFEESA & PFPeA
+False,True,False,False,False,False,True,False,True,False,73,3,PFBSA & PFEESA & PFPeA
+True,False,False,False,False,False,True,False,True,False,67,3,PFOSA & PFEESA & PFPeA
+False,True,False,False,False,False,False,False,True,False,54,2,PFBSA & PFPeA
+False,False,False,False,False,False,True,False,False,False,40,1,PFEESA
+True,True,False,False,False,False,False,True,True,False,30,4,PFOSA & PFBSA & PFBS & PFPeA
+True,True,False,False,False,False,True,True,True,False,29,5,PFOSA & PFBSA & PFEESA & PFBS & PFPeA
+True,True,True,True,False,True,True,True,True,False,28,8,PFOSA & PFBSA & PFOS & PFNA & GenX & PFEESA & PFBS & PFPeA
+False,False,False,False,False,False,True,False,True,False,28,2,PFEESA & PFPeA
+False,False,False,False,False,False,False,True,False,False,28,1,PFBS
+True,False,False,False,False,False,False,True,True,False,27,3,PFOSA & PFBS & PFPeA
+False,True,False,False,False,False,True,False,False,False,25,2,PFBSA & PFEESA
+True,True,True,True,True,True,True,True,True,True,24,10,PFOSA & PFBSA & PFOS & PFNA & PFOA & GenX & PFEESA & PFBS & PFPeA & PFBA
+True,False,False,False,False,False,True,True,True,False,23,4,PFOSA & PFEESA & PFBS & PFPeA
+True,True,True,True,True,True,True,True,True,False,21,9,PFOSA & PFBSA & PFOS & PFNA & PFOA & GenX & PFEESA & PFBS & PFPeA
+True,True,False,False,False,True,True,True,True,False,21,6,PFOSA & PFBSA & GenX & PFEESA & PFBS & PFPeA
+True,True,False,False,False,True,False,False,True,False,18,4,PFOSA & PFBSA & GenX & PFPeA
+True,False,False,False,False,True,False,False,True,False,15,3,PFOSA & GenX & PFPeA
+False,False,False,False,False,False,False,True,True,False,14,2,PFBS & PFPeA
+False,False,False,False,False,True,False,False,False,False,14,1,GenX
+False,False,False,False,False,False,False,False,False,True,13,1,PFBA
+False,False,False,False,False,False,False,True,True,True,11,3,PFBS & PFPeA & PFBA
+False,True,False,False,False,True,True,True,True,False,10,5,PFBSA & GenX & PFEESA & PFBS & PFPeA
+False,False,False,False,False,False,True,True,True,False,10,3,PFEESA & PFBS & PFPeA
+True,False,False,True,False,False,False,False,True,False,10,3,PFOSA & PFNA & PFPeA
+False,True,False,False,False,True,False,False,False,False,10,2,PFBSA & GenX
+True,False,False,False,False,False,False,True,True,True,9,4,PFOSA & PFBS & PFPeA & PFBA
+False,False,False,False,False,False,False,True,False,True,9,2,PFBS & PFBA
+True,False,False,False,False,False,True,False,False,False,9,2,PFOSA & PFEESA
+True,True,False,True,False,True,True,True,True,False,7,7,PFOSA & PFBSA & PFNA & GenX & PFEESA & PFBS & PFPeA
+True,True,False,True,False,False,True,True,True,False,7,6,PFOSA & PFBSA & PFNA & PFEESA & PFBS & PFPeA
+False,False,False,False,False,True,True,True,True,False,7,4,GenX & PFEESA & PFBS & PFPeA
+False,False,False,True,False,False,False,False,False,False,7,1,PFNA
+False,True,False,False,False,True,False,False,True,False,6,3,PFBSA & GenX & PFPeA
+True,True,False,True,False,False,True,False,True,False,5,5,PFOSA & PFBSA & PFNA & PFEESA & PFPeA
+False,True,False,False,False,True,True,False,True,False,5,4,PFBSA & GenX & PFEESA & PFPeA
+True,True,False,True,False,False,False,False,True,False,5,4,PFOSA & PFBSA & PFNA & PFPeA
+True,False,False,True,True,False,False,False,True,False,5,4,PFOSA & PFNA & PFOA & PFPeA
+True,True,False,False,False,True,False,False,False,False,5,3,PFOSA & PFBSA & GenX
+False,True,False,False,False,False,False,True,False,False,5,2,PFBSA & PFBS
+True,True,False,True,True,False,True,True,True,False,4,7,PFOSA & PFBSA & PFNA & PFOA & PFEESA & PFBS & PFPeA
+True,True,True,False,False,True,True,True,True,False,4,7,PFOSA & PFBSA & PFOS & GenX & PFEESA & PFBS & PFPeA
+True,True,True,True,False,False,True,True,True,False,4,7,PFOSA & PFBSA & PFOS & PFNA & PFEESA & PFBS & PFPeA
+True,False,False,True,True,False,True,True,True,True,4,7,PFOSA & PFNA & PFOA & PFEESA & PFBS & PFPeA & PFBA
+True,False,True,True,True,False,True,False,True,False,4,6,PFOSA & PFOS & PFNA & PFOA & PFEESA & PFPeA
+False,False,False,False,False,True,True,True,True,True,4,5,GenX & PFEESA & PFBS & PFPeA & PFBA
+True,True,False,False,False,True,True,False,True,False,4,5,PFOSA & PFBSA & GenX & PFEESA & PFPeA
+False,True,False,False,False,False,True,True,True,False,4,4,PFBSA & PFEESA & PFBS & PFPeA
+True,False,False,True,False,False,True,False,True,False,4,4,PFOSA & PFNA & PFEESA & PFPeA
+True,False,True,True,False,False,False,False,True,False,4,4,PFOSA & PFOS & PFNA & PFPeA
+False,False,False,False,False,True,False,True,False,True,4,3,GenX & PFBS & PFBA
+False,True,False,False,False,False,False,True,True,False,4,3,PFBSA & PFBS & PFPeA
+False,True,True,False,False,False,False,False,True,False,4,3,PFBSA & PFOS & PFPeA
+True,True,False,False,False,False,True,False,False,False,4,3,PFOSA & PFBSA & PFEESA
+True,False,False,False,False,False,False,False,True,True,4,3,PFOSA & PFPeA & PFBA
+False,False,False,False,False,True,False,False,True,False,4,2,GenX & PFPeA
+False,False,False,True,False,False,False,False,True,False,4,2,PFNA & PFPeA
+True,False,False,False,False,True,False,False,False,False,4,2,PFOSA & GenX
+True,True,True,True,False,True,True,True,True,True,3,9,PFOSA & PFBSA & PFOS & PFNA & GenX & PFEESA & PFBS & PFPeA & PFBA
+True,False,True,True,True,True,True,True,True,False,3,8,PFOSA & PFOS & PFNA & PFOA & GenX & PFEESA & PFBS & PFPeA
+True,True,False,True,False,False,False,True,True,False,3,5,PFOSA & PFBSA & PFNA & PFBS & PFPeA
+True,False,False,True,False,False,True,True,True,False,3,5,PFOSA & PFNA & PFEESA & PFBS & PFPeA
+True,False,False,True,True,False,True,False,True,False,3,5,PFOSA & PFNA & PFOA & PFEESA & PFPeA
+False,True,False,False,False,True,True,True,False,False,3,4,PFBSA & GenX & PFEESA & PFBS
+False,False,False,True,False,False,False,True,True,True,3,4,PFNA & PFBS & PFPeA & PFBA
+True,False,False,False,False,True,True,False,True,False,3,4,PFOSA & GenX & PFEESA & PFPeA
+True,False,False,True,False,False,False,True,True,False,3,4,PFOSA & PFNA & PFBS & PFPeA
+False,True,False,False,False,True,False,True,False,False,3,3,PFBSA & GenX & PFBS
+True,False,False,True,True,False,False,False,False,False,3,3,PFOSA & PFNA & PFOA
+True,False,True,True,False,False,False,False,False,False,3,3,PFOSA & PFOS & PFNA
+True,False,False,False,False,False,False,False,False,True,3,2,PFOSA & PFBA
+True,False,False,True,False,False,False,False,False,False,3,2,PFOSA & PFNA
+False,False,True,False,False,False,False,False,False,False,3,1,PFOS
+False,True,True,True,True,True,True,True,True,True,2,9,PFBSA & PFOS & PFNA & PFOA & GenX & PFEESA & PFBS & PFPeA & PFBA
+False,True,True,True,True,True,True,True,True,False,2,8,PFBSA & PFOS & PFNA & PFOA & GenX & PFEESA & PFBS & PFPeA
+True,True,False,True,True,False,True,True,True,True,2,8,PFOSA & PFBSA & PFNA & PFOA & PFEESA & PFBS & PFPeA & PFBA
+True,True,True,True,True,False,True,True,True,False,2,8,PFOSA & PFBSA & PFOS & PFNA & PFOA & PFEESA & PFBS & PFPeA
+True,False,False,True,True,True,True,True,True,True,2,8,PFOSA & PFNA & PFOA & GenX & PFEESA & PFBS & PFPeA & PFBA
+False,True,True,True,False,True,True,True,True,False,2,7,PFBSA & PFOS & PFNA & GenX & PFEESA & PFBS & PFPeA
+True,True,False,True,True,True,True,False,True,False,2,7,PFOSA & PFBSA & PFNA & PFOA & GenX & PFEESA & PFPeA
+True,True,False,False,True,True,True,True,True,False,2,7,PFOSA & PFBSA & PFOA & GenX & PFEESA & PFBS & PFPeA
+True,False,False,True,True,True,True,True,True,False,2,7,PFOSA & PFNA & PFOA & GenX & PFEESA & PFBS & PFPeA
+True,False,True,True,True,False,True,True,True,False,2,7,PFOSA & PFOS & PFNA & PFOA & PFEESA & PFBS & PFPeA
+False,True,True,True,False,False,True,True,True,False,2,6,PFBSA & PFOS & PFNA & PFEESA & PFBS & PFPeA
+True,True,True,False,False,True,True,False,True,False,2,6,PFOSA & PFBSA & PFOS & GenX & PFEESA & PFPeA
+True,True,True,True,False,False,True,False,True,False,2,6,PFOSA & PFBSA & PFOS & PFNA & PFEESA & PFPeA
+True,True,True,True,True,False,False,False,True,False,2,6,PFOSA & PFBSA & PFOS & PFNA & PFOA & PFPeA
+True,False,False,True,True,False,True,True,False,True,2,6,PFOSA & PFNA & PFOA & PFEESA & PFBS & PFBA
+True,False,False,True,True,False,True,True,True,False,2,6,PFOSA & PFNA & PFOA & PFEESA & PFBS & PFPeA
+False,True,True,True,False,False,True,False,True,False,2,5,PFBSA & PFOS & PFNA & PFEESA & PFPeA
+True,True,False,False,False,True,False,True,True,False,2,5,PFOSA & PFBSA & GenX & PFBS & PFPeA
+True,True,True,True,False,False,False,False,True,False,2,5,PFOSA & PFBSA & PFOS & PFNA & PFPeA
+True,False,True,True,False,False,True,False,True,False,2,5,PFOSA & PFOS & PFNA & PFEESA & PFPeA
+False,False,False,False,False,True,False,True,True,True,2,4,GenX & PFBS & PFPeA & PFBA
+False,True,False,False,False,True,False,True,True,False,2,4,PFBSA & GenX & PFBS & PFPeA
+False,False,False,True,False,False,True,True,True,False,2,4,PFNA & PFEESA & PFBS & PFPeA
+True,False,True,True,True,False,False,False,False,False,2,4,PFOSA & PFOS & PFNA & PFOA
+False,False,False,False,False,True,True,False,True,False,2,3,GenX & PFEESA & PFPeA
+False,True,False,False,False,True,True,False,False,False,2,3,PFBSA & GenX & PFEESA
+False,False,False,True,False,False,True,False,True,False,2,3,PFNA & PFEESA & PFPeA
+False,False,False,True,True,False,False,False,True,False,2,3,PFNA & PFOA & PFPeA
+False,False,False,False,True,False,False,True,True,False,2,3,PFOA & PFBS & PFPeA
+True,True,False,False,False,False,False,True,False,False,2,3,PFOSA & PFBSA & PFBS
+True,False,False,False,True,False,False,False,True,False,2,3,PFOSA & PFOA & PFPeA
+False,False,False,True,True,False,False,False,False,False,2,2,PFNA & PFOA
+True,False,False,False,False,False,False,True,False,False,2,2,PFOSA & PFBS
+True,False,False,False,True,False,False,False,False,False,2,2,PFOSA & PFOA
+True,True,False,True,True,True,True,True,True,True,1,9,PFOSA & PFBSA & PFNA & PFOA & GenX & PFEESA & PFBS & PFPeA & PFBA
+True,True,True,True,True,False,True,True,True,True,1,9,PFOSA & PFBSA & PFOS & PFNA & PFOA & PFEESA & PFBS & PFPeA & PFBA
+True,False,True,True,True,True,True,True,True,True,1,9,PFOSA & PFOS & PFNA & PFOA & GenX & PFEESA & PFBS & PFPeA & PFBA
+False,True,True,True,False,True,True,True,True,True,1,8,PFBSA & PFOS & PFNA & GenX & PFEESA & PFBS & PFPeA & PFBA
+True,True,False,True,True,True,True,True,True,False,1,8,PFOSA & PFBSA & PFNA & PFOA & GenX & PFEESA & PFBS & PFPeA
+True,False,True,True,True,False,True,True,True,True,1,8,PFOSA & PFOS & PFNA & PFOA & PFEESA & PFBS & PFPeA & PFBA
+False,False,False,True,True,True,True,True,True,True,1,7,PFNA & PFOA & GenX & PFEESA & PFBS & PFPeA & PFBA
+False,False,True,True,True,True,True,True,True,False,1,7,PFOS & PFNA & PFOA & GenX & PFEESA & PFBS & PFPeA
+True,True,False,False,False,True,True,True,True,True,1,7,PFOSA & PFBSA & GenX & PFEESA & PFBS & PFPeA & PFBA
+True,True,True,True,False,True,False,True,True,False,1,7,PFOSA & PFBSA & PFOS & PFNA & GenX & PFBS & PFPeA
+True,False,True,True,True,True,False,True,True,False,1,7,PFOSA & PFOS & PFNA & PFOA & GenX & PFBS & PFPeA
+False,True,False,True,False,True,True,True,True,False,1,6,PFBSA & PFNA & GenX & PFEESA & PFBS & PFPeA
+False,True,False,False,True,True,True,True,True,False,1,6,PFBSA & PFOA & GenX & PFEESA & PFBS & PFPeA
+False,True,True,True,False,True,True,False,True,False,1,6,PFBSA & PFOS & PFNA & GenX & PFEESA & PFPeA
+False,False,False,True,True,False,True,True,True,True,1,6,PFNA & PFOA & PFEESA & PFBS & PFPeA & PFBA
+False,False,True,True,False,True,True,True,True,False,1,6,PFOS & PFNA & GenX & PFEESA & PFBS & PFPeA
+False,False,True,True,False,False,True,True,True,True,1,6,PFOS & PFNA & PFEESA & PFBS & PFPeA & PFBA
+False,False,True,True,True,False,True,True,True,False,1,6,PFOS & PFNA & PFOA & PFEESA & PFBS & PFPeA
+True,True,False,True,False,True,True,False,True,False,1,6,PFOSA & PFBSA & PFNA & GenX & PFEESA & PFPeA
+True,True,False,True,True,False,True,False,True,False,1,6,PFOSA & PFBSA & PFNA & PFOA & PFEESA & PFPeA
+True,True,True,True,False,True,False,False,True,False,1,6,PFOSA & PFBSA & PFOS & PFNA & GenX & PFPeA
+True,True,True,True,False,False,False,True,True,False,1,6,PFOSA & PFBSA & PFOS & PFNA & PFBS & PFPeA
+True,True,True,True,True,True,False,False,False,False,1,6,PFOSA & PFBSA & PFOS & PFNA & PFOA & GenX
+True,False,False,True,False,True,False,True,True,True,1,6,PFOSA & PFNA & GenX & PFBS & PFPeA & PFBA
+True,False,False,True,False,True,True,True,True,False,1,6,PFOSA & PFNA & GenX & PFEESA & PFBS & PFPeA
+True,False,True,True,False,False,True,True,True,False,1,6,PFOSA & PFOS & PFNA & PFEESA & PFBS & PFPeA
+False,True,False,False,False,False,True,True,True,True,1,5,PFBSA & PFEESA & PFBS & PFPeA & PFBA
+False,False,False,True,False,True,True,True,True,False,1,5,PFNA & GenX & PFEESA & PFBS & PFPeA
+False,False,False,True,False,False,True,True,True,True,1,5,PFNA & PFEESA & PFBS & PFPeA & PFBA
+False,False,False,True,True,False,True,True,False,True,1,5,PFNA & PFOA & PFEESA & PFBS & PFBA
+False,False,True,True,False,True,False,True,True,False,1,5,PFOS & PFNA & GenX & PFBS & PFPeA
+False,False,True,True,False,True,True,False,True,False,1,5,PFOS & PFNA & GenX & PFEESA & PFPeA
+False,False,True,True,False,False,False,True,True,True,1,5,PFOS & PFNA & PFBS & PFPeA & PFBA
+False,False,True,True,False,False,True,True,True,False,1,5,PFOS & PFNA & PFEESA & PFBS & PFPeA
+True,False,False,False,False,True,True,True,True,False,1,5,PFOSA & GenX & PFEESA & PFBS & PFPeA
+True,True,False,False,False,False,False,True,True,True,1,5,PFOSA & PFBSA & PFBS & PFPeA & PFBA
+True,True,True,True,True,False,False,False,False,False,1,5,PFOSA & PFBSA & PFOS & PFNA & PFOA
+True,False,False,True,False,False,False,True,True,True,1,5,PFOSA & PFNA & PFBS & PFPeA & PFBA
+True,False,False,True,True,False,False,True,True,False,1,5,PFOSA & PFNA & PFOA & PFBS & PFPeA
+True,False,False,False,True,True,False,True,True,False,1,5,PFOSA & PFOA & GenX & PFBS & PFPeA
+True,False,False,False,True,True,True,False,True,False,1,5,PFOSA & PFOA & GenX & PFEESA & PFPeA
+True,False,False,False,True,False,True,True,True,False,1,5,PFOSA & PFOA & PFEESA & PFBS & PFPeA
+True,False,True,True,False,False,False,True,True,False,1,5,PFOSA & PFOS & PFNA & PFBS & PFPeA
+True,False,True,True,True,False,False,False,True,False,1,5,PFOSA & PFOS & PFNA & PFOA & PFPeA
+False,True,False,False,False,False,False,True,True,True,1,4,PFBSA & PFBS & PFPeA & PFBA
+False,False,False,True,False,True,False,True,True,False,1,4,PFNA & GenX & PFBS & PFPeA
+False,False,False,True,True,False,False,True,True,False,1,4,PFNA & PFOA & PFBS & PFPeA
+False,False,False,True,True,False,True,True,False,False,1,4,PFNA & PFOA & PFEESA & PFBS
+False,False,False,True,True,False,True,False,True,False,1,4,PFNA & PFOA & PFEESA & PFPeA
+False,False,False,False,True,False,False,True,True,True,1,4,PFOA & PFBS & PFPeA & PFBA
+False,False,True,True,False,False,True,False,True,False,1,4,PFOS & PFNA & PFEESA & PFPeA
+True,False,False,False,False,True,False,True,True,False,1,4,PFOSA & GenX & PFBS & PFPeA
+True,True,False,False,False,True,True,False,False,False,1,4,PFOSA & PFBSA & GenX & PFEESA
+True,True,False,False,False,False,True,True,False,False,1,4,PFOSA & PFBSA & PFEESA & PFBS
+True,True,True,False,False,False,False,False,True,False,1,4,PFOSA & PFBSA & PFOS & PFPeA
+True,False,False,False,False,False,True,True,False,True,1,4,PFOSA & PFEESA & PFBS & PFBA
+True,False,False,True,True,False,True,False,False,False,1,4,PFOSA & PFNA & PFOA & PFEESA
+True,False,False,False,True,False,False,True,True,False,1,4,PFOSA & PFOA & PFBS & PFPeA
+True,False,False,False,True,False,True,True,False,False,1,4,PFOSA & PFOA & PFEESA & PFBS
+True,False,False,False,True,False,True,False,True,False,1,4,PFOSA & PFOA & PFEESA & PFPeA
+True,False,True,False,False,False,True,False,True,False,1,4,PFOSA & PFOS & PFEESA & PFPeA
+False,False,False,False,False,True,False,True,True,False,1,3,GenX & PFBS & PFPeA
+False,True,False,False,False,False,True,True,False,False,1,3,PFBSA & PFEESA & PFBS
+False,True,False,True,False,False,False,True,False,False,1,3,PFBSA & PFNA & PFBS
+False,True,False,True,False,False,False,False,True,False,1,3,PFBSA & PFNA & PFPeA
+False,False,False,True,False,False,True,True,False,False,1,3,PFNA & PFEESA & PFBS
+False,False,True,False,False,False,False,True,True,False,1,3,PFOS & PFBS & PFPeA
+True,False,False,False,False,False,False,True,False,True,1,3,PFOSA & PFBS & PFBA
+False,True,True,False,False,False,False,False,False,False,1,2,PFBSA & PFOS
+False,False,False,False,False,False,True,True,False,False,1,2,PFEESA & PFBS
+False,False,False,False,True,False,False,False,True,False,1,2,PFOA & PFPeA
+True,False,True,False,False,False,False,False,False,False,1,2,PFOSA & PFOS
+False,False,False,False,True,False,False,False,False,False,1,1,PFOA

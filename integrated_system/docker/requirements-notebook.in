@@ -1,0 +1,4 @@
+jupyterlab==4.4.6
+nbconvert==7.16.6
+torch==2.8.0
+tensorflow==2.20.0
