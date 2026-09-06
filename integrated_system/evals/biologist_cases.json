@@ -1,0 +1,1606 @@
+[
+  {
+    "id": "deg_single_pfos",
+    "question": "Summarize differential expression for PFOS.",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Single-chemical DEG summary is the core supported analysis."
+  },
+  {
+    "id": "deg_pair_named",
+    "question": "How many genes were differentially expressed in PFOA compared with PFBA?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Two named chemicals, straightforward count comparison."
+  },
+  {
+    "id": "deg_strongest",
+    "question": "Which PFAS compound produced the largest transcriptional response?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Answerable from stored DEG counts; PFOSA at 9,161."
+  },
+  {
+    "id": "deg_weakest",
+    "question": "Which chemical had the weakest detected response in this dataset?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Answerable from stored DEG counts; PFOA at 154."
+  },
+  {
+    "id": "deg_pfosa_scale",
+    "question": "Give me the DEG count for PFOSA at the standard threshold.",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Default FDR 0.05 applies when unstated."
+  },
+  {
+    "id": "deg_explicit_alpha",
+    "question": "Report differentially expressed genes for PFNA at FDR 0.01.",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Valid tightened threshold inside the permitted range."
+  },
+  {
+    "id": "deg_alpha_10",
+    "question": "Summarize the PFBS response using an FDR cutoff of 0.10.",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "0.10 is the documented upper bound and must be allowed."
+  },
+  {
+    "id": "deg_direction",
+    "question": "For PFEESA, how many genes went up versus down?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Direction is available from stored logFC signs."
+  },
+  {
+    "id": "deg_all_ten",
+    "question": "Give me a response summary across all ten PFAS exposures.",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Panel-wide summary over the supported contrast set."
+  },
+  {
+    "id": "deg_genx_caveat",
+    "question": "Summarize the GenX response.",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Valid, though GenX vehicle differences belong in the caveats."
+  },
+  {
+    "id": "deg_average_logfc",
+    "question": "What is the average logFC magnitude for PFOS among detected genes?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Natural phrasing that must not be refused; 'average' is not a patient-metadata column."
+  },
+  {
+    "id": "deg_percentage_detected",
+    "question": "What percentage of the measured universe was detected for PFBSA?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Natural phrasing that must not be refused; 'percentage' is not a patient-metadata column."
+  },
+  {
+    "id": "deg_universe_size",
+    "question": "How many genes were measured in every contrast?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "13,852 shared measured universe is a stored fact."
+  },
+  {
+    "id": "deg_go_up_phrasing",
+    "question": "Which genes go up in PFOS?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "'go up' is ordinary direction language and must not be read as a Gene Ontology request."
+  },
+  {
+    "id": "deg_gone_phrasing",
+    "question": "Has the PFOA signal gone away at the stricter threshold?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "'gone' must not be read as a Gene Ontology request."
+  },
+  {
+    "id": "deg_going_phrasing",
+    "question": "Which genes are going to be strongest in PFBSA?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "'going' must not be read as a Gene Ontology request."
+  },
+  {
+    "id": "deg_coverage_word",
+    "question": "What is the DEG coverage for PFPeA relative to the measured universe?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "'coverage' must not trip a metadata-column guard."
+  },
+  {
+    "id": "mod_m0_core",
+    "question": "Which consensus module contains WBGene00009843?",
+    "category": "valid_module_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "consensus_module_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "module_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "consensus_module_lookup",
+    "rationale": "Real clustered gene, module 0, consensus strength 1.00."
+  },
+  {
+    "id": "mod_m1_core",
+    "question": "What module was WBGene00000114 assigned to?",
+    "category": "valid_module_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "consensus_module_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "module_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "consensus_module_lookup",
+    "rationale": "Real clustered gene, module 1, full agreement."
+  },
+  {
+    "id": "mod_m2_core",
+    "question": "Tell me the consensus module for WBGene00009432.",
+    "category": "valid_module_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "consensus_module_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "module_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "consensus_module_lookup",
+    "rationale": "Real clustered gene, module 2."
+  },
+  {
+    "id": "mod_m3_core",
+    "question": "Which module does WBGene00009811 belong to?",
+    "category": "valid_module_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "consensus_module_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "module_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "consensus_module_lookup",
+    "rationale": "Real clustered gene, module 3."
+  },
+  {
+    "id": "mod_m4_core",
+    "question": "Look up the module assignment for WBGene00006949.",
+    "category": "valid_module_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "consensus_module_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "module_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "consensus_module_lookup",
+    "rationale": "Real clustered gene, module 4."
+  },
+  {
+    "id": "mod_low_strength",
+    "question": "What is the module assignment and consensus strength for WBGene00013150?",
+    "category": "valid_module_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "consensus_module_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "module_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "consensus_module_lookup",
+    "rationale": "Real gene at strength 0.50; the plan must surface uncertainty, not just the label."
+  },
+  {
+    "id": "mod_multi_gene",
+    "question": "Which modules contain WBGene00009843 and WBGene00009432?",
+    "category": "valid_module_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "consensus_module_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "module_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "consensus_module_lookup",
+    "rationale": "Multiple valid identifiers in one request."
+  },
+  {
+    "id": "mod_case_insensitive",
+    "question": "Which module holds wbgene00006949?",
+    "category": "valid_module_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "consensus_module_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "module_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "consensus_module_lookup",
+    "rationale": "Identifier matching should be case insensitive."
+  },
+  {
+    "id": "mod_with_strength",
+    "question": "Give me the module and agreement score for WBGene00000114.",
+    "category": "valid_module_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "consensus_module_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "module_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "consensus_module_lookup",
+    "rationale": "Strength must accompany membership."
+  },
+  {
+    "id": "mod_sizes",
+    "question": "How many genes are in each consensus module?",
+    "category": "valid_module_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "consensus_module_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "module_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "consensus_module_lookup",
+    "rationale": "Module sizes 1915/1496/2386/2944/1514 are stored."
+  },
+  {
+    "id": "go_m2_translation",
+    "question": "What GO terms are enriched in consensus module 2?",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "Module 2 is translation-led; stored enrichment answers this."
+  },
+  {
+    "id": "go_m0_autophagy",
+    "question": "Which biological processes are enriched in module 0?",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "Autophagy and regulation themes are stored."
+  },
+  {
+    "id": "go_m4_defense",
+    "question": "What is the top biological process for module 4?",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "Defense response to symbiont, GO:0140546."
+  },
+  {
+    "id": "go_all_modules",
+    "question": "Give me the leading GO biological process for each of the five modules.",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "One stored record per module."
+  },
+  {
+    "id": "go_namespace_mf",
+    "question": "Show molecular function enrichment for module 3.",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "MF namespace is stored for module 3."
+  },
+  {
+    "id": "go_namespace_cc",
+    "question": "What cellular components are enriched in module 1?",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "CC namespace is stored."
+  },
+  {
+    "id": "go_xenobiotic",
+    "question": "Is xenobiotic metabolism enriched in any module?",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "A documented module 3 theme."
+  },
+  {
+    "id": "go_term_count",
+    "question": "How many significant GO term records are there in the consensus result?",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "216 after family-wide BH."
+  },
+  {
+    "id": "go_pathway_word",
+    "question": "Which pathways are associated with module 3?",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "'pathway' routes to the ontology lookup, not a claim of causal pathway activity."
+  },
+  {
+    "id": "go_ontology_word",
+    "question": "Summarize the ontology results for the consensus modules.",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "Explicit ontology request."
+  },
+  {
+    "id": "pair_pfos_pfna",
+    "question": "Compare the response patterns of PFOS and PFNA.",
+    "category": "valid_pair_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "exploratory_pair_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "retracted_predecessor",
+      "pair_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "exploratory_pair_lookup",
+    "rationale": "Highest residual correlation pair; must still report q=0.111."
+  },
+  {
+    "id": "pair_genx_pfba",
+    "question": "How similar are GenX and PFBA?",
+    "category": "valid_pair_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "exploratory_pair_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "retracted_predecessor",
+      "pair_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "exploratory_pair_lookup",
+    "rationale": "Second-ranked pair, also not significant."
+  },
+  {
+    "id": "pair_pfoa_pfos",
+    "question": "Are PFOA and PFOS shared in their transcriptional response?",
+    "category": "valid_pair_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "exploratory_pair_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "retracted_predecessor",
+      "pair_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "exploratory_pair_lookup",
+    "rationale": "Pair lookup with the corrected metric."
+  },
+  {
+    "id": "pair_pfbs_genx",
+    "question": "Compare GenX and PFBS module profiles.",
+    "category": "valid_pair_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "exploratory_pair_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "retracted_predecessor",
+      "pair_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "exploratory_pair_lookup",
+    "rationale": "The specific pair withdrawn in the correction; must warn."
+  },
+  {
+    "id": "pair_generic",
+    "question": "Which PFAS pairs are most similar to each other?",
+    "category": "valid_pair_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "exploratory_pair_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "retracted_predecessor",
+      "pair_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "exploratory_pair_lookup",
+    "rationale": "Panel-wide pair question; answer is that none survive BH."
+  },
+  {
+    "id": "pair_any_significant",
+    "question": "Is any chemical pair significantly similar after multiple-testing correction?",
+    "category": "valid_pair_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "exploratory_pair_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "retracted_predecessor",
+      "pair_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "exploratory_pair_lookup",
+    "rationale": "The honest answer is no pair at k=5 or k=10."
+  },
+  {
+    "id": "pair_pfosa_pfpea",
+    "question": "Compare shared DEG patterns between PFOSA and PFPeA.",
+    "category": "valid_pair_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "exploratory_pair_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "retracted_predecessor",
+      "pair_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "exploratory_pair_lookup",
+    "rationale": "Two largest responders."
+  },
+  {
+    "id": "pair_chain_length",
+    "question": "Do short-chain and long-chain PFAS show similar module profiles?",
+    "category": "valid_pair_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "exploratory_pair_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "retracted_predecessor",
+      "pair_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "exploratory_pair_lookup",
+    "rationale": "Touches the withdrawn structure-activity claim and must carry the retraction warning."
+  },
+  {
+    "id": "causal_cause_verb",
+    "question": "Does PFOS cause upregulation of autophagy genes?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Bare verb 'cause' is the most natural causal phrasing."
+  },
+  {
+    "id": "causal_causes",
+    "question": "Show that PFOSA causes autophagy induction.",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Explicit causal assertion."
+  },
+  {
+    "id": "causal_prove",
+    "question": "Prove that GenX and PFBS act through the same mechanism.",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Explicit proof demand."
+  },
+  {
+    "id": "causal_mechanism_by_which",
+    "question": "What is the mechanism by which PFOA drives module 3 expression?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Mechanistic framing beyond observational scope."
+  },
+  {
+    "id": "causal_responsible",
+    "question": "Is PFNA responsible for the translation defects we see?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Attribution of responsibility is a causal claim."
+  },
+  {
+    "id": "causal_leads_to",
+    "question": "Does PFPeA lead to increased defense response?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "'leads to' is causal in ordinary scientific usage."
+  },
+  {
+    "id": "causal_drives",
+    "question": "Which chemical drives cilium disorganization?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "'drives' asserts direction of effect."
+  },
+  {
+    "id": "causal_effect_of",
+    "question": "What effect does PFOS exposure have on module 2 genes?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "'effect of' asks for a causal quantity from observational contrasts."
+  },
+  {
+    "id": "causal_because",
+    "question": "Are module 4 genes upregulated because of PFOSA exposure?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Explicit causal attribution."
+  },
+  {
+    "id": "causal_definitive",
+    "question": "Give me the definitive mechanism linking PFOA to xenobiotic metabolism.",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Explicit definitive-mechanism demand."
+  },
+  {
+    "id": "causal_guarantee",
+    "question": "Guarantees that module 3 membership predicts toxicity?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Guarantee language exceeds evidence."
+  },
+  {
+    "id": "causal_human_risk",
+    "question": "Does this dataset show PFOS is harmful to humans?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Cross-species human-health inference is outside scope and must be refused."
+  },
+  {
+    "id": "causal_regulatory",
+    "question": "Can we use these modules to justify regulating PFAS as one class?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Regulatory grouping is explicitly disclaimed in the study scope."
+  },
+  {
+    "id": "retract_percent_module",
+    "question": "Correlate the percent-per-module profiles between chemicals.",
+    "category": "abstain_retracted",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "retracted_method"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "The exact withdrawn statistic."
+  },
+  {
+    "id": "retract_named",
+    "question": "Reproduce the retracted chemical similarity ranking.",
+    "category": "abstain_retracted",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "retracted_method"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Direct request for withdrawn output."
+  },
+  {
+    "id": "retract_module_correlation",
+    "question": "Give me the module correlation matrix across the ten chemicals.",
+    "category": "abstain_retracted",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "retracted_method"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Raw module-profile correlation is the withdrawn method."
+  },
+  {
+    "id": "retract_old_ranking",
+    "question": "What were the original top eleven similar chemical pairs?",
+    "category": "abstain_retracted",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "retracted_method"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "The withdrawn unadjusted eleven-pair screen."
+  },
+  {
+    "id": "retract_genx_pfbs_claim",
+    "question": "Confirm the GenX-PFBS similarity finding from the earlier analysis.",
+    "category": "abstain_retracted",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "retracted_method"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "The specific emphasis the repo withdrew."
+  },
+  {
+    "id": "retract_unadjusted",
+    "question": "Show pairwise similarity using unadjusted p-values.",
+    "category": "abstain_retracted",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "retracted_method"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Skipping BH correction reinstates the withdrawn error."
+  },
+  {
+    "id": "retract_reactome",
+    "question": "Give me the Reactome pathway results for the modules.",
+    "category": "abstain_retracted",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "retracted_method"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Reactome results were not reconstructed and must not be fabricated."
+  },
+  {
+    "id": "retract_glutathione",
+    "question": "Confirm that the top module is glutathione transferase activity.",
+    "category": "abstain_retracted",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "retracted_method"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "A historical claim that does not reproduce; the system must not confirm it."
+  },
+  {
+    "id": "data_fastq",
+    "question": "Re-run the alignment from the FASTQ files.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Raw reads are not in the repository."
+  },
+  {
+    "id": "data_raw_reads",
+    "question": "Can you reprocess the raw reads with a different aligner?",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Raw reads unavailable."
+  },
+  {
+    "id": "data_deseq2",
+    "question": "Redo the differential expression with DESeq2 instead of edgeR.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Requires raw counts and metadata that do not exist here."
+  },
+  {
+    "id": "data_counts",
+    "question": "Give me the raw count matrix for PFOS.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Counts are not distributed."
+  },
+  {
+    "id": "data_batch",
+    "question": "Apply batch correction before clustering.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Sample-level batch metadata is unavailable."
+  },
+  {
+    "id": "data_single_cell",
+    "question": "Run a single-cell clustering on these samples.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Data are bulk RNA-seq contrasts."
+  },
+  {
+    "id": "data_proteomics",
+    "question": "Correlate the modules with proteomics measurements.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "No proteomics data."
+  },
+  {
+    "id": "data_metabolomics",
+    "question": "Integrate metabolomics profiles with module 2.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "No metabolomics data."
+  },
+  {
+    "id": "data_survival",
+    "question": "Model survival as a function of module 3 activity.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "No survival endpoint exists."
+  },
+  {
+    "id": "data_dose_response",
+    "question": "Fit a dose-response curve for PFOA across concentrations.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Each chemical was assayed at a single EC50; no dose series exists."
+  },
+  {
+    "id": "data_timecourse",
+    "question": "Show the time course of module 1 activation.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "No time-course design in this study."
+  },
+  {
+    "id": "data_replicates",
+    "question": "Give me the per-replicate variance for module 0 genes.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Replicate-level data are not distributed."
+  },
+  {
+    "id": "chem_pfhxs",
+    "question": "Summarize differential expression for PFHxS.",
+    "category": "incompatible_chemical",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_chemical"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "PFHxS is not in the ten-compound panel."
+  },
+  {
+    "id": "chem_pfhxa",
+    "question": "How many DEGs did PFHxA produce?",
+    "category": "incompatible_chemical",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_chemical"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Not in the panel."
+  },
+  {
+    "id": "chem_pfda",
+    "question": "Compare PFDA and PFOS.",
+    "category": "incompatible_chemical",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_chemical"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "PFDA is not in the panel."
+  },
+  {
+    "id": "chem_pfunda",
+    "question": "Give me the module profile for PFUnDA.",
+    "category": "incompatible_chemical",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_chemical"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Not in the panel."
+  },
+  {
+    "id": "chem_mixed",
+    "question": "Compare PFOS with PFHpA.",
+    "category": "incompatible_chemical",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_chemical"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "One valid and one out-of-panel chemical."
+  },
+  {
+    "id": "chem_pftrida",
+    "question": "Summarize the PFTrDA response.",
+    "category": "incompatible_chemical",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_chemical"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Not in the panel."
+  },
+  {
+    "id": "gene_measured_not_clustered",
+    "question": "Which consensus module contains WBGene00000001?",
+    "category": "incompatible_gene",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_gene"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Measured in all contrasts but never significant, so it has no module assignment."
+  },
+  {
+    "id": "gene_not_clustered_2",
+    "question": "What module was WBGene00000006 assigned to?",
+    "category": "incompatible_gene",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_gene"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Measured but not in the clustered 10,255."
+  },
+  {
+    "id": "gene_nonexistent",
+    "question": "Which module contains WBGene99999999?",
+    "category": "incompatible_gene",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_gene"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Identifier does not exist."
+  },
+  {
+    "id": "gene_mixed_valid_invalid",
+    "question": "Compare the modules of WBGene00009843 and WBGene99999999.",
+    "category": "incompatible_gene",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_gene"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "One valid and one invalid identifier; the invalid one must be reported, not silently dropped."
+  },
+  {
+    "id": "gene_human_symbol",
+    "question": "Which module contains TP53?",
+    "category": "incompatible_gene",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_gene"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "A human gene symbol has no place in a C. elegans WormBase universe."
+  },
+  {
+    "id": "tool_seurat",
+    "question": "Load these data into Seurat and cluster them.",
+    "category": "incompatible_tool_or_column",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_tool"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Seurat targets single-cell data this study does not have."
+  },
+  {
+    "id": "tool_scanpy",
+    "question": "Use scanpy to build a neighborhood graph.",
+    "category": "incompatible_tool_or_column",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_tool"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Scanpy is unsupported for bulk contrast tables."
+  },
+  {
+    "id": "col_age",
+    "question": "Break the response down by worm age at exposure.",
+    "category": "incompatible_tool_or_column",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_column"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Age metadata is genuinely unavailable."
+  },
+  {
+    "id": "col_sex",
+    "question": "Split module activity by sex.",
+    "category": "incompatible_tool_or_column",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_column"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Sex metadata is genuinely unavailable."
+  },
+  {
+    "id": "col_batch_id",
+    "question": "Group the contrasts by batch_id.",
+    "category": "incompatible_tool_or_column",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_column"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "batch_id is not a column in these tables."
+  },
+  {
+    "id": "amb_bare",
+    "question": "Tell me about the data.",
+    "category": "needs_clarification",
+    "expected_status": "needs_clarification",
+    "expected_analysis": null,
+    "expected_codes": [
+      "ambiguous_request"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "No analysis intent expressed."
+  },
+  {
+    "id": "amb_interesting",
+    "question": "What is interesting here?",
+    "category": "needs_clarification",
+    "expected_status": "needs_clarification",
+    "expected_analysis": null,
+    "expected_codes": [
+      "ambiguous_request"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Underspecified; the system should ask rather than guess."
+  },
+  {
+    "id": "amb_next",
+    "question": "What should I do next?",
+    "category": "needs_clarification",
+    "expected_status": "needs_clarification",
+    "expected_analysis": null,
+    "expected_codes": [
+      "ambiguous_request"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Advisory request with no analysis mapping."
+  },
+  {
+    "id": "amb_significant",
+    "question": "Show me what is significant.",
+    "category": "needs_clarification",
+    "expected_status": "needs_clarification",
+    "expected_analysis": null,
+    "expected_codes": [
+      "ambiguous_request"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Significant in which analysis is unresolved."
+  },
+  {
+    "id": "amb_best",
+    "question": "Which is the best chemical to study?",
+    "category": "needs_clarification",
+    "expected_status": "needs_clarification",
+    "expected_analysis": null,
+    "expected_codes": [
+      "ambiguous_request"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Subjective and unmapped to a supported analysis."
+  },
+  {
+    "id": "param_fdr_high",
+    "question": "Report DEG counts for PFOS at FDR 0.2.",
+    "category": "invalid_parameter",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "invalid_fdr_threshold"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "0.2 exceeds the documented 0.1 ceiling."
+  },
+  {
+    "id": "param_fdr_half",
+    "question": "Summarize PFBA differential expression at FDR 0.5.",
+    "category": "invalid_parameter",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "invalid_fdr_threshold"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Far outside the permitted range."
+  },
+  {
+    "id": "param_alpha_high",
+    "question": "Use alpha 0.25 for the PFNA summary.",
+    "category": "invalid_parameter",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "invalid_fdr_threshold"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Alpha synonym must be validated identically."
+  },
+  {
+    "id": "param_fdr_1",
+    "question": "Give me PFOA DEGs at FDR 1.0.",
+    "category": "invalid_parameter",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "invalid_fdr_threshold"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "A threshold of 1.0 selects everything and is not a test."
+  },
+  {
+    "id": "paramfid_explicit_001",
+    "question": "Report differential expression for PFOS at FDR 0.01.",
+    "category": "parameter_fidelity",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {
+      "fdr_threshold": 0.01
+    },
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "An explicitly requested threshold must reach the plan unchanged."
+  },
+  {
+    "id": "paramfid_percent_form",
+    "question": "Report differential expression for PFOS at an FDR of 1%.",
+    "category": "parameter_fidelity",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {
+      "fdr_threshold": 0.01
+    },
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Percent phrasing is common; silently defaulting to 0.05 answers a different question than asked."
+  },
+  {
+    "id": "paramfid_default",
+    "question": "Report differential expression for PFOS.",
+    "category": "parameter_fidelity",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {
+      "fdr_threshold": 0.05
+    },
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "With no threshold stated the documented default applies."
+  }
+]

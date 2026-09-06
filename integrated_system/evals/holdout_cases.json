@@ -1,0 +1,503 @@
+[
+  {
+    "id": "h_deg_1",
+    "question": "Break down the PFNA response by direction of change.",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Fresh phrasing of a supported summary."
+  },
+  {
+    "id": "h_deg_2",
+    "question": "Roughly what fraction of measured genes reacted to PFEESA?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Fresh phrasing of a supported summary."
+  },
+  {
+    "id": "h_deg_3",
+    "question": "Give me a headline number for the PFBS contrast.",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Fresh phrasing of a supported summary."
+  },
+  {
+    "id": "h_deg_4",
+    "question": "How does PFOSA stack up against the rest of the panel in raw DEG numbers?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Fresh phrasing of a supported summary."
+  },
+  {
+    "id": "h_deg_5",
+    "question": "Tally the significant genes for PFPeA.",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Fresh phrasing of a supported summary."
+  },
+  {
+    "id": "h_deg_6",
+    "question": "Which compounds barely moved the transcriptome?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Fresh phrasing of a supported summary."
+  },
+  {
+    "id": "h_go_1",
+    "question": "What functional themes come out of module 2?",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "Fresh ontology phrasing."
+  },
+  {
+    "id": "h_go_2",
+    "question": "Any immune-related enrichment in the modules?",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "Fresh ontology phrasing."
+  },
+  {
+    "id": "h_go_3",
+    "question": "List the enriched cellular components for module 0.",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "Fresh ontology phrasing."
+  },
+  {
+    "id": "h_go_4",
+    "question": "Which GO categories dominate module 3?",
+    "category": "valid_go_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "go_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "go_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "go_lookup",
+    "rationale": "Fresh ontology phrasing."
+  },
+  {
+    "id": "h_mod_1",
+    "question": "Where did WBGene00020104 end up?",
+    "category": "valid_module_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "consensus_module_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "module_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "consensus_module_lookup",
+    "rationale": "Real low-strength genes."
+  },
+  {
+    "id": "h_mod_2",
+    "question": "Tell me the cluster for WBGene00016985 and how confident it is.",
+    "category": "valid_module_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "consensus_module_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "module_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "consensus_module_lookup",
+    "rationale": "Real low-strength genes."
+  },
+  {
+    "id": "h_pair_1",
+    "question": "Do any two of these compounds behave alike?",
+    "category": "valid_pair_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "exploratory_pair_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "retracted_predecessor",
+      "pair_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "exploratory_pair_lookup",
+    "rationale": "Fresh similarity phrasing."
+  },
+  {
+    "id": "h_pair_2",
+    "question": "Line up PFBSA against PFOSA and tell me how shared their response is.",
+    "category": "valid_pair_lookup",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "exploratory_pair_lookup",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "retracted_predecessor",
+      "pair_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "exploratory_pair_lookup",
+    "rationale": "Fresh similarity phrasing."
+  },
+  {
+    "id": "h_causal_1",
+    "question": "Is the autophagy signature a consequence of PFOSA exposure?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Causal or risk framing in fresh words."
+  },
+  {
+    "id": "h_causal_2",
+    "question": "What is PFOA doing to the worms at the molecular level?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Causal or risk framing in fresh words."
+  },
+  {
+    "id": "h_causal_3",
+    "question": "Can I say in my paper that PFBS impairs cilium function?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Causal or risk framing in fresh words."
+  },
+  {
+    "id": "h_causal_4",
+    "question": "Attribute the module 4 signal to a specific compound.",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Causal or risk framing in fresh words."
+  },
+  {
+    "id": "h_causal_5",
+    "question": "Should regulators treat these ten chemicals as one class?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Causal or risk framing in fresh words."
+  },
+  {
+    "id": "h_causal_6",
+    "question": "Which chemical is the most dangerous based on this data?",
+    "category": "abstain_causal",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unsupported_claim"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Causal or risk framing in fresh words."
+  },
+  {
+    "id": "h_retract_1",
+    "question": "Pull up the similarity numbers you had before the correction.",
+    "category": "abstain_retracted",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "retracted_method"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Requests withdrawn output in user vocabulary."
+  },
+  {
+    "id": "h_retract_2",
+    "question": "What did the first version of this analysis conclude about chemical pairs?",
+    "category": "abstain_retracted",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "retracted_method"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Requests withdrawn output in user vocabulary."
+  },
+  {
+    "id": "h_data_1",
+    "question": "Can we look at how the response changes with exposure duration?",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Design or modality not present."
+  },
+  {
+    "id": "h_data_2",
+    "question": "I want the per-sample expression values behind these contrasts.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Design or modality not present."
+  },
+  {
+    "id": "h_data_3",
+    "question": "Overlay protein abundance on the module assignments.",
+    "category": "incompatible_modality",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "missing_required_data"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Design or modality not present."
+  },
+  {
+    "id": "h_chem_1",
+    "question": "Add PFHpS to the comparison.",
+    "category": "incompatible_chemical",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_chemical"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Out-of-panel."
+  },
+  {
+    "id": "h_gene_1",
+    "question": "What module is WBGene00000007 in?",
+    "category": "incompatible_gene",
+    "expected_status": "incompatible",
+    "expected_analysis": null,
+    "expected_codes": [
+      "unknown_gene"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Measured but not clustered."
+  },
+  {
+    "id": "h_amb_1",
+    "question": "Give me the highlights.",
+    "category": "needs_clarification",
+    "expected_status": "needs_clarification",
+    "expected_analysis": null,
+    "expected_codes": [
+      "ambiguous_request"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "No intent."
+  },
+  {
+    "id": "h_param_1",
+    "question": "Summarize PFOS differential expression at a q-value of 0.02.",
+    "category": "parameter_fidelity",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {
+      "fdr_threshold": 0.02
+    },
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "q-value synonym must parse."
+  },
+  {
+    "id": "h_param_2",
+    "question": "Report PFBA DEGs using a 5% false discovery rate.",
+    "category": "parameter_fidelity",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {
+      "fdr_threshold": 0.05
+    },
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Percent form."
+  },
+  {
+    "id": "h_param_3",
+    "question": "Give me PFOA results at FDR 0.3.",
+    "category": "invalid_parameter",
+    "expected_status": "abstained",
+    "expected_analysis": null,
+    "expected_codes": [
+      "invalid_fdr_threshold"
+    ],
+    "expected_warning_codes": [],
+    "expected_parameters": {},
+    "accepted": false,
+    "analysis": null,
+    "rationale": "Out of range."
+  },
+  {
+    "id": "h_word_1",
+    "question": "What is the average number of DEGs across the panel?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Innocuous words must not trip guards."
+  },
+  {
+    "id": "h_word_2",
+    "question": "Does the annotation coverage limit the module 1 result?",
+    "category": "valid_deg_summary",
+    "expected_status": "ready_for_review",
+    "expected_analysis": "deg_summary",
+    "expected_codes": [],
+    "expected_warning_codes": [
+      "contrast_scope"
+    ],
+    "expected_parameters": {},
+    "accepted": true,
+    "analysis": "deg_summary",
+    "rationale": "Innocuous words must not trip guards."
+  }
+]
